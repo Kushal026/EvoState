@@ -142,7 +142,7 @@ export default function LabPage() {
 
         {/* Execution Mode Badge */}
         <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2 rounded-lg border border-white/10 bg-[#080c14] px-3 py-1.5 text-xs font-mono">
+          <div className="flex items-center gap-2 rounded-lg border border-white/10 bg-[#080c14] px-3 py-1.5 text-xs font-mono" suppressHydrationWarning>
             <span
               className={`h-2.5 w-2.5 rounded-full ${
                 result.execution_mode === "live" 
@@ -154,7 +154,7 @@ export default function LabPage() {
               {result.execution_mode === "live" ? "LIVE EXPERIMENT" : "PRECOMPUTED EXPERIMENT"}
             </span>
             <span className="text-slate-500 font-normal">|</span>
-            <span className="text-blue-400 font-mono text-[11px]">
+            <span className="text-blue-400 font-mono text-[11px]" suppressHydrationWarning>
               {result.latency_ms.toFixed(1)} ms
             </span>
           </div>

@@ -37,6 +37,11 @@ export default function SixtySecondExperiment() {
   // Evaluation of claim
   const [selectedClaimVerdict, setSelectedClaimVerdict] = useState<"SUPPORTED" | "CHALLENGED" | "INCONCLUSIVE" | null>(null);
   const [hasEvaluatedClaim, setHasEvaluatedClaim] = useState<boolean>(false);
+  const [mounted, setMounted] = useState<boolean>(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Run simulation reactively based on actual parameters
   const result: SimulationResult = ClientSimulator.runUnifiedLabExperiment(
@@ -154,8 +159,8 @@ export default function SixtySecondExperiment() {
       {/* 1. Side-by-Side EXPECTED vs MODEL OUTPUT (Always Visible) */}
       <div className="rounded-xl border border-white/10 bg-black/50 p-4 space-y-3">
         <div className="flex items-center justify-between">
-          <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 font-semibold">
-            Live Memory Readout (Latency: {result.latency_ms.toFixed(1)}ms &bull; SNR: {result.metrics.snr_db.toFixed(1)} dB)
+          <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 font-semibold" suppressHydrationWarning>
+            Live Memory Readout (Latency: {mounted ? result.latency_ms.toFixed(1) : "1.2"}ms &bull; SNR: {result.metrics.snr_db.toFixed(1)} dB)
           </span>
           <span
             className={`text-[10px] font-mono px-2 py-0.5 rounded font-bold ${

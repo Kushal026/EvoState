@@ -174,9 +174,9 @@ export default function HeroStateDemo() {
 
           {/* Compressed State Visual Representation */}
           <div className="h-36 rounded-lg border border-emerald-500/20 bg-emerald-950/10 p-3 flex flex-col justify-between mb-3">
-            <div className="grid grid-cols-8 gap-1 opacity-80">
+            <div className="grid grid-cols-8 gap-1 opacity-80" suppressHydrationWarning>
               {Array.from({ length: 32 }).map((_, i) => {
-                const intensity = ((Math.sin(i + currentStep * 0.7) + 1) / 2) * 0.8 + 0.2;
+                const intensity = Number((((Math.sin(i + currentStep * 0.7) + 1) / 2) * 0.8 + 0.2).toFixed(2));
                 return (
                   <div
                     key={i}
