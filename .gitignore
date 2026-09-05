@@ -1,9 +1,69 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-.pytest_cache/
-.coverage
-htmlcov/
-*.egg-info/
+*.so
+
+# Environments & Virtual Envs
 .venv/
 env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Build & Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Next.js & Frontend Node
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Critical Security: Secrets, Tokens, API Keys, Credentials, Environment Files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.id_rsa
+*.id_dsa
+*.id_ecdsa
+*.id_ed25519
+*secret*
+*token*
+*password*
+*credential*
+*.secret
+api_keys.json
+secrets.json
+auth.json
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
