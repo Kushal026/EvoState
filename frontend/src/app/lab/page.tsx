@@ -23,11 +23,12 @@ import { runUnifiedLabApi } from "@/lib/api";
 import { SimulationResult, ClientSimulator } from "@/lib/simulator";
 import StateVectorVisualizer from "@/components/StateVectorVisualizer";
 import D3EnergyLandscape from "@/components/D3EnergyLandscape";
-import InternalStateStepVisualizer from "@/components/InternalStateStepVisualizer";
 import GuidedPathwayLab from "@/components/GuidedPathwayLab";
+import SixtySecondExperiment from "@/components/SixtySecondExperiment";
+import InternalStateStepVisualizer from "@/components/InternalStateStepVisualizer";
 
 export default function LabPage() {
-  const [labMode, setLabMode] = useState<"guided" | "workbench">("guided");
+  const [labMode, setLabMode] = useState<"sixty_sec" | "guided" | "workbench">("sixty_sec");
   // 1. Model Architecture
   const [modelType, setModelType] = useState<string>("educational_evolving_memory_toy");
 
@@ -106,10 +107,20 @@ export default function LabPage() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/10 pb-4">
         
         {/* Mode Tabs */}
-        <div className="flex items-center gap-1.5 p-1 rounded-xl bg-black/50 border border-white/10">
+        <div className="flex flex-wrap items-center gap-1.5 p-1 rounded-xl bg-black/50 border border-white/10">
+          <button
+            onClick={() => setLabMode("sixty_sec")}
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-mono transition-all ${
+              labMode === "sixty_sec"
+                ? "bg-purple-600 text-white font-bold shadow-md shadow-purple-900/40 ring-1 ring-purple-400"
+                : "text-slate-400 hover:text-white hover:bg-white/5"
+            }`}
+          >
+            <Zap className="h-3.5 w-3.5 text-purple-300" /> 60s Rapid Run
+          </button>
           <button
             onClick={() => setLabMode("guided")}
-            className={`flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-mono transition-all ${
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-mono transition-all ${
               labMode === "guided"
                 ? "bg-blue-600 text-white font-bold shadow-md shadow-blue-900/30"
                 : "text-slate-400 hover:text-white hover:bg-white/5"
@@ -119,7 +130,7 @@ export default function LabPage() {
           </button>
           <button
             onClick={() => setLabMode("workbench")}
-            className={`flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-mono transition-all ${
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-mono transition-all ${
               labMode === "workbench"
                 ? "bg-blue-600 text-white font-bold shadow-md shadow-blue-900/30"
                 : "text-slate-400 hover:text-white hover:bg-white/5"
@@ -162,7 +173,9 @@ export default function LabPage() {
         </div>
       </div>
 
-      {labMode === "guided" ? (
+      {labMode === "sixty_sec" ? (
+        <SixtySecondExperiment />
+      ) : labMode === "guided" ? (
         <GuidedPathwayLab />
       ) : (
         /* Main Workbench Layout Grid */

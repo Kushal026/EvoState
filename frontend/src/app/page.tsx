@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Terminal, Layers, ShieldCheck, Cpu, Database, ArrowRight, Activity, CheckCircle2, ShieldAlert } from "lucide-react";
 import HeroStateDemo from "@/components/HeroStateDemo";
+import SixtySecondExperiment from "@/components/SixtySecondExperiment";
 
 export default function HomePage() {
   return (
@@ -11,7 +12,7 @@ export default function HomePage() {
       <div className="space-y-4 max-w-3xl">
         <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-mono text-blue-400">
           <Activity className="h-3.5 w-3.5" />
-          DataForge 2026 Pathway Track • AI Research Lab
+          DataForge 2026 Pathway Track &bull; AI Research Lab
         </div>
         
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white leading-tight">
@@ -33,13 +34,18 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* 60-Second Rapid Run Interactive Section */}
+      <section className="space-y-3">
+        <SixtySecondExperiment />
+      </section>
+
       {/* Immediate Interactive Concept Demonstration */}
       <section className="space-y-3">
         <div className="flex items-center justify-between">
           <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400 font-mono flex items-center gap-2">
-            <Terminal className="h-4 w-4 text-blue-400" /> Interactive Proof of Concept
+            <Terminal className="h-4 w-4 text-blue-400" /> State Memory Compression vs Full KV Cache
           </h2>
-          <span className="text-xs text-slate-400 hidden sm:inline">Zero Authentication • Real-time Tensor Computation</span>
+          <span className="text-xs text-slate-400 hidden sm:inline">Zero Authentication &bull; Real-time Client Execution</span>
         </div>
         
         <HeroStateDemo />
