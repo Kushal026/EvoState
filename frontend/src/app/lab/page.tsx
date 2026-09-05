@@ -21,6 +21,7 @@ import { runUnifiedLabApi } from "@/lib/api";
 import { SimulationResult, ClientSimulator } from "@/lib/simulator";
 import StateVectorVisualizer from "@/components/StateVectorVisualizer";
 import D3EnergyLandscape from "@/components/D3EnergyLandscape";
+import InternalStateStepVisualizer from "@/components/InternalStateStepVisualizer";
 
 export default function LabPage() {
   // 1. Model Architecture
@@ -407,6 +408,9 @@ export default function LabPage() {
                 <span className="text-slate-200">{result.metrics.final_state_norm.toFixed(2)}</span>
               </div>
             </div>
+
+            {/* Step-by-Step Internal State Evolution Component */}
+            <InternalStateStepVisualizer traces={result.state_trace} modelType={result.model_type} />
 
             {/* D3 State Vector Line & Telemetry */}
             <StateVectorVisualizer traces={result.state_trace} modelType={result.model_type} />

@@ -10,6 +10,11 @@ export interface SimulationStepTrace {
   state_entropy: number;
   delta: number;
   snr_db: number;
+  vector_before?: number[];
+  vector_after?: number[];
+  affected_dimensions?: number[];
+  event_type?: "insertion" | "decay" | "interference" | "query" | "recovery";
+  explanation?: string;
 }
 
 export interface SimulationResult {
@@ -348,16 +353,73 @@ export class ClientSimulator {
     // 3. Final Query probe
     sequence.push(`QUERY:${target.key}`);
 
-    // Generate state evolution telemetry
+    // Generate state evolution telemetry with 16-dimensional state coordinates
     const traces: SimulationStepTrace[] = [];
     let stateNorm = 0.65;
     let snr = 38.0;
+    const STATE_DIM = 16;
+    let currentStateVector = new Array(STATE_DIM).fill(0.0);
 
-    for (let i = 0; i < sequence.length - 1; i++) {
+    for (let i = 0; i < sequence.length; i++) {
       const tok = sequence[i];
-      const isKV = tok.includes(":");
-      const isTarget = tok.startsWith(target.key + ":");
-      const delta = isKV ? (isTarget ? 0.92 : 0.78) : 0.04;
+      const isKV = tok.includes(":") && !tok.startsWith("QUERY:");
+      const isQuery = tok.startsWith("QUERY:");
+      const isTarget = isKV && tok.startsWith(target.key + ":");
+      const isOverwrite = isKV && !isTarget && i >= numPairs;
+      const delta = isKV ? (isTarget ? 0.92 : 0.78) : (isQuery ? 0.0 : 0.04);
+
+      const vectorBefore = [...currentStateVector];
+      const affectedDims: number[] = [];
+      let eventType: "insertion" | "decay" | "interference" | "query" | "recovery" = "decay";
+      let explanation = "";
+
+      if (isKV && i < numPairs) {
+        // Initial clean insertion
+        eventType = "insertion";
+        const dimA = (i * 2) % STATE_DIM;
+        const dimB = (i * 2 + 1) % STATE_DIM;
+        affectedDims.push(dimA, dimB);
+        currentStateVector[dimA] = Number((0.75 * Math.sin(i + 1)).toFixed(3));
+        currentStateVector[dimB] = Number((0.85 * Math.cos(i + 1)).toFixed(3));
+        explanation = `Initial associative binding: written into orthogonal subspace dimensions d_${dimA} and d_${dimB}.`;
+      } else if (isOverwrite) {
+        // Interference conflicting update
+        eventType = "interference";
+        const conflictPairIdx = Math.abs(tok.charCodeAt(4)) % numPairs;
+        const dimA = (conflictPairIdx * 2) % STATE_DIM;
+        const dimB = (conflictPairIdx * 2 + 1) % STATE_DIM;
+        const dimC = (dimA + 2) % STATE_DIM;
+        affectedDims.push(dimA, dimB, dimC);
+        
+        // Perturb coordinates with conflicting values
+        currentStateVector[dimA] = Number((currentStateVector[dimA] * 0.4 + 0.6 * Math.cos(i)).toFixed(3));
+        currentStateVector[dimB] = Number((currentStateVector[dimB] * 0.4 - 0.5 * Math.sin(i)).toFixed(3));
+        currentStateVector[dimC] = Number((currentStateVector[dimC] + 0.3 * Math.sin(i * 2)).toFixed(3));
+        explanation = `Interference crosstalk: conflicting key-value update perturbed coordinates d_${dimA}, d_${dimB}, d_${dimC}.`;
+      } else if (isQuery) {
+        if (inferenceEffort > 1 && modelType === "educational_evolving_memory_toy") {
+          eventType = "recovery";
+          const targetDimA = (targetIdx * 2) % STATE_DIM;
+          const targetDimB = (targetIdx * 2 + 1) % STATE_DIM;
+          affectedDims.push(targetDimA, targetDimB);
+          explanation = `Inference-time attractor relaxation (K=${inferenceEffort}): gradient descent settled query onto true target coordinates d_${targetDimA}, d_${targetDimB}.`;
+        } else {
+          eventType = "query";
+          explanation = `Query projection: inner product evaluated against current state matrix S_T.`;
+        }
+      } else {
+        // Distractor pad token
+        eventType = "decay";
+        if (modelType === "fixed_size_recurrent_memory") {
+          for (let d = 0; d < STATE_DIM; d++) {
+            currentStateVector[d] = Number((currentStateVector[d] * 0.93).toFixed(3));
+          }
+          explanation = `Exponential decay (λ=0.93): un-gated recurrent state attenuated memory across all dimensions.`;
+        } else {
+          // Evolving memory toy with selective gating
+          explanation = `Distractor ignored: selective gate contracted update rate (Δt ≈ 0.04), preserving coordinate norms.`;
+        }
+      }
 
       if (modelType === "full_history_reference_baseline") {
         stateNorm = Math.sqrt(i + 1) * 0.72;
@@ -366,7 +428,6 @@ export class ClientSimulator {
         stateNorm = stateNorm * 0.93 + (1 - 0.93) * (isKV ? 1.0 : 0.05);
         snr = Math.max(-12, 35 - i * 1.8 - (interferenceStrength * 15));
       } else {
-        // Educational evolving memory toy
         const selectiveRetention = isKV ? 0.99 : 0.998;
         stateNorm = selectiveRetention * stateNorm + (isKV ? 0.25 : 0.0);
         const crosstalk = (memoryCapacity / 16.0) * 8.0;
@@ -381,7 +442,12 @@ export class ClientSimulator {
         state_norm: Number(stateNorm.toFixed(3)),
         state_entropy: Number((0.0001 + (i % 7) * 0.00004).toFixed(6)),
         delta: Number(delta.toFixed(2)),
-        snr_db: Number(snr.toFixed(1))
+        snr_db: Number(snr.toFixed(1)),
+        vector_before: vectorBefore,
+        vector_after: [...currentStateVector],
+        affected_dimensions: affectedDims,
+        event_type: eventType,
+        explanation: explanation
       });
     }
 
