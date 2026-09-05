@@ -1,0 +1,1368 @@
+{
+  "timestamp": "2026-09-05 23:17:12",
+  "seed": 42,
+  "benchmarks": {
+    "delayed_recall": [
+      {
+        "experiment": "delayed_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "delay_k",
+        "param_value": 4,
+        "accuracy": 1.0,
+        "latency_ms": 6.789,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "delay_k",
+        "param_value": 16,
+        "accuracy": 1.0,
+        "latency_ms": 12.426,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "delay_k",
+        "param_value": 32,
+        "accuracy": 1.0,
+        "latency_ms": 22.691,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "delay_k",
+        "param_value": 64,
+        "accuracy": 1.0,
+        "latency_ms": 45.533,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "delay_k",
+        "param_value": 128,
+        "accuracy": 1.0,
+        "latency_ms": 47.126,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "delay_k",
+        "param_value": 4,
+        "accuracy": 0.0,
+        "latency_ms": 1.801,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "delay_k",
+        "param_value": 16,
+        "accuracy": 0.0,
+        "latency_ms": 6.407,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "delay_k",
+        "param_value": 32,
+        "accuracy": 0.0,
+        "latency_ms": 6.019,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "delay_k",
+        "param_value": 64,
+        "accuracy": 0.0,
+        "latency_ms": 18.681,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "delay_k",
+        "param_value": 128,
+        "accuracy": 0.0,
+        "latency_ms": 35.414,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "delay_k",
+        "param_value": 4,
+        "accuracy": 1.0,
+        "latency_ms": 1.604,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "delay_k",
+        "param_value": 16,
+        "accuracy": 1.0,
+        "latency_ms": 5.707,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "delay_k",
+        "param_value": 32,
+        "accuracy": 1.0,
+        "latency_ms": 8.539,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "delay_k",
+        "param_value": 64,
+        "accuracy": 1.0,
+        "latency_ms": 13.674,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "delayed_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "delay_k",
+        "param_value": 128,
+        "accuracy": 1.0,
+        "latency_ms": 21.138,
+        "inference_steps": 1
+      }
+    ],
+    "long_horizon_recall": [
+      {
+        "experiment": "long_horizon_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "sequence_length",
+        "param_value": 32,
+        "accuracy": 1.0,
+        "latency_ms": 7.417,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "sequence_length",
+        "param_value": 64,
+        "accuracy": 1.0,
+        "latency_ms": 10.74,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "sequence_length",
+        "param_value": 128,
+        "accuracy": 1.0,
+        "latency_ms": 17.428,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "sequence_length",
+        "param_value": 256,
+        "accuracy": 1.0,
+        "latency_ms": 28.349,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "full_history_reference_baseline",
+        "parameter": "sequence_length",
+        "param_value": 512,
+        "accuracy": 1.0,
+        "latency_ms": 61.108,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "sequence_length",
+        "param_value": 32,
+        "accuracy": 0.0,
+        "latency_ms": 12.091,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "sequence_length",
+        "param_value": 64,
+        "accuracy": 0.0,
+        "latency_ms": 21.281,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "sequence_length",
+        "param_value": 128,
+        "accuracy": 0.0,
+        "latency_ms": 34.037,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "sequence_length",
+        "param_value": 256,
+        "accuracy": 0.0,
+        "latency_ms": 84.373,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "sequence_length",
+        "param_value": 512,
+        "accuracy": 0.0,
+        "latency_ms": 418.993,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "sequence_length",
+        "param_value": 32,
+        "accuracy": 0.08,
+        "latency_ms": 38.566,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "sequence_length",
+        "param_value": 64,
+        "accuracy": 0.32,
+        "latency_ms": 74.332,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "sequence_length",
+        "param_value": 128,
+        "accuracy": 0.28,
+        "latency_ms": 85.338,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "sequence_length",
+        "param_value": 256,
+        "accuracy": 0.08,
+        "latency_ms": 39.362,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "long_horizon_recall",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "sequence_length",
+        "param_value": 512,
+        "accuracy": 0.24,
+        "latency_ms": 70.952,
+        "inference_steps": 1
+      }
+    ],
+    "interference": [
+      {
+        "experiment": "interference",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_overwrites",
+        "param_value": 1,
+        "accuracy": 1.0,
+        "latency_ms": 2.986,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_overwrites",
+        "param_value": 2,
+        "accuracy": 0.4,
+        "latency_ms": 1.98,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_overwrites",
+        "param_value": 3,
+        "accuracy": 0.32,
+        "latency_ms": 4.418,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_overwrites",
+        "param_value": 5,
+        "accuracy": 0.24,
+        "latency_ms": 5.938,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_overwrites",
+        "param_value": 8,
+        "accuracy": 0.2,
+        "latency_ms": 7.988,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_overwrites",
+        "param_value": 1,
+        "accuracy": 0.08,
+        "latency_ms": 1.106,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_overwrites",
+        "param_value": 2,
+        "accuracy": 0.0,
+        "latency_ms": 5.314,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_overwrites",
+        "param_value": 3,
+        "accuracy": 0.0,
+        "latency_ms": 4.484,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_overwrites",
+        "param_value": 5,
+        "accuracy": 0.0,
+        "latency_ms": 4.427,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_overwrites",
+        "param_value": 8,
+        "accuracy": 0.0,
+        "latency_ms": 8.959,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_overwrites",
+        "param_value": 1,
+        "accuracy": 1.0,
+        "latency_ms": 1.185,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_overwrites",
+        "param_value": 2,
+        "accuracy": 1.0,
+        "latency_ms": 4.838,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_overwrites",
+        "param_value": 3,
+        "accuracy": 0.48,
+        "latency_ms": 5.071,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_overwrites",
+        "param_value": 5,
+        "accuracy": 0.48,
+        "latency_ms": 8.28,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "interference",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_overwrites",
+        "param_value": 8,
+        "accuracy": 0.44,
+        "latency_ms": 8.668,
+        "inference_steps": 1
+      }
+    ],
+    "memory_capacity": [
+      {
+        "experiment": "memory_capacity",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_pairs",
+        "param_value": 2,
+        "accuracy": 1.0,
+        "latency_ms": 2.793,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_pairs",
+        "param_value": 4,
+        "accuracy": 1.0,
+        "latency_ms": 2.678,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_pairs",
+        "param_value": 8,
+        "accuracy": 1.0,
+        "latency_ms": 5.238,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_pairs",
+        "param_value": 16,
+        "accuracy": 1.0,
+        "latency_ms": 4.782,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "full_history_reference_baseline",
+        "parameter": "num_pairs",
+        "param_value": 24,
+        "accuracy": 1.0,
+        "latency_ms": 9.894,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_pairs",
+        "param_value": 2,
+        "accuracy": 0.24,
+        "latency_ms": 2.526,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_pairs",
+        "param_value": 4,
+        "accuracy": 0.08,
+        "latency_ms": 2.108,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_pairs",
+        "param_value": 8,
+        "accuracy": 0.0,
+        "latency_ms": 4.504,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_pairs",
+        "param_value": 16,
+        "accuracy": 0.04,
+        "latency_ms": 12.765,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "num_pairs",
+        "param_value": 24,
+        "accuracy": 0.04,
+        "latency_ms": 14.504,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_pairs",
+        "param_value": 2,
+        "accuracy": 0.64,
+        "latency_ms": 2.311,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_pairs",
+        "param_value": 4,
+        "accuracy": 0.16,
+        "latency_ms": 2.709,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_pairs",
+        "param_value": 8,
+        "accuracy": 0.0,
+        "latency_ms": 8.294,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_pairs",
+        "param_value": 16,
+        "accuracy": 0.0,
+        "latency_ms": 10.625,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "memory_capacity",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "num_pairs",
+        "param_value": 24,
+        "accuracy": 0.0,
+        "latency_ms": 13.195,
+        "inference_steps": 1
+      }
+    ],
+    "inference_recovery": [
+      {
+        "experiment": "inference_recovery",
+        "model": "full_history_reference_baseline",
+        "parameter": "inference_budget",
+        "param_value": 1,
+        "accuracy": 1.0,
+        "latency_ms": 6.512,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "full_history_reference_baseline",
+        "parameter": "inference_budget",
+        "param_value": 2,
+        "accuracy": 1.0,
+        "latency_ms": 6.003,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "full_history_reference_baseline",
+        "parameter": "inference_budget",
+        "param_value": 4,
+        "accuracy": 1.0,
+        "latency_ms": 4.201,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "full_history_reference_baseline",
+        "parameter": "inference_budget",
+        "param_value": 8,
+        "accuracy": 1.0,
+        "latency_ms": 6.149,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "full_history_reference_baseline",
+        "parameter": "inference_budget",
+        "param_value": 16,
+        "accuracy": 1.0,
+        "latency_ms": 6.253,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "inference_budget",
+        "param_value": 1,
+        "accuracy": 0.08,
+        "latency_ms": 10.11,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "inference_budget",
+        "param_value": 2,
+        "accuracy": 0.08,
+        "latency_ms": 8.618,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "inference_budget",
+        "param_value": 4,
+        "accuracy": 0.08,
+        "latency_ms": 7.845,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "inference_budget",
+        "param_value": 8,
+        "accuracy": 0.08,
+        "latency_ms": 6.564,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "fixed_size_recurrent_memory",
+        "parameter": "inference_budget",
+        "param_value": 16,
+        "accuracy": 0.08,
+        "latency_ms": 10.538,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "inference_budget",
+        "param_value": 1,
+        "accuracy": 0.16,
+        "latency_ms": 8.076,
+        "inference_steps": 1
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "inference_budget",
+        "param_value": 2,
+        "accuracy": 0.16,
+        "latency_ms": 7.655,
+        "inference_steps": 2
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "inference_budget",
+        "param_value": 4,
+        "accuracy": 0.16,
+        "latency_ms": 10.213,
+        "inference_steps": 4
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "inference_budget",
+        "param_value": 8,
+        "accuracy": 0.16,
+        "latency_ms": 8.731,
+        "inference_steps": 8
+      },
+      {
+        "experiment": "inference_recovery",
+        "model": "educational_evolving_memory_toy",
+        "parameter": "inference_budget",
+        "param_value": 16,
+        "accuracy": 0.16,
+        "latency_ms": 9.171,
+        "inference_steps": 16
+      }
+    ]
+  },
+  "all_records": [
+    {
+      "experiment": "delayed_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "delay_k",
+      "param_value": 4,
+      "accuracy": 1.0,
+      "latency_ms": 6.789,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "delay_k",
+      "param_value": 16,
+      "accuracy": 1.0,
+      "latency_ms": 12.426,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "delay_k",
+      "param_value": 32,
+      "accuracy": 1.0,
+      "latency_ms": 22.691,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "delay_k",
+      "param_value": 64,
+      "accuracy": 1.0,
+      "latency_ms": 45.533,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "delay_k",
+      "param_value": 128,
+      "accuracy": 1.0,
+      "latency_ms": 47.126,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "delay_k",
+      "param_value": 4,
+      "accuracy": 0.0,
+      "latency_ms": 1.801,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "delay_k",
+      "param_value": 16,
+      "accuracy": 0.0,
+      "latency_ms": 6.407,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "delay_k",
+      "param_value": 32,
+      "accuracy": 0.0,
+      "latency_ms": 6.019,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "delay_k",
+      "param_value": 64,
+      "accuracy": 0.0,
+      "latency_ms": 18.681,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "delay_k",
+      "param_value": 128,
+      "accuracy": 0.0,
+      "latency_ms": 35.414,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "delay_k",
+      "param_value": 4,
+      "accuracy": 1.0,
+      "latency_ms": 1.604,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "delay_k",
+      "param_value": 16,
+      "accuracy": 1.0,
+      "latency_ms": 5.707,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "delay_k",
+      "param_value": 32,
+      "accuracy": 1.0,
+      "latency_ms": 8.539,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "delay_k",
+      "param_value": 64,
+      "accuracy": 1.0,
+      "latency_ms": 13.674,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "delayed_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "delay_k",
+      "param_value": 128,
+      "accuracy": 1.0,
+      "latency_ms": 21.138,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "sequence_length",
+      "param_value": 32,
+      "accuracy": 1.0,
+      "latency_ms": 7.417,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "sequence_length",
+      "param_value": 64,
+      "accuracy": 1.0,
+      "latency_ms": 10.74,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "sequence_length",
+      "param_value": 128,
+      "accuracy": 1.0,
+      "latency_ms": 17.428,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "sequence_length",
+      "param_value": 256,
+      "accuracy": 1.0,
+      "latency_ms": 28.349,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "full_history_reference_baseline",
+      "parameter": "sequence_length",
+      "param_value": 512,
+      "accuracy": 1.0,
+      "latency_ms": 61.108,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "sequence_length",
+      "param_value": 32,
+      "accuracy": 0.0,
+      "latency_ms": 12.091,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "sequence_length",
+      "param_value": 64,
+      "accuracy": 0.0,
+      "latency_ms": 21.281,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "sequence_length",
+      "param_value": 128,
+      "accuracy": 0.0,
+      "latency_ms": 34.037,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "sequence_length",
+      "param_value": 256,
+      "accuracy": 0.0,
+      "latency_ms": 84.373,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "sequence_length",
+      "param_value": 512,
+      "accuracy": 0.0,
+      "latency_ms": 418.993,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "sequence_length",
+      "param_value": 32,
+      "accuracy": 0.08,
+      "latency_ms": 38.566,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "sequence_length",
+      "param_value": 64,
+      "accuracy": 0.32,
+      "latency_ms": 74.332,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "sequence_length",
+      "param_value": 128,
+      "accuracy": 0.28,
+      "latency_ms": 85.338,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "sequence_length",
+      "param_value": 256,
+      "accuracy": 0.08,
+      "latency_ms": 39.362,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "long_horizon_recall",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "sequence_length",
+      "param_value": 512,
+      "accuracy": 0.24,
+      "latency_ms": 70.952,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_overwrites",
+      "param_value": 1,
+      "accuracy": 1.0,
+      "latency_ms": 2.986,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_overwrites",
+      "param_value": 2,
+      "accuracy": 0.4,
+      "latency_ms": 1.98,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_overwrites",
+      "param_value": 3,
+      "accuracy": 0.32,
+      "latency_ms": 4.418,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_overwrites",
+      "param_value": 5,
+      "accuracy": 0.24,
+      "latency_ms": 5.938,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_overwrites",
+      "param_value": 8,
+      "accuracy": 0.2,
+      "latency_ms": 7.988,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_overwrites",
+      "param_value": 1,
+      "accuracy": 0.08,
+      "latency_ms": 1.106,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_overwrites",
+      "param_value": 2,
+      "accuracy": 0.0,
+      "latency_ms": 5.314,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_overwrites",
+      "param_value": 3,
+      "accuracy": 0.0,
+      "latency_ms": 4.484,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_overwrites",
+      "param_value": 5,
+      "accuracy": 0.0,
+      "latency_ms": 4.427,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_overwrites",
+      "param_value": 8,
+      "accuracy": 0.0,
+      "latency_ms": 8.959,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_overwrites",
+      "param_value": 1,
+      "accuracy": 1.0,
+      "latency_ms": 1.185,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_overwrites",
+      "param_value": 2,
+      "accuracy": 1.0,
+      "latency_ms": 4.838,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_overwrites",
+      "param_value": 3,
+      "accuracy": 0.48,
+      "latency_ms": 5.071,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_overwrites",
+      "param_value": 5,
+      "accuracy": 0.48,
+      "latency_ms": 8.28,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "interference",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_overwrites",
+      "param_value": 8,
+      "accuracy": 0.44,
+      "latency_ms": 8.668,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_pairs",
+      "param_value": 2,
+      "accuracy": 1.0,
+      "latency_ms": 2.793,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_pairs",
+      "param_value": 4,
+      "accuracy": 1.0,
+      "latency_ms": 2.678,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_pairs",
+      "param_value": 8,
+      "accuracy": 1.0,
+      "latency_ms": 5.238,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_pairs",
+      "param_value": 16,
+      "accuracy": 1.0,
+      "latency_ms": 4.782,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "full_history_reference_baseline",
+      "parameter": "num_pairs",
+      "param_value": 24,
+      "accuracy": 1.0,
+      "latency_ms": 9.894,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_pairs",
+      "param_value": 2,
+      "accuracy": 0.24,
+      "latency_ms": 2.526,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_pairs",
+      "param_value": 4,
+      "accuracy": 0.08,
+      "latency_ms": 2.108,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_pairs",
+      "param_value": 8,
+      "accuracy": 0.0,
+      "latency_ms": 4.504,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_pairs",
+      "param_value": 16,
+      "accuracy": 0.04,
+      "latency_ms": 12.765,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "num_pairs",
+      "param_value": 24,
+      "accuracy": 0.04,
+      "latency_ms": 14.504,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_pairs",
+      "param_value": 2,
+      "accuracy": 0.64,
+      "latency_ms": 2.311,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_pairs",
+      "param_value": 4,
+      "accuracy": 0.16,
+      "latency_ms": 2.709,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_pairs",
+      "param_value": 8,
+      "accuracy": 0.0,
+      "latency_ms": 8.294,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_pairs",
+      "param_value": 16,
+      "accuracy": 0.0,
+      "latency_ms": 10.625,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "memory_capacity",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "num_pairs",
+      "param_value": 24,
+      "accuracy": 0.0,
+      "latency_ms": 13.195,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "full_history_reference_baseline",
+      "parameter": "inference_budget",
+      "param_value": 1,
+      "accuracy": 1.0,
+      "latency_ms": 6.512,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "full_history_reference_baseline",
+      "parameter": "inference_budget",
+      "param_value": 2,
+      "accuracy": 1.0,
+      "latency_ms": 6.003,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "full_history_reference_baseline",
+      "parameter": "inference_budget",
+      "param_value": 4,
+      "accuracy": 1.0,
+      "latency_ms": 4.201,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "full_history_reference_baseline",
+      "parameter": "inference_budget",
+      "param_value": 8,
+      "accuracy": 1.0,
+      "latency_ms": 6.149,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "full_history_reference_baseline",
+      "parameter": "inference_budget",
+      "param_value": 16,
+      "accuracy": 1.0,
+      "latency_ms": 6.253,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "inference_budget",
+      "param_value": 1,
+      "accuracy": 0.08,
+      "latency_ms": 10.11,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "inference_budget",
+      "param_value": 2,
+      "accuracy": 0.08,
+      "latency_ms": 8.618,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "inference_budget",
+      "param_value": 4,
+      "accuracy": 0.08,
+      "latency_ms": 7.845,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "inference_budget",
+      "param_value": 8,
+      "accuracy": 0.08,
+      "latency_ms": 6.564,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "fixed_size_recurrent_memory",
+      "parameter": "inference_budget",
+      "param_value": 16,
+      "accuracy": 0.08,
+      "latency_ms": 10.538,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "inference_budget",
+      "param_value": 1,
+      "accuracy": 0.16,
+      "latency_ms": 8.076,
+      "inference_steps": 1
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "inference_budget",
+      "param_value": 2,
+      "accuracy": 0.16,
+      "latency_ms": 7.655,
+      "inference_steps": 2
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "inference_budget",
+      "param_value": 4,
+      "accuracy": 0.16,
+      "latency_ms": 10.213,
+      "inference_steps": 4
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "inference_budget",
+      "param_value": 8,
+      "accuracy": 0.16,
+      "latency_ms": 8.731,
+      "inference_steps": 8
+    },
+    {
+      "experiment": "inference_recovery",
+      "model": "educational_evolving_memory_toy",
+      "parameter": "inference_budget",
+      "param_value": 16,
+      "accuracy": 0.16,
+      "latency_ms": 9.171,
+      "inference_steps": 16
+    }
+  ]
+}
