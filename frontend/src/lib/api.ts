@@ -120,39 +120,66 @@ export async function runScalingApi(params: {
   );
 }
 
+export async function runUnifiedLabApi(params: {
+  model_type: string;
+  sequence_length: number;
+  memory_capacity: number;
+  interference_strength: number;
+  inference_effort: number;
+  seed?: number;
+  force_precomputed?: boolean;
+}): Promise<SimulationResult> {
+  try {
+    const res = await fetch(`${API_BASE}/experiment/run`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        experiment_type: "inference_recovery",
+        model_type: params.model_type,
+        sequence_length: params.sequence_length,
+        interference_probability: params.interference_strength,
+        inference_budget: params.inference_effort,
+        seed: params.seed || 42,
+        force_precomputed: params.force_precomputed
+      }),
+      signal: AbortSignal.timeout(4000)
+    });
+    if (res.ok) {
+      return await res.json();
+    }
+  } catch (e) {
+    // Fallback to instantaneous client simulation
+  }
+  return ClientSimulator.runUnifiedLabExperiment(
+    params.model_type,
+    params.sequence_length,
+    params.memory_capacity,
+    params.interference_strength,
+    params.inference_effort,
+    params.seed || 42,
+    params.force_precomputed
+  );
+}
+
 export async function fetchPrecomputedCatalog(): Promise<any> {
   try {
     const res = await fetch(`${API_BASE}/experiments/precomputed`, {
+      method: "GET",
+      headers: { "Content-Type": "application/json" },
       signal: AbortSignal.timeout(3000)
     });
     if (res.ok) {
       return await res.json();
     }
   } catch (e) {
-    // Fallback to static public folder
+    // Fallback to static data
   }
-  const staticRes = await fetch("/data/summary_stats.json");
-  if (staticRes.ok) {
-    const data = await staticRes.json();
-    return {
-      status: "available",
-      total_precomputed_trials: 2700,
-      available_sweeps: [
-        { sweep_type: "sequence_length", dataset_file: "sequence_length_sweep.json" },
-        { sweep_type: "memory_capacity", dataset_file: "memory_capacity_sweep.json" },
-        { sweep_type: "interference", dataset_file: "interference_sweep.json" },
-        { sweep_type: "inference_effort", dataset_file: "inference_effort_sweep.json" }
-      ],
-      plots: [
-        "plot1_accuracy_vs_sequence_length.png",
-        "plot2_accuracy_vs_memory_capacity.png",
-        "plot3_error_rate_vs_interference.png",
-        "plot4_accuracy_vs_inference_effort.png",
-        "plot5_latency_vs_inference_effort.png",
-        "plot6_accuracy_latency_tradeoff.png",
-        "plot_all_panels.png"
-      ]
-    };
-  }
+  try {
+    const staticRes = await fetch("/data/summary_stats.json");
+    if (staticRes.ok) {
+      return await staticRes.json();
+    }
+  } catch (e) {}
   return null;
 }
+
