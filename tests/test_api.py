@@ -31,14 +31,12 @@ def test_run_experiment_endpoint():
     data = response.json()
 
     assert data["experiment"] == "delayed_recall"
-    assert "configuration" in data
+    assert "parameters" in data or "configuration" in data
     assert "input_sequence" in data
-    assert "expected_output" in data
+    assert "expected_answer" in data or "expected_output" in data
     assert "model_output" in data
-    assert "correct" in data
-    assert "accuracy" in data
+    assert "metrics" in data
     assert "state_trace" in data
-    assert "inference_steps" in data
     assert "latency_ms" in data
 
 

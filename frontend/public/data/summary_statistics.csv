@@ -1,0 +1,91 @@
+sweep_type,experiment,model,model_label,parameter_name,parameter_value,n_trials,mean_accuracy,std_accuracy,ci95_accuracy_low,ci95_accuracy_high,mean_error_rate,std_error_rate,mean_latency_ms,std_latency_ms,median_latency_ms,p95_latency_ms,mean_inference_steps
+inference_effort,inference_recovery,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],inference_budget,1,30,0.1333,0.3457,0.0096,0.2571,0.8667,0.3457,6.654,5.121,3.946,16.244,1.0
+inference_effort,inference_recovery,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],inference_budget,2,30,0.1333,0.3457,0.0096,0.2571,0.8667,0.3457,7.44,5.942,4.129,18.488,2.0
+inference_effort,inference_recovery,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],inference_budget,3,30,0.1,0.3051,0.0,0.2092,0.9,0.3051,6.528,5.071,3.79,16.315,3.0
+inference_effort,inference_recovery,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],inference_budget,4,30,0.2333,0.4302,0.0794,0.3873,0.7667,0.4302,7.307,6.086,4.272,19.515,4.0
+inference_effort,inference_recovery,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],inference_budget,6,30,0.2,0.4068,0.0544,0.3456,0.8,0.4068,7.189,5.826,4.383,18.772,6.0
+inference_effort,inference_recovery,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],inference_budget,8,30,0.1,0.3051,0.0,0.2092,0.9,0.3051,7.475,5.959,4.884,18.986,8.0
+inference_effort,inference_recovery,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],inference_budget,12,30,0.1667,0.379,0.031,0.3023,0.8333,0.379,7.165,6.155,4.213,21.87,12.0
+inference_effort,inference_recovery,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],inference_budget,16,30,0.1667,0.379,0.031,0.3023,0.8333,0.379,8.633,7.498,4.501,23.295,16.0
+inference_effort,inference_recovery,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],inference_budget,1,30,0.0333,0.1826,0.0,0.0987,0.9667,0.1826,6.578,4.676,3.554,13.496,1.0
+inference_effort,inference_recovery,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],inference_budget,2,30,0.0667,0.2537,0.0,0.1575,0.9333,0.2537,5.56,4.416,3.332,14.754,1.0
+inference_effort,inference_recovery,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],inference_budget,3,30,0.0333,0.1826,0.0,0.0987,0.9667,0.1826,5.776,4.411,3.376,14.186,1.0
+inference_effort,inference_recovery,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],inference_budget,4,30,0.1,0.3051,0.0,0.2092,0.9,0.3051,5.341,4.343,3.205,14.5,1.0
+inference_effort,inference_recovery,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],inference_budget,6,30,0.0333,0.1826,0.0,0.0987,0.9667,0.1826,6.561,5.211,3.189,14.735,1.0
+inference_effort,inference_recovery,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],inference_budget,8,30,0.0,0.0,0.0,0.0,1.0,0.0,5.81,4.793,3.331,14.956,1.0
+inference_effort,inference_recovery,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],inference_budget,12,30,0.0333,0.1826,0.0,0.0987,0.9667,0.1826,4.644,3.124,3.41,11.928,1.0
+inference_effort,inference_recovery,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],inference_budget,16,30,0.0667,0.2537,0.0,0.1575,0.9333,0.2537,7.764,5.228,4.097,14.693,1.0
+inference_effort,inference_recovery,full_history_reference_baseline,Full-History KV Cache [O(T)],inference_budget,1,30,1.0,0.0,1.0,1.0,0.0,0.0,5.969,4.294,2.748,12.051,1.0
+inference_effort,inference_recovery,full_history_reference_baseline,Full-History KV Cache [O(T)],inference_budget,2,30,1.0,0.0,1.0,1.0,0.0,0.0,3.418,2.312,2.627,7.84,1.0
+inference_effort,inference_recovery,full_history_reference_baseline,Full-History KV Cache [O(T)],inference_budget,3,30,1.0,0.0,1.0,1.0,0.0,0.0,4.554,3.985,2.43,11.528,1.0
+inference_effort,inference_recovery,full_history_reference_baseline,Full-History KV Cache [O(T)],inference_budget,4,30,1.0,0.0,1.0,1.0,0.0,0.0,4.81,3.748,2.644,11.36,1.0
+inference_effort,inference_recovery,full_history_reference_baseline,Full-History KV Cache [O(T)],inference_budget,6,30,1.0,0.0,1.0,1.0,0.0,0.0,5.675,4.035,2.984,12.285,1.0
+inference_effort,inference_recovery,full_history_reference_baseline,Full-History KV Cache [O(T)],inference_budget,8,30,1.0,0.0,1.0,1.0,0.0,0.0,6.283,4.203,4.085,12.714,1.0
+inference_effort,inference_recovery,full_history_reference_baseline,Full-History KV Cache [O(T)],inference_budget,12,30,1.0,0.0,1.0,1.0,0.0,0.0,3.614,2.881,2.654,10.757,1.0
+inference_effort,inference_recovery,full_history_reference_baseline,Full-History KV Cache [O(T)],inference_budget,16,30,1.0,0.0,1.0,1.0,0.0,0.0,3.284,2.661,2.506,10.538,1.0
+interference,interference,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_overwrites,1,30,1.0,0.0,1.0,1.0,0.0,0.0,1.03,0.552,0.919,1.11,1.0
+interference,interference,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_overwrites,2,30,1.0,0.0,1.0,1.0,0.0,0.0,2.979,2.372,1.989,8.617,1.0
+interference,interference,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_overwrites,3,30,0.5333,0.5074,0.3518,0.7149,0.4667,0.5074,4.964,3.888,2.729,11.512,1.0
+interference,interference,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_overwrites,4,30,0.3333,0.4795,0.1618,0.5049,0.6667,0.4795,6.079,4.89,3.541,14.935,1.0
+interference,interference,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_overwrites,6,30,0.3333,0.4795,0.1618,0.5049,0.6667,0.4795,7.391,5.895,5.037,21.397,1.0
+interference,interference,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_overwrites,8,30,0.1,0.3051,0.0,0.2092,0.9,0.3051,8.656,6.605,6.455,26.58,1.0
+interference,interference,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_overwrites,10,30,0.3,0.4661,0.1332,0.4668,0.7,0.4661,9.121,6.036,7.011,19.659,1.0
+interference,interference,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_overwrites,1,30,0.0333,0.1826,0.0,0.0987,0.9667,0.1826,1.894,1.471,1.098,4.301,1.0
+interference,interference,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_overwrites,2,30,0.0,0.0,0.0,0.0,1.0,0.0,1.602,0.532,1.607,1.816,1.0
+interference,interference,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_overwrites,3,30,0.0333,0.1826,0.0,0.0987,0.9667,0.1826,4.144,3.248,2.335,9.658,1.0
+interference,interference,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_overwrites,4,30,0.0,0.0,0.0,0.0,1.0,0.0,4.982,4.067,2.952,12.241,1.0
+interference,interference,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_overwrites,6,30,0.0,0.0,0.0,0.0,1.0,0.0,8.545,6.432,4.185,17.602,1.0
+interference,interference,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_overwrites,8,30,0.0,0.0,0.0,0.0,1.0,0.0,9.3,6.577,5.537,22.732,1.0
+interference,interference,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_overwrites,10,30,0.0,0.0,0.0,0.0,1.0,0.0,15.267,9.803,11.05,30.733,1.0
+interference,interference,full_history_reference_baseline,Full-History KV Cache [O(T)],num_overwrites,1,30,1.0,0.0,1.0,1.0,0.0,0.0,1.056,0.579,0.881,2.029,1.0
+interference,interference,full_history_reference_baseline,Full-History KV Cache [O(T)],num_overwrites,2,30,0.5333,0.5074,0.3518,0.7149,0.4667,0.5074,2.344,2.03,1.212,5.639,1.0
+interference,interference,full_history_reference_baseline,Full-History KV Cache [O(T)],num_overwrites,3,30,0.3,0.4661,0.1332,0.4668,0.7,0.4661,2.965,2.286,1.847,7.974,1.0
+interference,interference,full_history_reference_baseline,Full-History KV Cache [O(T)],num_overwrites,4,30,0.1667,0.379,0.031,0.3023,0.8333,0.379,3.109,2.285,2.37,9.355,1.0
+interference,interference,full_history_reference_baseline,Full-History KV Cache [O(T)],num_overwrites,6,30,0.2,0.4068,0.0544,0.3456,0.8,0.4068,5.361,4.697,3.151,15.188,1.0
+interference,interference,full_history_reference_baseline,Full-History KV Cache [O(T)],num_overwrites,8,30,0.0667,0.2537,0.0,0.1575,0.9333,0.2537,4.711,0.793,4.557,4.834,1.0
+interference,interference,full_history_reference_baseline,Full-History KV Cache [O(T)],num_overwrites,10,30,0.1,0.3051,0.0,0.2092,0.9,0.3051,8.507,7.307,4.931,24.734,1.0
+memory_capacity,memory_capacity,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_pairs,1,30,1.0,0.0,1.0,1.0,0.0,0.0,1.372,1.176,0.869,3.82,1.0
+memory_capacity,memory_capacity,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_pairs,2,30,0.4333,0.504,0.253,0.6137,0.5667,0.504,3.471,2.27,4.071,5.946,1.0
+memory_capacity,memory_capacity,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_pairs,4,30,0.1333,0.3457,0.0096,0.2571,0.8667,0.3457,4.185,3.188,2.276,9.412,1.0
+memory_capacity,memory_capacity,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_pairs,8,30,0.0667,0.2537,0.0,0.1575,0.9333,0.2537,6.622,5.146,4.02,17.272,1.0
+memory_capacity,memory_capacity,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_pairs,12,30,0.1333,0.3457,0.0096,0.2571,0.8667,0.3457,8.107,6.684,5.292,25.007,1.0
+memory_capacity,memory_capacity,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_pairs,16,30,0.1333,0.3457,0.0096,0.2571,0.8667,0.3457,9.147,7.224,6.853,29.125,1.0
+memory_capacity,memory_capacity,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_pairs,24,30,0.0333,0.1826,0.0,0.0987,0.9667,0.1826,12.807,8.384,9.753,27.468,1.0
+memory_capacity,memory_capacity,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],num_pairs,32,30,0.0,0.0,0.0,0.0,1.0,0.0,15.307,10.101,12.084,34.081,1.0
+memory_capacity,memory_capacity,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_pairs,1,30,0.7333,0.4498,0.5724,0.8943,0.2667,0.4498,0.867,0.095,0.899,0.958,1.0
+memory_capacity,memory_capacity,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_pairs,2,30,0.3,0.4661,0.1332,0.4668,0.7,0.4661,3.145,1.753,4.381,5.047,1.0
+memory_capacity,memory_capacity,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_pairs,4,30,0.0667,0.2537,0.0,0.1575,0.9333,0.2537,3.904,2.676,2.264,7.559,1.0
+memory_capacity,memory_capacity,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_pairs,8,30,0.0,0.0,0.0,0.0,1.0,0.0,5.103,3.806,3.064,12.166,1.0
+memory_capacity,memory_capacity,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_pairs,12,30,0.0333,0.1826,0.0,0.0987,0.9667,0.1826,5.783,3.613,4.26,14.583,1.0
+memory_capacity,memory_capacity,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_pairs,16,30,0.0,0.0,0.0,0.0,1.0,0.0,11.098,8.093,5.59,23.075,1.0
+memory_capacity,memory_capacity,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_pairs,24,30,0.0,0.0,0.0,0.0,1.0,0.0,16.307,11.464,8.087,34.091,1.0
+memory_capacity,memory_capacity,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],num_pairs,32,30,0.0333,0.1826,0.0,0.0987,0.9667,0.1826,18.318,12.907,10.893,43.561,1.0
+memory_capacity,memory_capacity,full_history_reference_baseline,Full-History KV Cache [O(T)],num_pairs,1,30,1.0,0.0,1.0,1.0,0.0,0.0,0.531,0.068,0.52,0.656,1.0
+memory_capacity,memory_capacity,full_history_reference_baseline,Full-History KV Cache [O(T)],num_pairs,2,30,1.0,0.0,1.0,1.0,0.0,0.0,0.762,0.032,0.754,0.8,1.0
+memory_capacity,memory_capacity,full_history_reference_baseline,Full-History KV Cache [O(T)],num_pairs,4,30,1.0,0.0,1.0,1.0,0.0,0.0,1.449,0.849,1.293,1.439,1.0
+memory_capacity,memory_capacity,full_history_reference_baseline,Full-History KV Cache [O(T)],num_pairs,8,30,1.0,0.0,1.0,1.0,0.0,0.0,5.823,3.787,4.672,10.139,1.0
+memory_capacity,memory_capacity,full_history_reference_baseline,Full-History KV Cache [O(T)],num_pairs,12,30,1.0,0.0,1.0,1.0,0.0,0.0,5.458,4.338,3.353,14.436,1.0
+memory_capacity,memory_capacity,full_history_reference_baseline,Full-History KV Cache [O(T)],num_pairs,16,30,1.0,0.0,1.0,1.0,0.0,0.0,7.466,6.391,4.275,19.344,1.0
+memory_capacity,memory_capacity,full_history_reference_baseline,Full-History KV Cache [O(T)],num_pairs,24,30,1.0,0.0,1.0,1.0,0.0,0.0,9.139,6.946,6.184,28.111,1.0
+memory_capacity,memory_capacity,full_history_reference_baseline,Full-History KV Cache [O(T)],num_pairs,32,30,1.0,0.0,1.0,1.0,0.0,0.0,11.751,9.767,7.783,35.744,1.0
+sequence_length,long_horizon_recall,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],sequence_length,16,30,0.2667,0.4498,0.1057,0.4276,0.7333,0.4498,4.088,0.331,3.971,4.778,1.0
+sequence_length,long_horizon_recall,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],sequence_length,32,30,0.1667,0.379,0.031,0.3023,0.8333,0.379,6.774,0.254,6.728,7.077,1.0
+sequence_length,long_horizon_recall,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],sequence_length,64,30,0.3333,0.4795,0.1618,0.5049,0.6667,0.4795,19.15,12.882,12.61,48.543,1.0
+sequence_length,long_horizon_recall,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],sequence_length,128,30,0.3667,0.4901,0.1913,0.5421,0.6333,0.4901,37.469,19.727,25.425,74.604,1.0
+sequence_length,long_horizon_recall,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],sequence_length,256,30,0.2,0.4068,0.0544,0.3456,0.8,0.4068,75.293,48.525,55.399,169.16,1.0
+sequence_length,long_horizon_recall,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],sequence_length,512,30,0.2333,0.4302,0.0794,0.3873,0.7667,0.4302,89.168,92.194,64.104,248.587,1.0
+sequence_length,long_horizon_recall,educational_evolving_memory_toy,Educational Evolving Toy [O(1)],sequence_length,1024,30,0.3,0.4661,0.1332,0.4668,0.7,0.4661,130.413,19.671,126.326,133.283,1.0
+sequence_length,long_horizon_recall,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],sequence_length,16,30,0.1333,0.3457,0.0096,0.2571,0.8667,0.3457,5.28,4.024,2.994,13.172,1.0
+sequence_length,long_horizon_recall,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],sequence_length,32,30,0.0,0.0,0.0,0.0,1.0,0.0,10.445,7.058,6.565,23.863,1.0
+sequence_length,long_horizon_recall,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],sequence_length,64,30,0.0,0.0,0.0,0.0,1.0,0.0,19.098,12.452,10.724,43.731,1.0
+sequence_length,long_horizon_recall,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],sequence_length,128,30,0.0,0.0,0.0,0.0,1.0,0.0,59.323,33.529,86.737,92.853,1.0
+sequence_length,long_horizon_recall,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],sequence_length,256,30,0.0,0.0,0.0,0.0,1.0,0.0,51.198,18.909,44.404,98.11,1.0
+sequence_length,long_horizon_recall,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],sequence_length,512,30,0.0,0.0,0.0,0.0,1.0,0.0,110.819,41.578,88.989,196.933,1.0
+sequence_length,long_horizon_recall,fixed_size_recurrent_memory,Fixed-Size Recurrent [O(d)],sequence_length,1024,30,0.0,0.0,0.0,0.0,1.0,0.0,206.065,65.233,176.302,354.768,1.0
+sequence_length,long_horizon_recall,full_history_reference_baseline,Full-History KV Cache [O(T)],sequence_length,16,30,1.0,0.0,1.0,1.0,0.0,0.0,6.543,4.364,7.53,10.812,1.0
+sequence_length,long_horizon_recall,full_history_reference_baseline,Full-History KV Cache [O(T)],sequence_length,32,30,1.0,0.0,1.0,1.0,0.0,0.0,6.777,5.094,4.513,18.968,1.0
+sequence_length,long_horizon_recall,full_history_reference_baseline,Full-History KV Cache [O(T)],sequence_length,64,30,1.0,0.0,1.0,1.0,0.0,0.0,10.096,8.686,6.419,33.556,1.0
+sequence_length,long_horizon_recall,full_history_reference_baseline,Full-History KV Cache [O(T)],sequence_length,128,30,1.0,0.0,1.0,1.0,0.0,0.0,16.115,12.136,12.185,33.691,1.0
+sequence_length,long_horizon_recall,full_history_reference_baseline,Full-History KV Cache [O(T)],sequence_length,256,30,1.0,0.0,1.0,1.0,0.0,0.0,33.626,22.746,25.777,92.388,1.0
+sequence_length,long_horizon_recall,full_history_reference_baseline,Full-History KV Cache [O(T)],sequence_length,512,30,1.0,0.0,1.0,1.0,0.0,0.0,57.881,18.212,51.741,98.952,1.0
+sequence_length,long_horizon_recall,full_history_reference_baseline,Full-History KV Cache [O(T)],sequence_length,1024,30,1.0,0.0,1.0,1.0,0.0,0.0,213.394,18.318,218.719,233.067,1.0
