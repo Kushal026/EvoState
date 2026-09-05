@@ -10,20 +10,24 @@ import {
   CheckCircle2, 
   XCircle, 
   AlertTriangle, 
-  RotateCcw,
-  Sliders,
-  Layers,
-  Sparkles,
-  ShieldAlert,
-  ArrowDown
+  RotateCcw, 
+  Sliders, 
+  Layers, 
+  Sparkles, 
+  ShieldAlert, 
+  ArrowDown,
+  BookOpen,
+  FlaskConical
 } from "lucide-react";
 import { runUnifiedLabApi } from "@/lib/api";
 import { SimulationResult, ClientSimulator } from "@/lib/simulator";
 import StateVectorVisualizer from "@/components/StateVectorVisualizer";
 import D3EnergyLandscape from "@/components/D3EnergyLandscape";
 import InternalStateStepVisualizer from "@/components/InternalStateStepVisualizer";
+import GuidedPathwayLab from "@/components/GuidedPathwayLab";
 
 export default function LabPage() {
+  const [labMode, setLabMode] = useState<"guided" | "workbench">("guided");
   // 1. Model Architecture
   const [modelType, setModelType] = useState<string>("educational_evolving_memory_toy");
 
@@ -86,17 +90,43 @@ export default function LabPage() {
     <div className="space-y-8 max-w-6xl mx-auto">
       
       {/* Top Laboratory Header & Status */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/10 pb-5">
-        <div>
-          <div className="flex items-center gap-2 mb-1">
-            <Terminal className="h-5 w-5 text-blue-400" />
-            <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-              Interactive Evolving Memory Lab
-            </h1>
-          </div>
-          <p className="text-xs text-slate-400">
-            Real-time scientific workbench: test associative retention, interference noise, and test-time attractor recovery.
-          </p>
+      <div className="border-b border-white/10 pb-5">
+        <div className="flex items-center gap-2 mb-1">
+          <Terminal className="h-5 w-5 text-blue-400" />
+          <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
+            Interactive Evolving Memory Lab
+          </h1>
+        </div>
+        <p className="text-xs text-slate-400">
+          Real-time scientific workbench: test associative retention, interference noise, and test-time attractor recovery.
+        </p>
+      </div>
+
+      {/* Mode Selection Tabs & Execution Mode Badge */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/10 pb-4">
+        
+        {/* Mode Tabs */}
+        <div className="flex items-center gap-1.5 p-1 rounded-xl bg-black/50 border border-white/10">
+          <button
+            onClick={() => setLabMode("guided")}
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-mono transition-all ${
+              labMode === "guided"
+                ? "bg-blue-600 text-white font-bold shadow-md shadow-blue-900/30"
+                : "text-slate-400 hover:text-white hover:bg-white/5"
+            }`}
+          >
+            <BookOpen className="h-3.5 w-3.5" /> Guided Discovery (7 Stages)
+          </button>
+          <button
+            onClick={() => setLabMode("workbench")}
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-mono transition-all ${
+              labMode === "workbench"
+                ? "bg-blue-600 text-white font-bold shadow-md shadow-blue-900/30"
+                : "text-slate-400 hover:text-white hover:bg-white/5"
+            }`}
+          >
+            <FlaskConical className="h-3.5 w-3.5" /> Open Research Workbench
+          </button>
         </div>
 
         {/* Execution Mode Badge */}
@@ -132,8 +162,11 @@ export default function LabPage() {
         </div>
       </div>
 
-      {/* Main Layout Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      {labMode === "guided" ? (
+        <GuidedPathwayLab />
+      ) : (
+        /* Main Workbench Layout Grid */
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         
         {/* Left Column: Model Selection & 4 Real Computational Controls (4 Cols) */}
         <div className="lg:col-span-4 space-y-6">
@@ -557,6 +590,7 @@ export default function LabPage() {
         </div>
 
       </div>
+      )}
 
     </div>
   );
