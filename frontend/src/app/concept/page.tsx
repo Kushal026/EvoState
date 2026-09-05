@@ -2,9 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { Layers, Cpu, ShieldAlert, Zap, ArrowRight, Activity, Terminal } from "lucide-react";
 
+import RigorousArchitectureComparison from "@/components/RigorousArchitectureComparison";
+
 export default function ConceptPage() {
   return (
-    <div className="space-y-12 max-w-4xl mx-auto">
+    <div className="space-y-12 max-w-5xl mx-auto">
       
       {/* Title Section */}
       <div className="space-y-3 border-b border-white/10 pb-6">
@@ -44,7 +46,7 @@ export default function ConceptPage() {
       <section className="rounded-xl border border-white/10 bg-[#07090e] p-6 space-y-4">
         <h2 className="text-base font-semibold text-white tracking-tight flex items-center gap-2">
           <span className="flex h-6 w-6 items-center justify-center rounded bg-purple-500/10 text-purple-400 font-mono text-xs">2</span>
-          Information Superposition & Interference Crosstalk
+          Information Superposition &amp; Interference Crosstalk
         </h2>
         
         <p className="text-xs text-slate-300 leading-relaxed">
@@ -100,6 +102,9 @@ export default function ConceptPage() {
           This non-linear iterative unrolling acts as an associative de-noising filter, pulling the candidate vector out of orthogonal clutter and into the target attractor well.
         </p>
       </section>
+
+      {/* 4. Technically Rigorous Architecture Comparison Matrix */}
+      <RigorousArchitectureComparison />
 
       {/* CTA Box */}
       <div className="rounded-xl border border-blue-500/30 bg-blue-500/10 p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
