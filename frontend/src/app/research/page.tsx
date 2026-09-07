@@ -16,6 +16,7 @@ import {
   FileCode,
   LineChart
 } from "lucide-react";
+import EvidenceBadge from "@/components/EvidenceBadge";
 
 interface PlotItem {
   id: string;
@@ -139,11 +140,15 @@ export default function ResearchPage() {
       
       {/* Title Section */}
       <div className="space-y-3 border-b border-white/10 pb-6">
-        <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-mono text-blue-400">
-          <BarChart3 className="h-3.5 w-3.5" /> Empirical Evaluation & Open Science
+        <div className="flex flex-wrap items-center gap-2">
+          <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-mono text-blue-400">
+            <BarChart3 className="h-3.5 w-3.5" /> Empirical Evaluation & Open Science
+          </div>
+          <EvidenceBadge tier="experiment" label="2,700 Verified Trials" />
+          <EvidenceBadge tier="published" label="Literature Synthesis" />
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-          Research Benchmarks & Empirical Sweeps
+          Research Benchmarks &amp; Empirical Sweeps
         </h1>
         <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
           Comprehensive empirical study across 2,700 controlled trials with statistical significance bounds, reproducibility manifests, and full literature synthesis.
@@ -272,7 +277,7 @@ export default function ResearchPage() {
         </h2>
 
         <p className="text-xs text-slate-300 leading-relaxed">
-          The theoretical and empirical architecture of DataForge: Evolving Memory Lab builds on recent breakthroughs in state space models, test-time learning, and inference-time compute scaling:
+          The theoretical and empirical architecture of EvoState: Evolving Memory Lab builds on recent breakthroughs in state space models, test-time learning, and inference-time compute scaling:
         </p>
 
         <div className="overflow-x-auto">
@@ -281,7 +286,7 @@ export default function ResearchPage() {
               <tr>
                 <th className="p-3 border-b border-white/10">Citation & Year</th>
                 <th className="p-3 border-b border-white/10">Core Innovation</th>
-                <th className="p-3 border-b border-white/10">Relevance to DataForge</th>
+                <th className="p-3 border-b border-white/10">Relevance to EvoState</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-white/5 text-slate-300">

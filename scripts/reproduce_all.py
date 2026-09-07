@@ -1,4 +1,4 @@
-"""Standalone master reproducibility script for DataForge: Evolving Memory Lab.
+"""Standalone master reproducibility script for EvoState: Evolving Memory Lab.
 
 Usage:
     python scripts/reproduce_all.py [--trials 30] [--seed 42] [--output data/precomputed]

@@ -143,7 +143,7 @@ export class ClientSimulator {
           ? "Educational Toy Model: Isolated educational surrogate only. Inspired by evolving state concepts (Kosowski et al., 2025). Not official BDH architecture."
           : "Fixed recurrence exhibits rapid decay over long lag steps."
       ],
-      attribution: "DataForge 2026 Pathway Track (In-Browser Live Simulation)"
+      attribution: "EvoState 2026 Pathway Track (In-Browser Live Simulation)"
     };
   }
 
@@ -229,7 +229,7 @@ export class ClientSimulator {
         "Repeated outer-product overwrites crowd the matrix subspace causing destructive interference.",
         "Educational surrogate model: illustrative of bounded rank capacity."
       ],
-      attribution: "DataForge 2026 Pathway Track (In-Browser Live Simulation)"
+      attribution: "EvoState 2026 Pathway Track (In-Browser Live Simulation)"
     };
   }
 
@@ -297,7 +297,7 @@ export class ClientSimulator {
         "Inference compute de-noises superposition when signal is present.",
         "If signal has completely collapsed into the null space, C_infer -> infinity cannot recover it."
       ],
-      attribution: "DataForge 2026 Pathway Track (In-Browser Live Simulation)"
+      attribution: "EvoState 2026 Pathway Track (In-Browser Live Simulation)"
     };
   }
 
@@ -517,8 +517,8 @@ export class ClientSimulator {
         "Inference Scaling Limit: Test-time relaxation cannot recover signal if conflicting updates completely overwrite original subspace coordinates."
       ],
       attribution: forcePrecomputed 
-        ? "DataForge 2026 Pathway Track (Precomputed Benchmark Reference)" 
-        : "DataForge 2026 Pathway Track (Live Client-Side Computational Engine)"
+        ? "EvoState 2026 Pathway Track (Precomputed Benchmark Reference)" 
+        : "EvoState 2026 Pathway Track (Live Client-Side Computational Engine)"
     };
   }
 }

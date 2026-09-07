@@ -10,7 +10,7 @@
 ## 1. Executive Summary & Central Falsifiable Claim
 
 ### 1.1 Project Vision
-**DataForge: Evolving Memory Lab** is an interactive, browser-based computational laboratory designed to dissect, benchmark, and visualize the inner mechanics of **Long-Horizon Evolving States** and **Inference-Time Scaling**. It provides machine learning practitioners, researchers, and students with transparent, verifiable experimentation on state space memory dynamics, information superposition, destructive interference, and the limits of test-time recovery.
+**EvoState: Evolving Memory Lab** is an interactive, browser-based computational laboratory designed to dissect, benchmark, and visualize the inner mechanics of **Long-Horizon Evolving States** and **Inference-Time Scaling**. It provides machine learning practitioners, researchers, and students with transparent, verifiable experimentation on state space memory dynamics, information superposition, destructive interference, and the limits of test-time recovery.
 
 ### 1.2 Central Falsifiable Claim
 > **"A fixed-size evolving state can carry useful information across sequences without storing every previous token, but increasing sequence length and conflicting updates can cause interference and information loss; additional inference-time computation can sometimes improve recovery."**

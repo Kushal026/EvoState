@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "DataForge: Evolving Memory Lab | 2026 Pathway Track",
+  title: "EvoState: Evolving Memory Lab | Pathway Track",
   description:
     "Scientific AI laboratory exploring Long-Horizon Evolving States, information superposition, and Inference-Time Scaling.",
   keywords: [

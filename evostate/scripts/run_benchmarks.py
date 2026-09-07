@@ -1,4 +1,4 @@
-"""Comprehensive Benchmark Suite for DataForge: Evolving Memory Lab.
+"""Comprehensive Benchmark Suite for EvoState: Evolving Memory Lab.
 
 Executes all 5 experiments across all 3 models using strict reproducible seeds
 and logs real, non-invented empirical metrics.
@@ -28,7 +28,7 @@ def run_full_benchmark_suite(output_dir: str = "results", seed: int = 42) -> Dic
     detailed_benchmarks = {}
 
     print("=" * 70)
-    print("DATAFORGE: EVOLVING MEMORY LAB - BENCHMARK SUITE")
+    print("EVOSTATE: EVOLVING MEMORY LAB - BENCHMARK SUITE")
     print(f"Base Random Seed: {seed}")
     print("=" * 70)
 

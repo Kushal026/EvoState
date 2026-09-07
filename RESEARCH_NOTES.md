@@ -1,5 +1,5 @@
 # RESEARCH NOTES: Long-Horizon Evolving State & Inference-Time Scaling
-**Project:** DataForge: Evolving Memory Lab (DataForge 2026 Pathway Track)  
+**Project:** EvoState: Evolving Memory Lab (Pathway Track 2026)  
 **Role:** Lead AI Research Engineer & Educational-Experience Architect  
 **Status:** Canonical Reference & Theoretical Foundations Document
 

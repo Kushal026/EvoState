@@ -16,9 +16,9 @@ TAGS_METADATA = [
 def create_app() -> FastAPI:
     """Create and configure the DataForge FastAPI service."""
     app = FastAPI(
-        title="DataForge: Evolving Memory Lab API",
+        title="EvoState: Evolving Memory Lab API",
         description="""
-# DataForge: Evolving Memory Lab API
+# EvoState: Evolving Memory Lab API
 **Pathway Track 2026 — Research & Educational Computation Engine**
 
 ### Central Falsifiable Claim:

@@ -1,5 +1,5 @@
 /**
- * DataForge API Client with automatic live FastAPI backend connection
+ * EvoState API Client with automatic live FastAPI backend connection
  * and intelligent client-side simulation fallback.
  */
 
@@ -17,7 +17,7 @@ export async function checkBackendHealth(): Promise<{
     const res = await fetch(`${API_BASE}/health`, {
       method: "GET",
       headers: { "Content-Type": "application/json" },
-      signal: AbortSignal.timeout(2000)
+      signal: AbortSignal.timeout(600)
     });
     if (res.ok) {
       const data = await res.json();
@@ -142,7 +142,7 @@ export async function runUnifiedLabApi(params: {
         seed: params.seed || 42,
         force_precomputed: params.force_precomputed
       }),
-      signal: AbortSignal.timeout(4000)
+      signal: AbortSignal.timeout(800)
     });
     if (res.ok) {
       return await res.json();

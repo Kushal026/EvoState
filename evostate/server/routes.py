@@ -35,7 +35,7 @@ router = APIRouter(tags=["DataForge Experiments"])
 def health_check() -> Dict[str, Any]:
     return {
         "status": "healthy",
-        "engine": "DataForge: Evolving Memory Lab API",
+        "engine": "EvoState: Evolving Memory Lab API",
         "version": "1.0.0",
         "supported_models": [
             "full_history_reference_baseline",

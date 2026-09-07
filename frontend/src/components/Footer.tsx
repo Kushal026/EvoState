@@ -13,10 +13,7 @@ export default function Footer() {
           {/* Brand & Mission */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-3">
-              <span className="font-semibold text-white tracking-tight">DataForge: Evolving Memory Lab</span>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">
-                Pathway Track 2026
-              </span>
+              <span className="font-semibold text-white tracking-tight">EvoState: Evolving Memory Lab</span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed mb-4 max-w-lg">
               A scientific exploration environment dedicated to benchmarking the compression dynamics of 
@@ -105,7 +102,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-400 font-mono">
-          <p>© 2026 DataForge Pathway Track. Educational &amp; Research License.</p>
+          <p>© 2026 EvoState. Educational &amp; Research License.</p>
           <div className="flex items-center gap-4">
             <span>Deterministic Seed Standard (N=30)</span>
             <span>•</span>
