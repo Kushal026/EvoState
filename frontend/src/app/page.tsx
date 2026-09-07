@@ -112,10 +112,10 @@ export default function HomePage() {
                 <ShieldCheck className="h-5 w-5" />
               </div>
               <h4 className="text-sm font-semibold text-white group-hover:text-emerald-300 transition-colors">
-                BDH Architecture &amp; Synaptic Memory
+                BDH: The Dragon Hatchling
               </h4>
               <p className="text-xs text-slate-400 mt-2 leading-relaxed">
-                Primary equations from Sun et al. (2025), neuron/synapse duality, linear time complexity, and official evidence boundaries.
+                The Dragon Hatchling (Kosowski et al., 2025), evolving internal state dynamics, linear time complexity, and evidence boundaries.
               </p>
             </div>
             <div className="mt-4 flex items-center gap-1 text-xs font-mono text-emerald-400">

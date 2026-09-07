@@ -41,13 +41,13 @@ export default function BdhCqPage() {
       {/* Title Section */}
       <div className="space-y-3 border-b border-white/10 pb-6">
         <div className="inline-flex items-center gap-2 rounded-full border border-purple-500/20 bg-purple-500/10 px-3 py-1 text-xs font-mono text-purple-400">
-          <Zap className="h-3.5 w-3.5" /> Inference-Time Scaling Standard
+          <Zap className="h-3.5 w-3.5" /> Recurrent Latent Reasoning &amp; Test-Time Compute
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-          BDH Continuous Querying (BDH-CQ)
+          BDH-CQ: Recurrent Latent Reasoning
         </h1>
         <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-          Decoupling memory footprint from query deliberation depth: how test-time energy relaxation recovers superimposed signal from noisy state spaces.
+          Exploring test-time inference scaling in evolving state models: how allocating additional test-time computation over latent representations can assist in resolving ambiguity and de-noising superimposed memory states.
         </p>
       </div>
 
@@ -59,12 +59,12 @@ export default function BdhCqPage() {
             Where Does Adaptation Happen? A Fundamental Taxonomy
           </h2>
           <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-purple-500/10 border border-purple-500/30 text-purple-300 font-bold">
-            OFFICIAL BDH-CQ EVIDENCE
+            PUBLISHED TAXONOMY
           </span>
         </div>
 
         <p className="text-xs text-slate-300 leading-relaxed">
-          Modern sequence architectures adapt to new information at three fundamentally distinct operational tiers:
+          Sequence architectures adapt to new information across three distinct operational tiers:
         </p>
 
         {/* 3-Way Adaptation Comparison Table */}
@@ -90,10 +90,10 @@ export default function BdhCqPage() {
                   &theta; &larr; &theta; - &eta; &nabla;_&theta; L(x, y)
                 </td>
                 <td className="p-3 text-rose-400">
-                  Extremely Heavy (Multi-GPU backprop across millions of tokens)
+                  Heavy (Backpropagation across large token corpora)
                 </td>
                 <td className="p-3">
-                  Permanent, global knowledge stored across all future generations.
+                  Permanent, global knowledge stored in model weights.
                 </td>
               </tr>
 
@@ -104,30 +104,30 @@ export default function BdhCqPage() {
                   <span className="text-[10px] font-mono text-slate-400">(Forward-Pass Memory)</span>
                 </td>
                 <td className="p-3 font-mono text-emerald-300">
-                  S_t = A_bar_t S_&#123;t-1&#125; + B_bar_t (v_t &otimes; k_t^T)
+                  S_t = (1 - &Delta;_t) S_&#123;t-1&#125; + &Delta;_t (v_t &otimes; k_t^T)
                 </td>
                 <td className="p-3 text-emerald-400 font-mono">
-                  O(1) Step Cost (Zero backprop, pure forward-pass fast-weights)
+                  O(1) Step Cost (Zero backprop, forward-pass state update)
                 </td>
                 <td className="p-3">
-                  Sequence-local context preserved during prompt ingestion.
+                  Sequence-local context preserved during ingestion.
                 </td>
               </tr>
 
               {/* Tier 3: Inference-Time State Probing */}
               <tr>
                 <td className="p-3 font-semibold text-white">
-                  3. Inference-Time Probing<br />
-                  <span className="text-[10px] font-mono text-purple-300">(BDH-CQ Deliberation)</span>
+                  3. Inference-Time Deliberation<br />
+                  <span className="text-[10px] font-mono text-purple-300">(Latent Reasoning / BDH-CQ)</span>
                 </td>
                 <td className="p-3 font-mono text-purple-300">
-                  q^(k+1) = q^(k) - &eta; &nabla;_q E(q^(k), S_T)
+                  q^(k+1) = (1 - &eta;) q^(k) + &eta; &nabla;_q E(q^(k), S_T)
                 </td>
                 <td className="p-3 text-purple-400 font-mono">
                   O(K &middot; d) Variable (Allocated per query difficulty)
                 </td>
                 <td className="p-3">
-                  Query-local attractor settling to de-noise superimposed memory.
+                  Query-local deliberation to resolve ambiguous or superimposed states.
                 </td>
               </tr>
 
@@ -142,14 +142,14 @@ export default function BdhCqPage() {
           <div>
             <h2 className="text-base font-semibold text-white tracking-tight flex items-center gap-2">
               <TrendingUp className="h-4 w-4 text-purple-400" />
-              Inference-Time Scaling Pareto Frontier (Real Sweeps Data)
+              Inference-Time Scaling Tradeoff (EvoState Experimental Data)
             </h2>
             <p className="text-xs text-slate-400">
-              Interactive cost-versus-accuracy tradeoff across 2,700 controlled trials on our PyTorch experiment engine.
+              Testing whether increasing inference-time computation improves recovery under controlled interference conditions (2,700 trials).
             </p>
           </div>
           <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 border border-blue-500/30 text-blue-300 font-bold shrink-0">
-            PRECOMPUTED RESEARCH RESULT
+            OUR EXPERIMENT
           </span>
         </div>
 
@@ -167,15 +167,15 @@ export default function BdhCqPage() {
         <div className="flex items-center justify-between">
           <h2 className="text-base font-semibold text-white tracking-tight flex items-center gap-2">
             <Activity className="h-4 w-4 text-emerald-400" />
-            Energy Manifold Observability (K = {selectedK} Cycles)
+            Latent State Deliberation Visualization (K = {selectedK} Cycles)
           </h2>
           <span className="text-[10px] font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded">
-            Live Attractor Landscape
+            EDUCATIONAL SIMPLIFICATION
           </span>
         </div>
 
         <p className="text-xs text-slate-300 leading-relaxed">
-          Watch how the query probe trajectory moves along the non-convex potential <code>E(q, S_T) = -0.5 q^T S_T q + &sum; &phi;(q_i)</code> as compute cycles scale from LOW (1-step) to HIGH (12-step):
+          Visualizing how iterative query refinement moves through the latent state representation space as compute cycles scale from LOW (1 step) to HIGH (12 steps):
         </p>
 
         {/* Live D3 Component */}
@@ -189,11 +189,12 @@ export default function BdhCqPage() {
       <section className="rounded-xl border border-amber-500/30 bg-amber-500/5 p-6 space-y-3">
         <div className="flex items-center gap-2 text-sm font-semibold text-amber-300">
           <ShieldAlert className="h-5 w-5 text-amber-400 shrink-0" />
-          Strict Scientific Boundary: Educational Surrogate vs Production BDH-CQ
+          Scientific Distinction: BDH-CQ Literature vs. EvoState Experiments
         </div>
 
         <p className="text-xs text-amber-200/90 leading-relaxed">
-          To maintain absolute scientific transparency, we explicitly state that our educational toy model ($d=32$) is a transparent pedagogical surrogate running client-side fast-weights. It does <strong>NOT</strong> claim to reproduce proprietary production foundation BDH-CQ systems.
+          <strong>Published Research:</strong> BDH-CQ (Engdahl et al., 2026) explores in-context learning with recurrent latent reasoning at scale. <br />
+          <strong>EvoState Experiment:</strong> EvoState independently investigates whether allocating test-time compute improves signal recovery in a compact associative toy model. EvoState does not claim to reproduce the full BDH-CQ foundation architecture.
         </p>
       </section>
 
@@ -206,26 +207,26 @@ export default function BdhCqPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
           
           <div className="rounded-lg bg-black/40 border border-white/5 p-3.5 space-y-1">
+            <div className="font-bold text-white font-mono">Engdahl et al. (2026)</div>
+            <div className="text-[11px] text-purple-300"><em>BDH-CQ: In-Context Learning with Recurrent Latent Reasoning</em></div>
+            <p className="text-slate-400 text-[11px]">
+              Explores in-context learning paired with recurrent latent reasoning and inference-time deliberation (arXiv:2608.09888).
+            </p>
+          </div>
+
+          <div className="rounded-lg bg-black/40 border border-white/5 p-3.5 space-y-1">
             <div className="font-bold text-white font-mono">Snell et al. (UC Berkeley, 2024)</div>
             <div className="text-[11px] text-purple-300"><em>Scaling LLM Test-Time Compute Optimally</em></div>
             <p className="text-slate-400 text-[11px]">
-              Demonstrates that spending variable inference computation on search and deliberation can outperform 14&times; larger pre-trained models.
+              Demonstrates that spending variable inference computation on search and deliberation can improve output quality (arXiv:2408.03314).
             </p>
           </div>
 
           <div className="rounded-lg bg-black/40 border border-white/5 p-3.5 space-y-1">
-            <div className="font-bold text-white font-mono">Sun et al. (Stanford, 2024)</div>
-            <div className="text-[11px] text-purple-300"><em>Learning to (Learn at Test Time): RNNs with Expressive Hidden States</em></div>
+            <div className="font-bold text-white font-mono">Kosowski et al. (2025)</div>
+            <div className="text-[11px] text-purple-300"><em>The Dragon Hatchling: The Missing Link between the Transformer and Models of the Brain</em></div>
             <p className="text-slate-400 text-[11px]">
-              Establishes the gradient descent update rule on hidden state matrices as self-supervised test-time learning.
-            </p>
-          </div>
-
-          <div className="rounded-lg bg-black/40 border border-white/5 p-3.5 space-y-1">
-            <div className="font-bold text-white font-mono">DataForge Foundation (2025/2026)</div>
-            <div className="text-[11px] text-purple-300"><em>BDH-CQ Reference Specification &amp; Attractor Formulation</em></div>
-            <p className="text-slate-400 text-[11px]">
-              The official standard defining Continuous Querying over bi-directional dynamic horizon state spaces.
+              Foundational architecture exploring evolving internal states and brain-inspired local plasticity (arXiv:2509.26507).
             </p>
           </div>
 
@@ -233,7 +234,7 @@ export default function BdhCqPage() {
             <div className="font-bold text-white font-mono">Gu &amp; Dao (2023)</div>
             <div className="text-[11px] text-purple-300"><em>Mamba: Linear-Time Sequence Modeling with Selective State Spaces</em></div>
             <p className="text-slate-400 text-[11px]">
-              Foundational input-dependent discretization equations (&Delta;_t, A_bar_t, B_bar_t) for continuous recurrence.
+              Foundational selective state space mechanisms for continuous recurrence (arXiv:2312.00752).
             </p>
           </div>
 
@@ -243,7 +244,7 @@ export default function BdhCqPage() {
       {/* Navigation */}
       <div className="flex justify-between items-center border-t border-white/10 pt-6">
         <Link href="/bdh" className="text-xs text-slate-400 hover:text-white font-mono">
-          ← Back to BDH Standard
+          ← Back to BDH: The Dragon Hatchling
         </Link>
         <Link
           href="/research"

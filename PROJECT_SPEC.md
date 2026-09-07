@@ -67,9 +67,9 @@ where $C_{infer} \in \mathbb{N}_{\ge 1}$ represents the allocated test-time comp
 
 ### 3.3 Core Learning Objectives
 By completing the laboratory experiments, learners will be able to:
-1. **Explain and Prove State Compression:** Demonstrate mathematically and experimentally how linear recurrences and SSMs store associations in $\mathcal{O}(1)$ space.
-2. **Diagnose Memory Breakdown:** Quantify the exact failure modes of evolving states under sequence length scaling ($T$), noise insertion, and conflicting key overwrites.
-3. **Analyze Inference-Time Recovery Boundaries:** Measure when test-time search and iterative state refinement successfully recover degraded information versus when state collapse is mathematically irreversible.
+1. **Analyze State Compression:** Demonstrate mathematically and experimentally how linear recurrences and SSMs store associations in $\mathcal{O}(1)$ space.
+2. **Diagnose Memory Breakdown:** Quantify the failure modes of evolving states under sequence length scaling ($T$), noise insertion, and conflicting key overwrites.
+3. **Analyze Inference-Time Recovery Boundaries:** Measure when test-time search and iterative state refinement successfully recover degraded information versus when state collapse is irreversible.
 4. **Distinguish Frontier BDH/BDH-CQ from Educational Surrogates:** Articulate the precise architectural distinctions between simplified client-side educational models and multi-billion-parameter continuous-querying production systems.
 
 ### 3.4 Learner Journey (Four-Phase Structured Progression)
@@ -135,10 +135,10 @@ By completing the laboratory experiments, learners will be able to:
 │ Experiment ID     │ Test Mechanism                │ Falsification Objective │
 ├───────────────────┼───────────────────────────────┼─────────────────────────┤
 │ EXP-1: Delayed    │ Needle retrieval over lag k   │ Reject zero-memory H0   │
-│ EXP-2: Long-Horiz │ Clutter noise scaling with T  │ Prove SNR decay with T  │
-│ EXP-3: Interfere  │ Key overwrite / recency bias  │ Prove destructive loss  │
+│ EXP-2: Long-Horiz │ Clutter noise scaling with T  │ Test SNR decay with T   │
+│ EXP-3: Interfere  │ Key overwrite / recency bias  │ Test destructive loss   │
 │ EXP-4: Capacity   │ Load scaling beyond rank d    │ Find rank capacity wall │
-│ EXP-5: Test-Time  │ Recurrent probe / search step │ Prove recovery bounds   │
+│ EXP-5: Test-Time  │ Recurrent probe / search step │ Test recovery bounds    │
 └───────────────────┴───────────────────────────────┴─────────────────────────┘
 ```
 
@@ -157,14 +157,14 @@ By completing the laboratory experiments, learners will be able to:
 ### 5.3 Experiment 3: Interference & Conflicting Key Updates
 - **Protocol:** Inject `[KEY_A, VAL_1]`, followed by intermediate tokens, then inject `[KEY_A, VAL_2]`, up to $N_{conflicts}$ overwrites. At the end, prompt model with `[QUERY_RECENT, KEY_A]` and `[QUERY_PRIMACY, KEY_A]`.
 - **Sweep:** $N_{conflicts} \in \{1, 2, 3, 5, 8\}$.
-- **Expected Outcome:** Recency-weighted models (e.g., standard SSMs with decay) retain $\text{VAL}_{latest}$ while completely erasing $\text{VAL}_1$.
-- **Falsification Criterion:** Demonstrates that conflicting updates cause unrecoverable overwrite without dynamic routing/selective gating.
+- **Expected Outcome:** Recency-weighted models (e.g., standard SSMs with decay) retain $\text{VAL}_{latest}$ while attenuating $\text{VAL}_1$.
+- **Falsification Criterion:** Evaluates how conflicting updates cause unrecoverable overwrite without dynamic routing/selective gating.
 
 ### 5.4 Experiment 4: Capacity Stress Test (Subspace Overcrowding)
 - **Protocol:** Pack $N_{keys} \in \{2, 4, 8, 16, 32, 64, 128\}$ unique key-value pairs into a fixed state of dimension $d=32$. Query all $N_{keys}$ at sequence termination.
 - **Sweep:** Load ratio $\alpha = N_{keys} / d \in [0.0625, 4.0]$.
 - **Expected Outcome:** Sharp phase transition (capacity drop) when $\alpha > \alpha_{\text{critical}} \approx 0.5$ for vector states and $\alpha > 1.0$ for matrix associative states.
-- **Falsification Criterion:** Proves the finite capacity bound of $\mathcal{O}(1)$ state structures.
+- **Falsification Criterion:** Tests the predicted capacity/interference boundary in the educational associative-memory model.
 
 ### 5.5 Experiment 5: Inference-Time Recovery & Refinement
 - **Protocol:** Take degraded states from Exp 3 & Exp 4 (where single-pass accuracy is $20\%-50\%$). Apply test-time refinement:
@@ -173,7 +173,7 @@ By completing the laboratory experiments, learners will be able to:
   - Mode C: Test-Time Fast-Weight Gradient Step.
 - **Sweep:** Compute budget $C_{infer} \in \{1, 2, 4, 8, 16, 25\}$.
 - **Expected Outcome:** Significant accuracy recovery ($\Delta Acc \approx +15\% \dots +35\%$) in moderate-interference regimes; $0\%$ recovery in collapsed regimes.
-- **Falsification Criterion:** Proves that inference-time compute can *sometimes* recover signal, but cannot reconstruct information that has completely left the subspace.
+- **Falsification Criterion:** Tests whether inference-time compute can *sometimes* recover signal, but cannot reconstruct information that has completely left the subspace.
 
 ---
 
@@ -230,17 +230,17 @@ To guarantee high interactive responsiveness (sub-16ms 60fps rendering) while ma
 
 ## 8. Official BDH & BDH-CQ Alignment & Boundaries
 
-### 8.1 The BDH Connection
-- **Bi-Directional Dynamic Horizons (BDH)** represents the architectural frontier in continuous-horizon sequence representation.
-- In BDH, temporal horizons are dynamic rather than fixed, allowing the model to adaptively expand or contract its effective memory window based on information density.
-- Our laboratory demonstrates this principle at the micro-level through **Selective State Gating ($\Delta_t$)** and **Adaptive State Decay ($\lambda_t$)**.
+### 8.1 The BDH Connection (The Dragon Hatchling)
+- **BDH (The Dragon Hatchling)** (Kosowski et al., arXiv:2509.26507, 2025) represents an architecture exploring evolving internal associative states and brain-inspired local plasticity mechanisms.
+- In evolving internal state architectures, memory representations are updated via local interaction dynamics without unbounded $\mathcal{O}(T)$ KV cache memory growth.
+- Our laboratory demonstrates this principle at the micro-level through **Selective State Gating ($\Delta_t$)** and **Associative Fast-Weights ($S_t$)**.
 
-### 8.2 The BDH-CQ Connection
-- **Continuous Querying (CQ)** allows continuous-time interrogation of the state trajectory, decoupling readout frequency from token arrival steps.
-- In our laboratory, the inference-time recovery experiments directly mirror CQ principles: rather than treating the final state as a static static vector, test-time refinement treats $h_T$ as an energy landscape to be continuously queried and settled.
+### 8.2 The BDH-CQ Connection (Recurrent Latent Reasoning)
+- **BDH-CQ** (Engdahl et al., arXiv:2608.09888, 2026) investigates in-context learning with recurrent latent reasoning, decoupling memory footprint from query deliberation depth through test-time computation over latent state.
+- In our laboratory, the inference-time recovery experiments examine a related hypothesis: testing whether allocating additional test-time computation over an evolving state representation improves signal recovery under interference conditions.
 
-### 8.3 Strict Boundary: Official BDH Evidence vs Educational Toy Implementation
-- **Official BDH/BDH-CQ:** Refers strictly to the large-scale multi-GPU foundation models, official technical specifications, and production benchmarks published by the Pathway Track / DataForge foundation.
+### 8.3 Strict Boundary: Published Research vs Educational Toy Implementation
+- **Published BDH/BDH-CQ Research:** Refers strictly to the research architectures and foundations published in primary literature (Kosowski et al., 2025; Engdahl et al., 2026).
 - **Our Toy Implementation:** An educational surrogate designed exclusively for intuitive conceptual understanding, parameter exploration, and pedagogical transparency.
 - **Rule:** The user interface, code comments, and documentation must NEVER claim or imply that the in-browser model contains official BDH production weights.
 

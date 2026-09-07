@@ -119,7 +119,7 @@ const STAGES: StageConfig[] = [
     name: "4. RECOVER",
     badge: "Inference-Time Scaling",
     objective: "Witness how additional inference computation (K > 1) de-noises cross-talk and recovers the answer.",
-    explanation: "Rather than guessing in a single pass, BDH Continuous Querying (CQ) relaxes the probe along the state energy landscape ∇_q E, settling into the true memory attractor well.",
+    explanation: "Rather than guessing in a single pass, test-time deliberation iterates over the latent state representation to de-noise the probe and recover the superimposed signal.",
     modelType: "educational_evolving_memory_toy",
     defaultL: 80,
     defaultM: 6,
@@ -127,11 +127,11 @@ const STAGES: StageConfig[] = [
     defaultK: 8,
     activeControl: "K",
     controlPrompt: "Keep interference at 55% but increase Inference Effort (K) from 1 to 8 cycles.",
-    consequence: "The D3 energy landscape settles and the model successfully recovers the EXACT MATCH!",
+    consequence: "The iterative deliberation settles and the model recovers the target value!",
     question: {
       prompt: "How does test-time deliberation (K > 1) recover the correct value?",
       options: [
-        { text: "Iterative gradient descent sharpens the query probe toward the energy minimum.", correct: true, feedback: "Correct! Continuous Querying acts as an associative de-noising filter." },
+        { text: "Iterative deliberation sharpens the query probe to resolve superimposed coordinates.", correct: true, feedback: "Correct! Test-time compute acts as an associative de-noising filter." },
         { text: "It asks another LLM for the answer.", correct: false, feedback: "Incorrect." },
         { text: "It doubles the model's parameter weights permanently.", correct: false, feedback: "Incorrect. Weights remain fixed; only inference compute scales." }
       ]
@@ -165,7 +165,7 @@ const STAGES: StageConfig[] = [
     name: "6. MEET BDH",
     badge: "Architectural Standard & Boundary",
     objective: "Understand the BDH foundation standard and why our educational model is a micro-surrogate.",
-    explanation: "Official BDH scales continuous state spaces across multi-GPU foundation clusters. Our educational toy (d=32) provides transparent client-side exploration without hidden weights.",
+    explanation: "The Dragon Hatchling (BDH) explores evolving associative internal states at scale (Kosowski et al., 2025). Our educational toy (d=32) provides transparent client-side exploration of persistence, capacity, and recovery.",
     modelType: "educational_evolving_memory_toy",
     defaultL: 64,
     defaultM: 6,

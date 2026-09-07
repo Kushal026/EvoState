@@ -23,8 +23,9 @@ A high-performance computational research engine and interactive laboratory desi
 | Document | Description |
 | :--- | :--- |
 | 📄 **[One-Page Concept Summary (PDF)](one_page_concept_summary.pdf)** | Executive scientific summary, architecture matrix, and empirical sweeps on a single page. |
+| 📰 **[DataForge Blog Article (PDF)](blog.pdf)** | Comprehensive educational and research publication blog covering problem, mechanics, results, and defense. |
 | 🧪 **[Methodology & Protocols](METHODOLOGY.md)** | Mathematical formalisms, state update equations, attractor dynamics, and empirical protocols. |
-| 📚 **[Research Bibliography](BIBLIOGRAPHY.md)** | Primary citations (Sun et al. 2025, Gu & Dao 2023, Snell et al. 2024), DOIs, and BibTeX entries. |
+| 📚 **[Research Bibliography](BIBLIOGRAPHY.md)** | Primary citations (Kosowski et al. 2025, Engdahl et al. 2026, Gu & Dao 2023, Snell et al. 2024), DOIs, and BibTeX entries. |
 | 🏷️ **[Evidence Classification Standard](EVIDENCE_CLASSIFICATION.md)** | Strict 4-tier taxonomy mapping every single claim in the project. |
 | ⚖️ **[Source & License Record](ATTRIBUTION_AND_LICENSES.md)** | Open source MIT license, dependency catalog, and data attribution. |
 | 🤖 **[AI Assistance Disclosure](AI_DISCLOSURE.md)** | Transparent disclosure of AI pair-programming, test verification, and oversight. |
@@ -58,7 +59,7 @@ This single script executes all 2,700 trials, re-calculates summary statistics, 
 python -m pytest -v
 ```
 
-### 3. Launch FastAPI REST Service
+### 3. Launch FastAPI REST Service (Optional Local Backend)
 ```powershell
 python -m uvicorn evostate.server.app:app --host 127.0.0.1 --port 8000 --reload
 ```
@@ -78,14 +79,14 @@ Open `http://localhost:3000` to launch the research laboratory.
 
 The Next.js application requires no login, no authentication, and works completely offline via native client simulation if the FastAPI server is not active:
 
-- **`/` (Home):** Executive Laboratory, immediate state compression proof, and embedded 60-Second Rapid Run.
+- **`/` (Home):** Executive Laboratory, immediate state compression overview, and embedded 60-Second Rapid Run.
 - **`/lab` (Interactive Laboratory):** 3 integrated modes:
   - `60-Second Experiment`: 5-step guided rapid run with unmanipulated claim verdict.
   - `Guided Discovery`: 7-stage structured pedagogy with concept checks.
   - `Open Workbench`: Live 4-control parameter studio ($L, M, p, K$) with D3 coordinate heatmaps.
 - **`/concept` (Theory):** Mathematical formalisms, outer product binding, Johnson-Lindenstrauss limits, and 5-model $\times$ 8-dimension architecture comparison.
-- **`/bdh` (BDH Standard):** Primary equations, neuron/synapse mathematical duality, linear-time proofs, and official evidence boundaries.
-- **`/bdh-cq` (BDH-CQ Scaling):** 3-tier adaptation taxonomy, interactive D3 non-convex energy landscape attractor settling, and Pareto scaling frontier.
+- **`/bdh` (BDH: The Dragon Hatchling):** Mathematical foundations from Kosowski et al. (2025), evolving internal state, linear time complexity, and evidence boundaries.
+- **`/bdh-cq` (BDH-CQ: Latent Reasoning):** In-context learning with recurrent latent reasoning (Engdahl et al., 2026), interactive D3 energy landscapes, and test-time Pareto cost curves.
 - **`/research` (Empirical Sweeps):** High-resolution 300 DPI plot viewer, CSV/JSON data downloads, and literature review.
 - **`/about` (Judge Defense Sheet):** Complete specification, project objectives, and expandable FAQ cards for all critical judge defense questions.
 

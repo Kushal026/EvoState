@@ -5,25 +5,25 @@
 
 ---
 
-## 🛑 1. Educational Toy Model vs. Production BDH
+## 🛑 1. Educational Toy Model vs. Published BDH Architecture
 
-| Aspect | `educational_evolving_memory_toy` (Our Engine) | Production BDH (Sun et al., 2025) |
+| Aspect | `educational_evolving_memory_toy` (Our Engine) | Published BDH Architecture (Kosowski et al., 2025) |
 | :--- | :--- | :--- |
-| **Model Size / Parameters** | Isolated $d=32$ fast-weight matrix ($~2\text{K}$ parameters). | Billions of parameters ($10\text{B}+$ parameters). |
-| **Training Paradigm** | Algorithmic synthetic key-value bindings; zero pre-training corpus. | Massive autoregressive pre-training on natural language and code corpora. |
-| **Recurrent Fast-Weight Rank** | Single 2D matrix layer ($32 \times 32$). | Deep stacked multi-layer multi-head associative layers. |
-| **Inference Mechanism** | Normalized iterative matrix-vector attractor settling loop. | Deep continuous querying (BDH-CQ) over multi-layer representations. |
-| **Scientific Claim** | Pedagogical demonstration of the mathematical properties of associative states. | Full-scale LLM benchmark performance surpassing standard Transformers at scale. |
+| **Model Size / Parameters** | Isolated $d=32$ fast-weight matrix ($~2\text{K}$ parameters). | Large-scale deep language model architecture. |
+| **Training Paradigm** | Algorithmic synthetic key-value bindings; zero pre-training corpus. | Autoregressive pre-training on large language corpora. |
+| **Recurrent Fast-Weight Rank** | Single 2D matrix layer ($32 \times 32$). | Deep stacked multi-layer associative representations. |
+| **Inference Mechanism** | Normalized iterative matrix-vector settling loop. | In-context reasoning over evolving internal representations. |
+| **Scientific Claim** | Pedagogical demonstration of the mathematical properties of associative states. | Post-Transformer sequence modeling connecting attention and brain-inspired computation. |
 
-> **Critical Guideline:** The educational toy model is **never** presented as production BDH. It exists exclusively to illuminate the mathematical mechanics of associative memory in real-time browser interactions.
+> **Critical Guideline:** The educational toy model is **never** presented as the official BDH model. It exists exclusively to illuminate the mathematical mechanics of associative memory in real-time browser interactions.
 
 ---
 
 ## 🧠 2. Disclaimer Regarding Biological Neural Analogy
 
-- **Synapse / Neuron Duality:** The paper by *Sun et al. (2025)* notes a structural analogy between neuron activations (vectors) and synaptic weights (matrices).
+- **Synapse / Neuron Duality:** Literature such as *Kosowski et al. (2025)* explores the conceptual link between neural network activations/weights and brain models.
 - **Non-Biological Reality:** Our computational models use idealized linear algebra (outer products, Euclidean normalization, cosine similarity). They do **not** simulate biological action potentials, neurotransmitters, spike-timing-dependent plasticity (STDP), or dendritic arborization.
-- **Pedagogical Framing:** We explicitly state on all visualizations: *"Educational visualization of the model's computational state. (Illustrative Animation)"*.
+- **Pedagogical Framing:** We explicitly state on all visualizations: *"Educational visualization of the model's computational state (Illustrative Animation)"*.
 
 ---
 

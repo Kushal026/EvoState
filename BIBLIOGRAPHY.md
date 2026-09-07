@@ -8,19 +8,29 @@
 
 ## 📚 1. Primary Foundational Sources
 
-### [1] BDH Architecture: Deep Associative Memory & Post-Transformer Computation
-- **Title:** *BDH: Beyond Transformer with Deep Associative Memory*
-- **Authors:** Sun, Y., et al.
+### [1] BDH Architecture: The Dragon Hatchling (Biological-Transformer Link)
+- **Title:** *The Dragon Hatchling: The Missing Link between the Transformer and Models of the Brain*
+- **Authors:** Adrian Kosowski, Przemysław Uznański, Jan Chorowski, Zuzanna Stamirowska, Michał Bartoszkiewicz
 - **Year:** 2025
-- **Archive / Link:** [arXiv:2501.xxxxx / Primary Preprint](https://arxiv.org/)
+- **Archive / Link:** [arXiv:2509.26507](https://arxiv.org/abs/2509.26507)
 - **Key Concepts Cited:**
-  - Reformulation of attention as associative memory retrieval over synaptic matrix weights.
-  - Linear time $\mathcal{O}(N)$ sequence scaling through recurrent fast-weight updates.
-  - Dual perspective: Neuron activations as signals, synaptic connections as evolving matrix memory states ($M_t = \lambda M_{t-1} + v_t k_t^\top$).
-  - Continuous Querying (BDH-CQ) test-time energy landscape settling.
-- **Project Role:** Primary architectural basis for conceptual comparison on `/bdh` and `/bdh-cq`.
+  - Biologically inspired architecture exploring alternatives to standard Transformer-style quadratic processing.
+  - Evolving internal / associative recurrent state mechanism and local interaction / synaptic plasticity dynamics.
+  - Linear-time sequence computation with compact internal state representation.
+- **Project Role:** Primary conceptual foundation for evolving recurrent state dynamics discussed on `/bdh`.
 
-### [2] Selective State Spaces: Linear-Time Sequence Modeling
+### [2] BDH-CQ Architecture: Recurrent Latent Reasoning
+- **Title:** *BDH-CQ: In-Context Learning with Recurrent Latent Reasoning*
+- **Authors:** Björn Engdahl et al.
+- **Year:** 2026
+- **Archive / Link:** [arXiv:2608.09888](https://arxiv.org/abs/2608.09888)
+- **Key Concepts Cited:**
+  - In-context learning combined with recurrent latent reasoning and inference-time deliberation.
+  - Decoupling memory footprint from query deliberation depth through test-time computation over latent state.
+  - Iterative refinement and attractor dynamics in recurrent representation spaces.
+- **Project Role:** Primary literature basis for test-time inference scaling concepts examined on `/bdh-cq`.
+
+### [3] Selective State Spaces: Linear-Time Sequence Modeling
 - **Title:** *Mamba: Linear-Time Sequence Modeling with Selective State Spaces*
 - **Authors:** Gu, A., & Dao, T.
 - **Year:** 2023 / 2024
@@ -31,7 +41,7 @@
   - Hardware-efficient associative parallel scans.
 - **Project Role:** Conceptual foundation for the dynamic gating mechanism implemented in `evostate/models/educational_toy.py`.
 
-### [3] Inference-Time Scaling & Test-Time Compute Optimization
+### [4] Inference-Time Scaling & Test-Time Compute Optimization
 - **Title:** *Scaling LLM Test-Time Compute Optimally Can Be More Effective than Scaling Pre-training*
 - **Authors:** Snell, C., Lee, J., Xu, K., & Kumar, A.
 - **Year:** 2024
@@ -42,39 +52,46 @@
   - Iterative revision, verification, and search over ambiguous representations.
 - **Project Role:** Experimental protocol foundation for our $C_{\text{infer}} \in [1, 25]$ sweep and interactive Pareto chart on `/bdh-cq`.
 
+### [5] Test-Time Training: Expressive Hidden States
+- **Title:** *Learning to (Learn at Test Time): RNNs with Expressive Hidden States*
+- **Authors:** Sun, Y., Li, X., et al.
+- **Year:** 2024
+- **Archive / Link:** [arXiv:2407.04620](https://arxiv.org/abs/2407.04620)
+- **Key Concepts Cited:** Test-time gradient descent on hidden state matrices as self-supervised in-context learning.
+
 ---
 
 ## 🏛️ 2. Foundational Associative Memory & Recurrent Theory
 
-### [4] Neural Turing Machines & Memory Networks
+### [6] Neural Turing Machines & Memory Networks
 - **Title:** *Neural Turing Machines*
 - **Authors:** Graves, A., Wayne, G., & Danihelka, I.
 - **Year:** 2014
 - **Archive / Link:** [arXiv:1410.5401](https://arxiv.org/abs/1410.5401)
 - **Key Concepts Cited:** Differentiable memory read/write heads, content-based addressing, and external memory buffers.
 
-### [5] Associative Matrix Memory & Fast Weights
+### [7] Associative Matrix Memory & Fast Weights
 - **Title:** *Using Fast Weights to Store Temporary Memories*
 - **Authors:** Ba, J., Hinton, G. E., Mnih, V., Leibo, J. Z., & Ionescu, C.
 - **Year:** 2016
 - **Archive / Link:** [arXiv:1610.06258](https://arxiv.org/abs/1610.06258)
 - **Key Concepts Cited:** Outer-product matrix memory states ($W_{\text{fast}} = \lambda W_{\text{fast}} + \eta v k^\top$) operating alongside slow weights.
 
-### [6] Hopfield Networks & Attractor Energy Landscapes
+### [8] Hopfield Networks & Attractor Energy Landscapes
 - **Title:** *Neural networks and physical systems with emergent collective computational abilities*
 - **Authors:** Hopfield, J. J.
 - **Year:** 1982
 - **Journal:** *Proceedings of the National Academy of Sciences (PNAS)*, 79(8), 2554-2558.
 - **Key Concepts Cited:** Energy landscape minimization $\mathcal{E}(s) = -\frac{1}{2} s^\top W s$, associative retrieval capacity limit ($\alpha_c \approx 0.14 N$).
 
-### [7] Modern Hopfield Networks & Dense Associative Memory
+### [9] Modern Hopfield Networks & Dense Associative Memory
 - **Title:** *Hopfield Networks is All You Need*
 - **Authors:** Ramsauer, H., Schäfl, B., Lehner, J., et al.
 - **Year:** 2020
 - **Archive / Link:** [arXiv:2008.02217](https://arxiv.org/abs/2008.02217)
-- **Key Concepts Cited:** Continuous modern Hopfield state updates and their mathematical equivalence to self-attention mechanisms.
+- **Key Concepts Cited:** Continuous modern Hopfield state updates and their mathematical relationship to self-attention mechanisms.
 
-### [8] High-Dimensional Vector Embeddings & Superposition Limits
+### [10] High-Dimensional Vector Embeddings & Superposition Limits
 - **Title:** *Extensions of Lipschitz Mappings into a Hilbert Space*
 - **Authors:** Johnson, W. B., & Lindenstrauss, J.
 - **Year:** 1984
@@ -86,11 +103,18 @@
 ## 📋 3. BibTeX Citation Registry
 
 ```bibtex
-@article{sun2025bdh,
-  title={BDH: Beyond Transformer with Deep Associative Memory},
-  author={Sun, Y. and collaborators},
-  journal={arXiv preprint},
+@article{kosowski2025dragon,
+  title={The Dragon Hatchling: The Missing Link between the Transformer and Models of the Brain},
+  author={Kosowski, Adrian and Uzna{\'n}ski, Przemys{\l}aw and Chorowski, Jan and Stamirowska, Zuzanna and Bartoszkiewicz, Micha{\l}},
+  journal={arXiv preprint arXiv:2509.26507},
   year={2025}
+}
+
+@article{engdahl2026bdhcq,
+  title={BDH-CQ: In-Context Learning with Recurrent Latent Reasoning},
+  author={Engdahl, Bj{\"o}rn and collaborators},
+  journal={arXiv preprint arXiv:2608.09888},
+  year={2026}
 }
 
 @article{gu2023mamba,
@@ -104,6 +128,13 @@
   title={Scaling LLM Test-Time Compute Optimally Can Be More Effective than Scaling Pre-training},
   author={Snell, Charlie and Lee, Jaehoon and Xu, Kelvin and Kumar, Aviral},
   journal={arXiv preprint arXiv:2408.03314},
+  year={2024}
+}
+
+@article{sun2024ttt,
+  title={Learning to (Learn at Test Time): RNNs with Expressive Hidden States},
+  author={Sun, Yutao and Li, Xiesheng and others},
+  journal={arXiv preprint arXiv:2407.04620},
   year={2024}
 }
 
@@ -124,3 +155,4 @@
   year={1982}
 }
 ```
+

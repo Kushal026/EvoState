@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-06 01:48:09",
+  "timestamp": "2026-09-07 20:21:25",
   "base_seed": 42,
   "summary": [
     {
@@ -16,10 +16,10 @@
       "ci95_accuracy_high": 0.2571,
       "mean_error_rate": 0.8667,
       "std_error_rate": 0.3457,
-      "mean_latency_ms": 5.529,
-      "std_latency_ms": 4.395,
-      "median_latency_ms": 3.983,
-      "p95_latency_ms": 16.518,
+      "mean_latency_ms": 22.443,
+      "std_latency_ms": 2.174,
+      "median_latency_ms": 22.627,
+      "p95_latency_ms": 25.752,
       "mean_inference_steps": 1.0
     },
     {
@@ -36,10 +36,10 @@
       "ci95_accuracy_high": 0.2571,
       "mean_error_rate": 0.8667,
       "std_error_rate": 0.3457,
-      "mean_latency_ms": 6.181,
-      "std_latency_ms": 5.294,
-      "median_latency_ms": 3.869,
-      "p95_latency_ms": 17.987,
+      "mean_latency_ms": 21.89,
+      "std_latency_ms": 1.418,
+      "median_latency_ms": 21.919,
+      "p95_latency_ms": 24.169,
       "mean_inference_steps": 2.0
     },
     {
@@ -56,10 +56,10 @@
       "ci95_accuracy_high": 0.2092,
       "mean_error_rate": 0.9,
       "std_error_rate": 0.3051,
-      "mean_latency_ms": 6.842,
-      "std_latency_ms": 5.645,
-      "median_latency_ms": 3.894,
-      "p95_latency_ms": 18.026,
+      "mean_latency_ms": 22.274,
+      "std_latency_ms": 1.849,
+      "median_latency_ms": 22.197,
+      "p95_latency_ms": 24.7,
       "mean_inference_steps": 3.0
     },
     {
@@ -76,10 +76,10 @@
       "ci95_accuracy_high": 0.3873,
       "mean_error_rate": 0.7667,
       "std_error_rate": 0.4302,
-      "mean_latency_ms": 7.931,
-      "std_latency_ms": 6.425,
-      "median_latency_ms": 4.227,
-      "p95_latency_ms": 18.791,
+      "mean_latency_ms": 23.445,
+      "std_latency_ms": 2.156,
+      "median_latency_ms": 23.374,
+      "p95_latency_ms": 26.971,
       "mean_inference_steps": 4.0
     },
     {
@@ -96,10 +96,10 @@
       "ci95_accuracy_high": 0.3456,
       "mean_error_rate": 0.8,
       "std_error_rate": 0.4068,
-      "mean_latency_ms": 7.263,
-      "std_latency_ms": 6.233,
-      "median_latency_ms": 4.218,
-      "p95_latency_ms": 20.361,
+      "mean_latency_ms": 24.212,
+      "std_latency_ms": 2.186,
+      "median_latency_ms": 24.136,
+      "p95_latency_ms": 28.128,
       "mean_inference_steps": 6.0
     },
     {
@@ -116,10 +116,10 @@
       "ci95_accuracy_high": 0.2092,
       "mean_error_rate": 0.9,
       "std_error_rate": 0.3051,
-      "mean_latency_ms": 8.443,
-      "std_latency_ms": 7.101,
-      "median_latency_ms": 3.865,
-      "p95_latency_ms": 21.16,
+      "mean_latency_ms": 25.337,
+      "std_latency_ms": 1.723,
+      "median_latency_ms": 25.202,
+      "p95_latency_ms": 28.813,
       "mean_inference_steps": 8.0
     },
     {
@@ -136,10 +136,10 @@
       "ci95_accuracy_high": 0.3023,
       "mean_error_rate": 0.8333,
       "std_error_rate": 0.379,
-      "mean_latency_ms": 6.978,
-      "std_latency_ms": 5.874,
-      "median_latency_ms": 4.793,
-      "p95_latency_ms": 22.142,
+      "mean_latency_ms": 28.282,
+      "std_latency_ms": 2.072,
+      "median_latency_ms": 27.981,
+      "p95_latency_ms": 31.437,
       "mean_inference_steps": 12.0
     },
     {
@@ -156,10 +156,10 @@
       "ci95_accuracy_high": 0.3023,
       "mean_error_rate": 0.8333,
       "std_error_rate": 0.379,
-      "mean_latency_ms": 8.088,
-      "std_latency_ms": 7.343,
-      "median_latency_ms": 4.326,
-      "p95_latency_ms": 25.904,
+      "mean_latency_ms": 31.103,
+      "std_latency_ms": 2.351,
+      "median_latency_ms": 30.664,
+      "p95_latency_ms": 35.075,
       "mean_inference_steps": 16.0
     },
     {
@@ -176,10 +176,10 @@
       "ci95_accuracy_high": 0.0987,
       "mean_error_rate": 0.9667,
       "std_error_rate": 0.1826,
-      "mean_latency_ms": 6.208,
-      "std_latency_ms": 4.938,
-      "median_latency_ms": 3.121,
-      "p95_latency_ms": 14.237,
+      "mean_latency_ms": 18.036,
+      "std_latency_ms": 2.359,
+      "median_latency_ms": 17.547,
+      "p95_latency_ms": 21.816,
       "mean_inference_steps": 1.0
     },
     {
@@ -196,10 +196,10 @@
       "ci95_accuracy_high": 0.1575,
       "mean_error_rate": 0.9333,
       "std_error_rate": 0.2537,
-      "mean_latency_ms": 6.108,
-      "std_latency_ms": 4.576,
-      "median_latency_ms": 3.441,
-      "p95_latency_ms": 14.209,
+      "mean_latency_ms": 18.778,
+      "std_latency_ms": 1.982,
+      "median_latency_ms": 18.624,
+      "p95_latency_ms": 21.997,
       "mean_inference_steps": 1.0
     },
     {
@@ -216,10 +216,10 @@
       "ci95_accuracy_high": 0.0987,
       "mean_error_rate": 0.9667,
       "std_error_rate": 0.1826,
-      "mean_latency_ms": 4.514,
-      "std_latency_ms": 3.724,
-      "median_latency_ms": 3.172,
-      "p95_latency_ms": 13.969,
+      "mean_latency_ms": 17.645,
+      "std_latency_ms": 1.617,
+      "median_latency_ms": 17.862,
+      "p95_latency_ms": 20.206,
       "mean_inference_steps": 1.0
     },
     {
@@ -236,10 +236,10 @@
       "ci95_accuracy_high": 0.2092,
       "mean_error_rate": 0.9,
       "std_error_rate": 0.3051,
-      "mean_latency_ms": 3.382,
-      "std_latency_ms": 0.386,
-      "median_latency_ms": 3.423,
-      "p95_latency_ms": 3.797,
+      "mean_latency_ms": 18.186,
+      "std_latency_ms": 1.82,
+      "median_latency_ms": 18.355,
+      "p95_latency_ms": 20.406,
       "mean_inference_steps": 1.0
     },
     {
@@ -256,10 +256,10 @@
       "ci95_accuracy_high": 0.0987,
       "mean_error_rate": 0.9667,
       "std_error_rate": 0.1826,
-      "mean_latency_ms": 5.2,
-      "std_latency_ms": 4.085,
-      "median_latency_ms": 3.494,
-      "p95_latency_ms": 15.904,
+      "mean_latency_ms": 18.752,
+      "std_latency_ms": 1.875,
+      "median_latency_ms": 19.023,
+      "p95_latency_ms": 21.525,
       "mean_inference_steps": 1.0
     },
     {
@@ -276,10 +276,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 3.421,
-      "std_latency_ms": 0.491,
-      "median_latency_ms": 3.457,
-      "p95_latency_ms": 4.096,
+      "mean_latency_ms": 18.525,
+      "std_latency_ms": 2.388,
+      "median_latency_ms": 18.12,
+      "p95_latency_ms": 21.015,
       "mean_inference_steps": 1.0
     },
     {
@@ -296,10 +296,10 @@
       "ci95_accuracy_high": 0.0987,
       "mean_error_rate": 0.9667,
       "std_error_rate": 0.1826,
-      "mean_latency_ms": 6.047,
-      "std_latency_ms": 4.717,
-      "median_latency_ms": 3.406,
-      "p95_latency_ms": 15.411,
+      "mean_latency_ms": 17.635,
+      "std_latency_ms": 1.49,
+      "median_latency_ms": 17.483,
+      "p95_latency_ms": 20.239,
       "mean_inference_steps": 1.0
     },
     {
@@ -316,10 +316,10 @@
       "ci95_accuracy_high": 0.1575,
       "mean_error_rate": 0.9333,
       "std_error_rate": 0.2537,
-      "mean_latency_ms": 3.397,
-      "std_latency_ms": 0.615,
-      "median_latency_ms": 3.353,
-      "p95_latency_ms": 4.018,
+      "mean_latency_ms": 17.798,
+      "std_latency_ms": 1.509,
+      "median_latency_ms": 17.861,
+      "p95_latency_ms": 19.774,
       "mean_inference_steps": 1.0
     },
     {
@@ -336,10 +336,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 4.351,
-      "std_latency_ms": 3.418,
-      "median_latency_ms": 2.69,
-      "p95_latency_ms": 11.362,
+      "mean_latency_ms": 4.618,
+      "std_latency_ms": 3.829,
+      "median_latency_ms": 2.671,
+      "p95_latency_ms": 11.93,
       "mean_inference_steps": 1.0
     },
     {
@@ -356,10 +356,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 4.76,
-      "std_latency_ms": 3.81,
-      "median_latency_ms": 2.74,
-      "p95_latency_ms": 12.019,
+      "mean_latency_ms": 4.076,
+      "std_latency_ms": 3.171,
+      "median_latency_ms": 2.702,
+      "p95_latency_ms": 11.36,
       "mean_inference_steps": 1.0
     },
     {
@@ -376,10 +376,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 3.882,
-      "std_latency_ms": 3.032,
-      "median_latency_ms": 2.58,
-      "p95_latency_ms": 10.771,
+      "mean_latency_ms": 4.982,
+      "std_latency_ms": 3.655,
+      "median_latency_ms": 2.841,
+      "p95_latency_ms": 11.329,
       "mean_inference_steps": 1.0
     },
     {
@@ -396,10 +396,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 5.525,
-      "std_latency_ms": 4.343,
-      "median_latency_ms": 2.81,
-      "p95_latency_ms": 13.118,
+      "mean_latency_ms": 2.738,
+      "std_latency_ms": 0.349,
+      "median_latency_ms": 2.724,
+      "p95_latency_ms": 3.067,
       "mean_inference_steps": 1.0
     },
     {
@@ -416,10 +416,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 4.4,
-      "std_latency_ms": 3.591,
-      "median_latency_ms": 2.798,
-      "p95_latency_ms": 11.9,
+      "mean_latency_ms": 6.963,
+      "std_latency_ms": 5.816,
+      "median_latency_ms": 2.95,
+      "p95_latency_ms": 16.359,
       "mean_inference_steps": 1.0
     },
     {
@@ -436,10 +436,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 5.676,
-      "std_latency_ms": 4.305,
-      "median_latency_ms": 2.877,
-      "p95_latency_ms": 12.228,
+      "mean_latency_ms": 15.642,
+      "std_latency_ms": 2.178,
+      "median_latency_ms": 15.514,
+      "p95_latency_ms": 18.579,
       "mean_inference_steps": 1.0
     },
     {
@@ -456,10 +456,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 5.194,
-      "std_latency_ms": 3.74,
-      "median_latency_ms": 2.844,
-      "p95_latency_ms": 11.333,
+      "mean_latency_ms": 13.713,
+      "std_latency_ms": 4.39,
+      "median_latency_ms": 14.435,
+      "p95_latency_ms": 19.295,
       "mean_inference_steps": 1.0
     },
     {
@@ -476,10 +476,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 6.264,
-      "std_latency_ms": 4.326,
-      "median_latency_ms": 3.311,
-      "p95_latency_ms": 12.281,
+      "mean_latency_ms": 14.932,
+      "std_latency_ms": 1.835,
+      "median_latency_ms": 14.517,
+      "p95_latency_ms": 18.175,
       "mean_inference_steps": 1.0
     },
     {
@@ -496,10 +496,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 2.154,
-      "std_latency_ms": 1.762,
-      "median_latency_ms": 1.215,
-      "p95_latency_ms": 5.664,
+      "mean_latency_ms": 2.166,
+      "std_latency_ms": 1.774,
+      "median_latency_ms": 1.274,
+      "p95_latency_ms": 5.82,
       "mean_inference_steps": 1.0
     },
     {
@@ -516,10 +516,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 3.364,
-      "std_latency_ms": 2.888,
-      "median_latency_ms": 2.066,
-      "p95_latency_ms": 9.792,
+      "mean_latency_ms": 3.901,
+      "std_latency_ms": 2.711,
+      "median_latency_ms": 2.219,
+      "p95_latency_ms": 8.575,
       "mean_inference_steps": 1.0
     },
     {
@@ -536,10 +536,10 @@
       "ci95_accuracy_high": 0.7149,
       "mean_error_rate": 0.4667,
       "std_error_rate": 0.5074,
-      "mean_latency_ms": 3.106,
-      "std_latency_ms": 0.429,
-      "median_latency_ms": 2.969,
-      "p95_latency_ms": 3.767,
+      "mean_latency_ms": 4.0,
+      "std_latency_ms": 2.983,
+      "median_latency_ms": 2.831,
+      "p95_latency_ms": 11.751,
       "mean_inference_steps": 1.0
     },
     {
@@ -556,10 +556,10 @@
       "ci95_accuracy_high": 0.5049,
       "mean_error_rate": 0.6667,
       "std_error_rate": 0.4795,
-      "mean_latency_ms": 6.681,
-      "std_latency_ms": 5.536,
-      "median_latency_ms": 3.513,
-      "p95_latency_ms": 15.92,
+      "mean_latency_ms": 5.814,
+      "std_latency_ms": 4.385,
+      "median_latency_ms": 3.869,
+      "p95_latency_ms": 16.032,
       "mean_inference_steps": 1.0
     },
     {
@@ -576,10 +576,10 @@
       "ci95_accuracy_high": 0.5049,
       "mean_error_rate": 0.6667,
       "std_error_rate": 0.4795,
-      "mean_latency_ms": 7.342,
-      "std_latency_ms": 6.174,
-      "median_latency_ms": 4.955,
-      "p95_latency_ms": 21.87,
+      "mean_latency_ms": 8.452,
+      "std_latency_ms": 6.915,
+      "median_latency_ms": 5.272,
+      "p95_latency_ms": 23.19,
       "mean_inference_steps": 1.0
     },
     {
@@ -596,10 +596,10 @@
       "ci95_accuracy_high": 0.2092,
       "mean_error_rate": 0.9,
       "std_error_rate": 0.3051,
-      "mean_latency_ms": 8.548,
-      "std_latency_ms": 6.339,
-      "median_latency_ms": 6.549,
-      "p95_latency_ms": 23.537,
+      "mean_latency_ms": 9.152,
+      "std_latency_ms": 7.169,
+      "median_latency_ms": 5.524,
+      "p95_latency_ms": 27.179,
       "mean_inference_steps": 1.0
     },
     {
@@ -616,10 +616,10 @@
       "ci95_accuracy_high": 0.4668,
       "mean_error_rate": 0.7,
       "std_error_rate": 0.4661,
-      "mean_latency_ms": 9.33,
-      "std_latency_ms": 6.796,
-      "median_latency_ms": 7.86,
-      "p95_latency_ms": 20.77,
+      "mean_latency_ms": 11.235,
+      "std_latency_ms": 9.846,
+      "median_latency_ms": 6.952,
+      "p95_latency_ms": 35.895,
       "mean_inference_steps": 1.0
     },
     {
@@ -636,10 +636,10 @@
       "ci95_accuracy_high": 0.0987,
       "mean_error_rate": 0.9667,
       "std_error_rate": 0.1826,
-      "mean_latency_ms": 1.452,
-      "std_latency_ms": 0.488,
-      "median_latency_ms": 1.311,
-      "p95_latency_ms": 1.987,
+      "mean_latency_ms": 6.008,
+      "std_latency_ms": 0.553,
+      "median_latency_ms": 5.911,
+      "p95_latency_ms": 7.134,
       "mean_inference_steps": 1.0
     },
     {
@@ -656,10 +656,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 4.006,
-      "std_latency_ms": 2.912,
-      "median_latency_ms": 1.878,
-      "p95_latency_ms": 7.93,
+      "mean_latency_ms": 10.704,
+      "std_latency_ms": 1.568,
+      "median_latency_ms": 10.62,
+      "p95_latency_ms": 12.982,
       "mean_inference_steps": 1.0
     },
     {
@@ -676,10 +676,10 @@
       "ci95_accuracy_high": 0.0987,
       "mean_error_rate": 0.9667,
       "std_error_rate": 0.1826,
-      "mean_latency_ms": 4.816,
-      "std_latency_ms": 3.758,
-      "median_latency_ms": 2.354,
-      "p95_latency_ms": 10.703,
+      "mean_latency_ms": 13.049,
+      "std_latency_ms": 0.771,
+      "median_latency_ms": 13.066,
+      "p95_latency_ms": 14.045,
       "mean_inference_steps": 1.0
     },
     {
@@ -696,10 +696,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 6.891,
-      "std_latency_ms": 4.407,
-      "median_latency_ms": 4.687,
-      "p95_latency_ms": 12.844,
+      "mean_latency_ms": 15.86,
+      "std_latency_ms": 0.574,
+      "median_latency_ms": 15.87,
+      "p95_latency_ms": 16.756,
       "mean_inference_steps": 1.0
     },
     {
@@ -716,10 +716,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 9.012,
-      "std_latency_ms": 6.569,
-      "median_latency_ms": 4.466,
-      "p95_latency_ms": 19.8,
+      "mean_latency_ms": 17.3,
+      "std_latency_ms": 8.599,
+      "median_latency_ms": 22.115,
+      "p95_latency_ms": 25.147,
       "mean_inference_steps": 1.0
     },
     {
@@ -736,10 +736,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 8.875,
-      "std_latency_ms": 6.673,
-      "median_latency_ms": 5.659,
-      "p95_latency_ms": 24.51,
+      "mean_latency_ms": 7.835,
+      "std_latency_ms": 5.789,
+      "median_latency_ms": 5.613,
+      "p95_latency_ms": 23.834,
       "mean_inference_steps": 1.0
     },
     {
@@ -756,10 +756,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 8.174,
-      "std_latency_ms": 3.989,
-      "median_latency_ms": 6.981,
-      "p95_latency_ms": 15.078,
+      "mean_latency_ms": 10.357,
+      "std_latency_ms": 7.237,
+      "median_latency_ms": 7.13,
+      "p95_latency_ms": 28.565,
       "mean_inference_steps": 1.0
     },
     {
@@ -776,10 +776,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 0.769,
-      "std_latency_ms": 0.092,
-      "median_latency_ms": 0.749,
-      "p95_latency_ms": 0.833,
+      "mean_latency_ms": 4.448,
+      "std_latency_ms": 0.351,
+      "median_latency_ms": 4.386,
+      "p95_latency_ms": 4.981,
       "mean_inference_steps": 1.0
     },
     {
@@ -796,10 +796,10 @@
       "ci95_accuracy_high": 0.7149,
       "mean_error_rate": 0.4667,
       "std_error_rate": 0.5074,
-      "mean_latency_ms": 1.255,
-      "std_latency_ms": 0.076,
-      "median_latency_ms": 1.242,
-      "p95_latency_ms": 1.329,
+      "mean_latency_ms": 7.436,
+      "std_latency_ms": 0.714,
+      "median_latency_ms": 7.34,
+      "p95_latency_ms": 8.149,
       "mean_inference_steps": 1.0
     },
     {
@@ -816,10 +816,10 @@
       "ci95_accuracy_high": 0.4668,
       "mean_error_rate": 0.7,
       "std_error_rate": 0.4661,
-      "mean_latency_ms": 6.312,
-      "std_latency_ms": 2.918,
-      "median_latency_ms": 8.081,
-      "p95_latency_ms": 9.069,
+      "mean_latency_ms": 10.017,
+      "std_latency_ms": 0.99,
+      "median_latency_ms": 9.966,
+      "p95_latency_ms": 11.201,
       "mean_inference_steps": 1.0
     },
     {
@@ -836,10 +836,10 @@
       "ci95_accuracy_high": 0.3023,
       "mean_error_rate": 0.8333,
       "std_error_rate": 0.379,
-      "mean_latency_ms": 5.202,
-      "std_latency_ms": 4.011,
-      "median_latency_ms": 2.259,
-      "p95_latency_ms": 10.839,
+      "mean_latency_ms": 13.744,
+      "std_latency_ms": 1.281,
+      "median_latency_ms": 13.449,
+      "p95_latency_ms": 16.866,
       "mean_inference_steps": 1.0
     },
     {
@@ -856,10 +856,10 @@
       "ci95_accuracy_high": 0.3456,
       "mean_error_rate": 0.8,
       "std_error_rate": 0.4068,
-      "mean_latency_ms": 6.012,
-      "std_latency_ms": 4.74,
-      "median_latency_ms": 3.458,
-      "p95_latency_ms": 15.073,
+      "mean_latency_ms": 20.401,
+      "std_latency_ms": 1.223,
+      "median_latency_ms": 20.155,
+      "p95_latency_ms": 22.421,
       "mean_inference_steps": 1.0
     },
     {
@@ -876,10 +876,10 @@
       "ci95_accuracy_high": 0.1575,
       "mean_error_rate": 0.9333,
       "std_error_rate": 0.2537,
-      "mean_latency_ms": 6.901,
-      "std_latency_ms": 5.631,
-      "median_latency_ms": 4.454,
-      "p95_latency_ms": 19.259,
+      "mean_latency_ms": 25.932,
+      "std_latency_ms": 1.791,
+      "median_latency_ms": 26.249,
+      "p95_latency_ms": 28.615,
       "mean_inference_steps": 1.0
     },
     {
@@ -896,10 +896,10 @@
       "ci95_accuracy_high": 0.2092,
       "mean_error_rate": 0.9,
       "std_error_rate": 0.3051,
-      "mean_latency_ms": 8.143,
-      "std_latency_ms": 7.272,
-      "median_latency_ms": 5.152,
-      "p95_latency_ms": 25.516,
+      "mean_latency_ms": 35.185,
+      "std_latency_ms": 8.032,
+      "median_latency_ms": 33.329,
+      "p95_latency_ms": 49.612,
       "mean_inference_steps": 1.0
     },
     {
@@ -916,10 +916,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 1.909,
-      "std_latency_ms": 1.358,
-      "median_latency_ms": 0.903,
-      "p95_latency_ms": 3.905,
+      "mean_latency_ms": 1.212,
+      "std_latency_ms": 0.913,
+      "median_latency_ms": 0.901,
+      "p95_latency_ms": 3.4,
       "mean_inference_steps": 1.0
     },
     {
@@ -936,10 +936,10 @@
       "ci95_accuracy_high": 0.6137,
       "mean_error_rate": 0.5667,
       "std_error_rate": 0.504,
-      "mean_latency_ms": 1.989,
-      "std_latency_ms": 1.704,
-      "median_latency_ms": 1.308,
-      "p95_latency_ms": 5.613,
+      "mean_latency_ms": 2.472,
+      "std_latency_ms": 2.023,
+      "median_latency_ms": 1.395,
+      "p95_latency_ms": 6.456,
       "mean_inference_steps": 1.0
     },
     {
@@ -956,10 +956,10 @@
       "ci95_accuracy_high": 0.2571,
       "mean_error_rate": 0.8667,
       "std_error_rate": 0.3457,
-      "mean_latency_ms": 4.511,
-      "std_latency_ms": 3.341,
-      "median_latency_ms": 2.272,
-      "p95_latency_ms": 9.682,
+      "mean_latency_ms": 2.471,
+      "std_latency_ms": 0.258,
+      "median_latency_ms": 2.439,
+      "p95_latency_ms": 2.939,
       "mean_inference_steps": 1.0
     },
     {
@@ -976,10 +976,10 @@
       "ci95_accuracy_high": 0.1575,
       "mean_error_rate": 0.9333,
       "std_error_rate": 0.2537,
-      "mean_latency_ms": 6.344,
-      "std_latency_ms": 5.063,
-      "median_latency_ms": 4.072,
-      "p95_latency_ms": 17.429,
+      "mean_latency_ms": 5.901,
+      "std_latency_ms": 4.304,
+      "median_latency_ms": 4.325,
+      "p95_latency_ms": 18.243,
       "mean_inference_steps": 1.0
     },
     {
@@ -996,10 +996,10 @@
       "ci95_accuracy_high": 0.2571,
       "mean_error_rate": 0.8667,
       "std_error_rate": 0.3457,
-      "mean_latency_ms": 8.119,
-      "std_latency_ms": 6.379,
-      "median_latency_ms": 5.884,
-      "p95_latency_ms": 24.805,
+      "mean_latency_ms": 8.484,
+      "std_latency_ms": 6.779,
+      "median_latency_ms": 6.153,
+      "p95_latency_ms": 24.664,
       "mean_inference_steps": 1.0
     },
     {
@@ -1016,10 +1016,10 @@
       "ci95_accuracy_high": 0.2571,
       "mean_error_rate": 0.8667,
       "std_error_rate": 0.3457,
-      "mean_latency_ms": 9.842,
-      "std_latency_ms": 7.966,
-      "median_latency_ms": 6.995,
-      "p95_latency_ms": 31.545,
+      "mean_latency_ms": 27.459,
+      "std_latency_ms": 19.132,
+      "median_latency_ms": 30.159,
+      "p95_latency_ms": 51.244,
       "mean_inference_steps": 1.0
     },
     {
@@ -1036,10 +1036,10 @@
       "ci95_accuracy_high": 0.0987,
       "mean_error_rate": 0.9667,
       "std_error_rate": 0.1826,
-      "mean_latency_ms": 12.383,
-      "std_latency_ms": 8.585,
-      "median_latency_ms": 9.009,
-      "p95_latency_ms": 34.658,
+      "mean_latency_ms": 65.806,
+      "std_latency_ms": 8.1,
+      "median_latency_ms": 64.758,
+      "p95_latency_ms": 76.686,
       "mean_inference_steps": 1.0
     },
     {
@@ -1056,10 +1056,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 15.312,
-      "std_latency_ms": 10.978,
-      "median_latency_ms": 11.471,
-      "p95_latency_ms": 36.414,
+      "mean_latency_ms": 84.403,
+      "std_latency_ms": 8.411,
+      "median_latency_ms": 82.353,
+      "p95_latency_ms": 99.33,
       "mean_inference_steps": 1.0
     },
     {
@@ -1076,10 +1076,10 @@
       "ci95_accuracy_high": 0.8943,
       "mean_error_rate": 0.2667,
       "std_error_rate": 0.4498,
-      "mean_latency_ms": 0.874,
-      "std_latency_ms": 0.199,
-      "median_latency_ms": 0.825,
-      "p95_latency_ms": 1.309,
+      "mean_latency_ms": 0.813,
+      "std_latency_ms": 0.161,
+      "median_latency_ms": 0.808,
+      "p95_latency_ms": 1.132,
       "mean_inference_steps": 1.0
     },
     {
@@ -1096,10 +1096,10 @@
       "ci95_accuracy_high": 0.4668,
       "mean_error_rate": 0.7,
       "std_error_rate": 0.4661,
-      "mean_latency_ms": 1.76,
-      "std_latency_ms": 1.15,
-      "median_latency_ms": 1.229,
-      "p95_latency_ms": 4.588,
+      "mean_latency_ms": 1.069,
+      "std_latency_ms": 0.075,
+      "median_latency_ms": 1.067,
+      "p95_latency_ms": 1.147,
       "mean_inference_steps": 1.0
     },
     {
@@ -1116,10 +1116,10 @@
       "ci95_accuracy_high": 0.1575,
       "mean_error_rate": 0.9333,
       "std_error_rate": 0.2537,
-      "mean_latency_ms": 2.745,
-      "std_latency_ms": 2.232,
-      "median_latency_ms": 1.806,
-      "p95_latency_ms": 8.158,
+      "mean_latency_ms": 3.353,
+      "std_latency_ms": 2.395,
+      "median_latency_ms": 1.871,
+      "p95_latency_ms": 7.342,
       "mean_inference_steps": 1.0
     },
     {
@@ -1136,10 +1136,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 4.723,
-      "std_latency_ms": 3.944,
-      "median_latency_ms": 3.184,
-      "p95_latency_ms": 14.546,
+      "mean_latency_ms": 7.572,
+      "std_latency_ms": 4.891,
+      "median_latency_ms": 3.795,
+      "p95_latency_ms": 13.952,
       "mean_inference_steps": 1.0
     },
     {
@@ -1156,10 +1156,10 @@
       "ci95_accuracy_high": 0.0987,
       "mean_error_rate": 0.9667,
       "std_error_rate": 0.1826,
-      "mean_latency_ms": 8.284,
-      "std_latency_ms": 6.294,
-      "median_latency_ms": 4.405,
-      "p95_latency_ms": 18.984,
+      "mean_latency_ms": 7.492,
+      "std_latency_ms": 5.645,
+      "median_latency_ms": 4.451,
+      "p95_latency_ms": 18.655,
       "mean_inference_steps": 1.0
     },
     {
@@ -1176,10 +1176,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 8.615,
-      "std_latency_ms": 6.242,
-      "median_latency_ms": 5.715,
-      "p95_latency_ms": 23.643,
+      "mean_latency_ms": 12.106,
+      "std_latency_ms": 8.859,
+      "median_latency_ms": 5.842,
+      "p95_latency_ms": 26.507,
       "mean_inference_steps": 1.0
     },
     {
@@ -1196,10 +1196,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 15.932,
-      "std_latency_ms": 11.717,
-      "median_latency_ms": 8.386,
-      "p95_latency_ms": 34.577,
+      "mean_latency_ms": 13.088,
+      "std_latency_ms": 8.734,
+      "median_latency_ms": 8.954,
+      "p95_latency_ms": 33.329,
       "mean_inference_steps": 1.0
     },
     {
@@ -1216,10 +1216,10 @@
       "ci95_accuracy_high": 0.0987,
       "mean_error_rate": 0.9667,
       "std_error_rate": 0.1826,
-      "mean_latency_ms": 26.937,
-      "std_latency_ms": 15.77,
-      "median_latency_ms": 28.694,
-      "p95_latency_ms": 46.994,
+      "mean_latency_ms": 18.702,
+      "std_latency_ms": 11.769,
+      "median_latency_ms": 12.28,
+      "p95_latency_ms": 43.125,
       "mean_inference_steps": 1.0
     },
     {
@@ -1236,10 +1236,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 0.918,
-      "std_latency_ms": 0.714,
-      "median_latency_ms": 0.546,
-      "p95_latency_ms": 2.31,
+      "mean_latency_ms": 0.544,
+      "std_latency_ms": 0.078,
+      "median_latency_ms": 0.525,
+      "p95_latency_ms": 0.633,
       "mean_inference_steps": 1.0
     },
     {
@@ -1256,10 +1256,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 1.724,
-      "std_latency_ms": 1.318,
-      "median_latency_ms": 0.863,
-      "p95_latency_ms": 3.727,
+      "mean_latency_ms": 0.88,
+      "std_latency_ms": 0.416,
+      "median_latency_ms": 0.785,
+      "p95_latency_ms": 1.078,
       "mean_inference_steps": 1.0
     },
     {
@@ -1276,10 +1276,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 1.353,
-      "std_latency_ms": 0.148,
-      "median_latency_ms": 1.321,
-      "p95_latency_ms": 1.591,
+      "mean_latency_ms": 2.701,
+      "std_latency_ms": 1.549,
+      "median_latency_ms": 2.196,
+      "p95_latency_ms": 6.108,
       "mean_inference_steps": 1.0
     },
     {
@@ -1296,10 +1296,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 4.348,
-      "std_latency_ms": 3.658,
-      "median_latency_ms": 2.372,
-      "p95_latency_ms": 10.721,
+      "mean_latency_ms": 6.2,
+      "std_latency_ms": 4.259,
+      "median_latency_ms": 3.305,
+      "p95_latency_ms": 12.405,
       "mean_inference_steps": 1.0
     },
     {
@@ -1316,10 +1316,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 6.313,
-      "std_latency_ms": 4.915,
-      "median_latency_ms": 3.745,
-      "p95_latency_ms": 15.176,
+      "mean_latency_ms": 6.693,
+      "std_latency_ms": 5.264,
+      "median_latency_ms": 3.554,
+      "p95_latency_ms": 16.556,
       "mean_inference_steps": 1.0
     },
     {
@@ -1336,10 +1336,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 6.622,
-      "std_latency_ms": 5.173,
-      "median_latency_ms": 4.47,
-      "p95_latency_ms": 19.359,
+      "mean_latency_ms": 7.545,
+      "std_latency_ms": 6.375,
+      "median_latency_ms": 4.697,
+      "p95_latency_ms": 20.159,
       "mean_inference_steps": 1.0
     },
     {
@@ -1356,10 +1356,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 8.34,
-      "std_latency_ms": 6.892,
-      "median_latency_ms": 6.002,
-      "p95_latency_ms": 27.448,
+      "mean_latency_ms": 8.55,
+      "std_latency_ms": 6.996,
+      "median_latency_ms": 6.124,
+      "p95_latency_ms": 25.878,
       "mean_inference_steps": 1.0
     },
     {
@@ -1376,10 +1376,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 10.123,
-      "std_latency_ms": 8.184,
-      "median_latency_ms": 7.698,
-      "p95_latency_ms": 30.14,
+      "mean_latency_ms": 10.722,
+      "std_latency_ms": 7.946,
+      "median_latency_ms": 7.897,
+      "p95_latency_ms": 30.275,
       "mean_inference_steps": 1.0
     },
     {
@@ -1396,10 +1396,10 @@
       "ci95_accuracy_high": 0.4276,
       "mean_error_rate": 0.7333,
       "std_error_rate": 0.4498,
-      "mean_latency_ms": 5.448,
-      "std_latency_ms": 4.619,
-      "median_latency_ms": 3.635,
-      "p95_latency_ms": 16.209,
+      "mean_latency_ms": 3.889,
+      "std_latency_ms": 0.295,
+      "median_latency_ms": 3.818,
+      "p95_latency_ms": 4.377,
       "mean_inference_steps": 1.0
     },
     {
@@ -1416,10 +1416,10 @@
       "ci95_accuracy_high": 0.3023,
       "mean_error_rate": 0.8333,
       "std_error_rate": 0.379,
-      "mean_latency_ms": 8.818,
-      "std_latency_ms": 6.575,
-      "median_latency_ms": 6.277,
-      "p95_latency_ms": 24.662,
+      "mean_latency_ms": 9.499,
+      "std_latency_ms": 8.3,
+      "median_latency_ms": 5.117,
+      "p95_latency_ms": 29.937,
       "mean_inference_steps": 1.0
     },
     {
@@ -1436,10 +1436,10 @@
       "ci95_accuracy_high": 0.5049,
       "mean_error_rate": 0.6667,
       "std_error_rate": 0.4795,
-      "mean_latency_ms": 11.888,
-      "std_latency_ms": 6.151,
-      "median_latency_ms": 9.253,
-      "p95_latency_ms": 24.932,
+      "mean_latency_ms": 12.307,
+      "std_latency_ms": 8.854,
+      "median_latency_ms": 9.07,
+      "p95_latency_ms": 30.328,
       "mean_inference_steps": 1.0
     },
     {
@@ -1456,10 +1456,10 @@
       "ci95_accuracy_high": 0.5421,
       "mean_error_rate": 0.6333,
       "std_error_rate": 0.4901,
-      "mean_latency_ms": 20.988,
-      "std_latency_ms": 13.989,
-      "median_latency_ms": 16.925,
-      "p95_latency_ms": 41.76,
+      "mean_latency_ms": 20.963,
+      "std_latency_ms": 12.235,
+      "median_latency_ms": 17.422,
+      "p95_latency_ms": 28.195,
       "mean_inference_steps": 1.0
     },
     {
@@ -1476,10 +1476,10 @@
       "ci95_accuracy_high": 0.3456,
       "mean_error_rate": 0.8,
       "std_error_rate": 0.4068,
-      "mean_latency_ms": 35.468,
-      "std_latency_ms": 12.123,
-      "median_latency_ms": 31.846,
-      "p95_latency_ms": 61.412,
+      "mean_latency_ms": 39.636,
+      "std_latency_ms": 14.587,
+      "median_latency_ms": 35.91,
+      "p95_latency_ms": 66.526,
       "mean_inference_steps": 1.0
     },
     {
@@ -1496,10 +1496,10 @@
       "ci95_accuracy_high": 0.3873,
       "mean_error_rate": 0.7667,
       "std_error_rate": 0.4302,
-      "mean_latency_ms": 61.926,
-      "std_latency_ms": 28.696,
-      "median_latency_ms": 63.323,
-      "p95_latency_ms": 68.374,
+      "mean_latency_ms": 72.609,
+      "std_latency_ms": 17.477,
+      "median_latency_ms": 69.165,
+      "p95_latency_ms": 82.729,
       "mean_inference_steps": 1.0
     },
     {
@@ -1516,10 +1516,10 @@
       "ci95_accuracy_high": 0.4668,
       "mean_error_rate": 0.7,
       "std_error_rate": 0.4661,
-      "mean_latency_ms": 142.43,
-      "std_latency_ms": 37.572,
-      "median_latency_ms": 130.388,
-      "p95_latency_ms": 233.173,
+      "mean_latency_ms": 175.128,
+      "std_latency_ms": 95.334,
+      "median_latency_ms": 139.158,
+      "p95_latency_ms": 368.014,
       "mean_inference_steps": 1.0
     },
     {
@@ -1536,10 +1536,10 @@
       "ci95_accuracy_high": 0.2571,
       "mean_error_rate": 0.8667,
       "std_error_rate": 0.3457,
-      "mean_latency_ms": 2.807,
-      "std_latency_ms": 1.015,
-      "median_latency_ms": 2.498,
-      "p95_latency_ms": 4.919,
+      "mean_latency_ms": 7.51,
+      "std_latency_ms": 4.912,
+      "median_latency_ms": 3.944,
+      "p95_latency_ms": 14.083,
       "mean_inference_steps": 1.0
     },
     {
@@ -1556,10 +1556,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 7.945,
-      "std_latency_ms": 5.622,
-      "median_latency_ms": 5.475,
-      "p95_latency_ms": 22.503,
+      "mean_latency_ms": 9.597,
+      "std_latency_ms": 6.653,
+      "median_latency_ms": 6.494,
+      "p95_latency_ms": 25.928,
       "mean_inference_steps": 1.0
     },
     {
@@ -1576,10 +1576,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 20.069,
-      "std_latency_ms": 14.48,
-      "median_latency_ms": 11.681,
-      "p95_latency_ms": 45.36,
+      "mean_latency_ms": 22.682,
+      "std_latency_ms": 16.091,
+      "median_latency_ms": 12.463,
+      "p95_latency_ms": 48.61,
       "mean_inference_steps": 1.0
     },
     {
@@ -1596,10 +1596,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 34.953,
-      "std_latency_ms": 22.56,
-      "median_latency_ms": 21.346,
-      "p95_latency_ms": 85.403,
+      "mean_latency_ms": 33.118,
+      "std_latency_ms": 21.514,
+      "median_latency_ms": 24.324,
+      "p95_latency_ms": 80.671,
       "mean_inference_steps": 1.0
     },
     {
@@ -1616,10 +1616,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 69.395,
-      "std_latency_ms": 32.488,
-      "median_latency_ms": 56.219,
-      "p95_latency_ms": 116.136,
+      "mean_latency_ms": 65.187,
+      "std_latency_ms": 32.963,
+      "median_latency_ms": 49.632,
+      "p95_latency_ms": 119.965,
       "mean_inference_steps": 1.0
     },
     {
@@ -1636,10 +1636,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 121.126,
-      "std_latency_ms": 41.443,
-      "median_latency_ms": 118.531,
-      "p95_latency_ms": 190.287,
+      "mean_latency_ms": 138.717,
+      "std_latency_ms": 37.951,
+      "median_latency_ms": 144.309,
+      "p95_latency_ms": 197.064,
       "mean_inference_steps": 1.0
     },
     {
@@ -1656,10 +1656,10 @@
       "ci95_accuracy_high": 0.0,
       "mean_error_rate": 1.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 208.454,
-      "std_latency_ms": 29.835,
-      "median_latency_ms": 215.869,
-      "p95_latency_ms": 246.796,
+      "mean_latency_ms": 234.221,
+      "std_latency_ms": 30.691,
+      "median_latency_ms": 227.145,
+      "p95_latency_ms": 276.678,
       "mean_inference_steps": 1.0
     },
     {
@@ -1676,10 +1676,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 3.853,
-      "std_latency_ms": 3.558,
-      "median_latency_ms": 2.397,
-      "p95_latency_ms": 10.466,
+      "mean_latency_ms": 14.968,
+      "std_latency_ms": 2.048,
+      "median_latency_ms": 14.759,
+      "p95_latency_ms": 16.906,
       "mean_inference_steps": 1.0
     },
     {
@@ -1696,10 +1696,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 4.326,
-      "std_latency_ms": 0.179,
-      "median_latency_ms": 4.341,
-      "p95_latency_ms": 4.499,
+      "mean_latency_ms": 26.307,
+      "std_latency_ms": 1.533,
+      "median_latency_ms": 26.241,
+      "p95_latency_ms": 29.172,
       "mean_inference_steps": 1.0
     },
     {
@@ -1716,10 +1716,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 9.611,
-      "std_latency_ms": 7.866,
-      "median_latency_ms": 6.951,
-      "p95_latency_ms": 28.049,
+      "mean_latency_ms": 53.482,
+      "std_latency_ms": 8.059,
+      "median_latency_ms": 50.924,
+      "p95_latency_ms": 70.221,
       "mean_inference_steps": 1.0
     },
     {
@@ -1736,10 +1736,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 14.243,
-      "std_latency_ms": 2.008,
-      "median_latency_ms": 13.454,
-      "p95_latency_ms": 16.697,
+      "mean_latency_ms": 98.816,
+      "std_latency_ms": 8.327,
+      "median_latency_ms": 97.258,
+      "p95_latency_ms": 111.062,
       "mean_inference_steps": 1.0
     },
     {
@@ -1756,10 +1756,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 28.296,
-      "std_latency_ms": 11.931,
-      "median_latency_ms": 25.128,
-      "p95_latency_ms": 34.774,
+      "mean_latency_ms": 178.557,
+      "std_latency_ms": 17.243,
+      "median_latency_ms": 174.016,
+      "p95_latency_ms": 201.644,
       "mean_inference_steps": 1.0
     },
     {
@@ -1776,10 +1776,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 55.258,
-      "std_latency_ms": 15.446,
-      "median_latency_ms": 50.924,
-      "p95_latency_ms": 66.482,
+      "mean_latency_ms": 361.922,
+      "std_latency_ms": 23.282,
+      "median_latency_ms": 354.173,
+      "p95_latency_ms": 399.941,
       "mean_inference_steps": 1.0
     },
     {
@@ -1796,10 +1796,10 @@
       "ci95_accuracy_high": 1.0,
       "mean_error_rate": 0.0,
       "std_error_rate": 0.0,
-      "mean_latency_ms": 184.086,
-      "std_latency_ms": 39.78,
-      "median_latency_ms": 199.435,
-      "p95_latency_ms": 229.681,
+      "mean_latency_ms": 379.678,
+      "std_latency_ms": 259.139,
+      "median_latency_ms": 222.86,
+      "p95_latency_ms": 798.023,
       "mean_inference_steps": 1.0
     }
   ]

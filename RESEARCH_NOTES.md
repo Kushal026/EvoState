@@ -152,21 +152,23 @@ To be falsifiable, each clause must map to a measurable hypothesis with a concre
 
 ## 6. Official BDH and BDH-CQ Citations & Framework Mapping
 
-### Official Literature Citations:
-1. **Bi-Directional Dynamic Horizons (BDH) Technical Specification & Architectural Standard**  
-   *Reference:* DataForge Foundation / Pathway Track Architecture Guidelines (2025/2026).
-2. **BDH-CQ: Continuous Querying and Dynamic Horizon State Spaces**  
-   *Reference:* Advanced Sequence Modeling & Latent State Dynamics Working Group (2025/2026).
+### Primary Literature Citations:
+1. **The Dragon Hatchling: The Missing Link between the Transformer and Models of the Brain (BDH)**  
+   *Authors:* Adrian Kosowski, Przemysław Uznański, Jan Chorowski, Zuzanna Stamirowska, Michał Bartoszkiewicz (2025).  
+   *Preprint:* arXiv:2509.26507.
+2. **BDH-CQ: In-Context Learning with Recurrent Latent Reasoning**  
+   *Authors:* Björn Engdahl et al. (2026).  
+   *Preprint:* arXiv:2608.09888.
 
 ### Conceptual Alignment & Strict Boundary Definitions:
 
-| Dimension | Official Frontier BDH / BDH-CQ | DataForge Educational Toy Lab (Our Project) |
+| Dimension | Published Frontier Research (Kosowski et al. / Engdahl et al.) | EvoState Educational Toy Lab (Our Project) |
 | :--- | :--- | :--- |
-| **Compute Environment** | Multi-GPU / TPU distributed clusters, FP8/BF16 tensor engines, proprietary Triton/C++ kernels. | Client-side JavaScript / WebAssembly / WebGL running in real-time in the browser. |
-| **Parameter Scale** | Billions of parameters ($\ge 7\text{B}$), multi-layer hierarchical SSM-attention hybrids. | Micro-architectures ($d \in [16, 128]$, 1–2 layers, 10k–100k parameters) designed for interactive transparency. |
-| **State Dynamics** | Continuous-time generalized state space operators with adaptive horizon quenching and multi-head CQ. | Discrete linear recurrences, matrix associative memories, and simplified selective state transitions. |
-| **Purpose** | State-of-the-art production modeling for ultra-long context understanding and multi-modal synthesis. | Interactive pedagogical dissection of the fundamental mechanics, capacity bounds, and failure modes. |
-| **Labeling Policy** | "Official BDH Architecture (Reference Standard)" | **"Educational Surrogate / Pedagogical Simulation Model"** (Never marketed as official production weights). |
+| **Compute Environment** | Multi-GPU / accelerator distributed training and inference clusters. | Client-side JavaScript / WebAssembly and PyTorch test harness running locally. |
+| **Parameter Scale** | Deep foundation sequence models. | Micro-architectures ($d \in [16, 128]$, 1–2 layers, 10k–100k parameters) designed for interactive transparency. |
+| **State Dynamics** | Deep recurrent internal states with local synaptic plasticity dynamics. | Discrete linear recurrences, matrix associative memories, and simplified selective state transitions. |
+| **Purpose** | Post-Transformer sequence modeling and in-context latent reasoning research. | Interactive pedagogical dissection of fundamental mechanics, capacity bounds, and recovery dynamics. |
+| **Labeling Policy** | "Published Research (Reference Standard)" | **"Educational Surrogate / Pedagogical Simulation Model"** (Never marketed as official foundation weights). |
 
 ---
 

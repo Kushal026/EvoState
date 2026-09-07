@@ -41,9 +41,10 @@ Copyright (c) 2026 DataForge Pathway Track Authors
 - **Synthetic Algorithmic Benchmarks:** Created natively by `evostate/experiments/` utilizing deterministic pseudo-random seeds. No copyrighted private or commercial datasets were ingested or redistributed.
 - **Precomputed Sweeps:** All 2,700 trials in `data/precomputed/sweeps_master.csv` are reproducible via `python -m evostate.cli.reproduce_sweeps --trials 50`.
 - **Primary Scientific Citations:**
-  - BDH equations and architectural concepts are attributed to *Sun et al. (2025)*.
-  - Selective state space gating concepts are attributed to *Gu & Dao (2023)*.
-  - Test-time compute scaling formulation is attributed to *Snell et al. (2024)*.
+  - BDH (The Dragon Hatchling) architecture concepts are attributed to *Kosowski et al. (2025)* (arXiv:2509.26507).
+  - BDH-CQ recurrent latent reasoning concepts are attributed to *Engdahl et al. (2026)* (arXiv:2608.09888).
+  - Selective state space gating concepts are attributed to *Gu & Dao (2023)* (arXiv:2312.00752).
+  - Test-time compute scaling formulation is attributed to *Snell et al. (2024)* (arXiv:2408.03314).
 
 ---
 

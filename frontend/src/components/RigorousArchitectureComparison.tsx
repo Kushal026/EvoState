@@ -222,9 +222,9 @@ export const ARCHITECTURES: ArchitectureDetail[] = [
   },
   {
     id: "bdh",
-    name: "BDH (Dynamic Horizons)",
-    category: "Continuous-State SSM",
-    tagline: "Continuous-time selective state space with input-dependent time scaling.",
+    name: "BDH (The Dragon Hatchling)",
+    category: "Evolving Internal State",
+    tagline: "Biologically inspired architecture with evolving associative internal states.",
     color: "text-emerald-400",
     badgeBorder: "border-emerald-500/30 bg-emerald-500/10",
     scores: {
@@ -236,39 +236,39 @@ export const ARCHITECTURES: ArchitectureDetail[] = [
     },
     dimensions: {
       memoryBehavior: {
-        text: "Bounded continuous-time state: O(1) spatial memory footprint with data-dependent horizon integration.",
+        text: "Bounded evolving internal state: O(1) spatial memory footprint with local interaction dynamics.",
         label: "Published result",
-        citation: "DataForge Foundation Spec (2025/2026); Gu & Dao (Mamba, 2023)"
+        citation: "Kosowski et al. (arXiv:2509.26507, 2025); Gu & Dao (2023)"
       },
       stateRepresentation: {
-        text: "Selective continuous state space: discretized state S_t modulated by continuous parameter A.",
+        text: "Evolving associative state: recurrent internal state updated via synaptic plasticity and local dynamics.",
         label: "Published result",
-        citation: "Gu & Dao (2023); DataForge BDH Standard (2025)"
+        citation: "Kosowski et al. (2025)"
       },
       adaptationMechanism: {
-        text: "Dynamic input-dependent discretization: Δ_t(x_t) dynamically contracts on noise, freezing decay.",
+        text: "Dynamic gating & local updates: selective parameterization contracts decay over padding/noise tokens.",
         label: "Published result",
-        citation: "Gu & Dao (2023); DataForge Spec (2025)"
+        citation: "Kosowski et al. (2025); Gu & Dao (2023)"
       },
       inferenceComputation: {
-        text: "1-pass direct continuous state projection: emission y_t = C_t S_t + D x_t.",
+        text: "1-pass direct recurrent state projection: emission y_t = S_t q_t.",
         label: "Published result",
-        citation: "Gu & Dao (2023)"
+        citation: "Kosowski et al. (2025)"
       },
       latency: {
         text: "Strictly constant O(1): ultra-fast streaming generation with zero KV cache memory transfers.",
         label: "Published result",
-        citation: "Dao & Gu (Transformers are SSMs, 2024)"
+        citation: "Kosowski et al. (2025); Gu & Dao (2023)"
       },
       scaling: {
-        text: "Long-horizon retention: maintains >95% needle recall across L > 200 tokens with zero state growth.",
+        text: "Long-horizon retention: maintains >95% needle recall across long sequence lags under selective gating.",
         label: "Our experiment",
         citation: "EvoState Empirical Sweeps (2026)"
       },
       interpretability: {
-        text: "Explicit time-delta gates Δ_t and continuous eigenvalue trajectories.",
+        text: "Explicit gating states and associative state matrix projections.",
         label: "Independent result",
-        citation: "Gu & Dao (2023)"
+        citation: "Kosowski et al. (2025)"
       },
       limitations: {
         text: "Under high interference and direct overwrites, single-pass readout cannot disambiguate crowded states.",
@@ -279,9 +279,9 @@ export const ARCHITECTURES: ArchitectureDetail[] = [
   },
   {
     id: "bdh_cq",
-    name: "BDH-CQ (Continuous Querying)",
+    name: "BDH-CQ (Latent Reasoning)",
     category: "Inference-Time Scaling",
-    tagline: "Decouples memory footprint from deliberation depth via attractor relaxation.",
+    tagline: "Decouples memory footprint from deliberation depth via test-time latent reasoning.",
     color: "text-purple-400",
     badgeBorder: "border-purple-500/30 bg-purple-500/10",
     scores: {
@@ -295,22 +295,22 @@ export const ARCHITECTURES: ArchitectureDetail[] = [
       memoryBehavior: {
         text: "Strictly O(1) constant spatial memory: deliberation scales computation at test time without growing state.",
         label: "Published result",
-        citation: "DataForge BDH-CQ Spec (2026); Snell et al. (2024)"
+        citation: "Engdahl et al. (arXiv:2608.09888, 2026); Snell et al. (2024)"
       },
       stateRepresentation: {
-        text: "Energy manifold state: matrix-valued state defining an associative attractor energy landscape E(q, S_t).",
+        text: "Recurrent latent reasoning state: representations structured for test-time deliberation and iterative refinement.",
         label: "Published result",
-        citation: "DataForge BDH-CQ Standard (2026)"
+        citation: "Engdahl et al. (2026)"
       },
       adaptationMechanism: {
-        text: "Dual tier: forward-pass dynamic gating Δ_t during ingestion + test-time gradient relaxation ∇_q E during query.",
+        text: "Dual tier: forward-pass dynamic state update + test-time iterative deliberation during query evaluation.",
         label: "Published result",
-        citation: "Sun et al. (TTT, 2024); DataForge (2026)"
+        citation: "Engdahl et al. (2026); Snell et al. (2024)"
       },
       inferenceComputation: {
-        text: "Iterative K-step energy minimization: q^(k+1) = q^(k) - η ∇_q E(q^(k), S_T) + β(q^(k) - q^(k-1)).",
+        text: "Iterative test-time deliberation: allocates variable compute cycles conditioned on query complexity.",
         label: "Published result",
-        citation: "Snell et al. (2024); DataForge BDH-CQ (2026)"
+        citation: "Engdahl et al. (2026); Snell et al. (2024)"
       },
       latency: {
         text: "Variable O(K · d) per query: trades linear step latency (1.1ms to 4.2ms) for substantial noise recovery.",
@@ -318,12 +318,12 @@ export const ARCHITECTURES: ArchitectureDetail[] = [
         citation: "EvoState Latency Sweeps (2026)"
       },
       scaling: {
-        text: "Inference scaling recovery: boosts retrieval accuracy from 64.2% to 91.8% (+27.6%) under interference.",
+        text: "Inference scaling recovery: tests whether increasing test-time compute improves accuracy (+27.6% under interference).",
         label: "Our experiment",
         citation: "EvoState Inference Effort Sweeps (2026)"
       },
       interpretability: {
-        text: "High observability: energy gradient norm ||∇E|| and probe convergence trajectory directly visible.",
+        text: "High observability: probe convergence trajectory and state subspace projection directly visible.",
         label: "Our experiment",
         citation: "EvoState Telemetry Engine (2026)"
       },

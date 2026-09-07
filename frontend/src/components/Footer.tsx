@@ -3,6 +3,8 @@ import Link from "next/link";
 import { ShieldAlert, BookOpen, ExternalLink, Terminal } from "lucide-react";
 
 export default function Footer() {
+  const apiBase = process.env.NEXT_PUBLIC_API_BASE;
+
   return (
     <footer className="border-t border-white/10 bg-[#04060a] text-slate-400 py-12 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
@@ -24,8 +26,8 @@ export default function Footer() {
             <div className="flex items-start gap-2.5 rounded-lg border border-amber-500/20 bg-amber-500/5 p-3 text-[11px] text-amber-300 max-w-lg">
               <ShieldAlert className="h-4 w-4 shrink-0 text-amber-400 mt-0.5" />
               <p>
-                <strong>Educational Surrogate Notice:</strong> Client and toy models in this lab are isolated 
-                micro-simulators. They are <em>never</em> marketed as official production BDH foundation model weights.
+                <strong>Educational Model Notice:</strong> Client and toy models in this lab are isolated 
+                pedagogical simulators. They are <em>never</em> presented as official BDH foundation model weights.
               </p>
             </div>
           </div>
@@ -43,17 +45,17 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/concept" className="hover:text-blue-400 transition-colors">
-                  State Space & Superposition
+                  State Space &amp; Superposition
                 </Link>
               </li>
               <li>
                 <Link href="/bdh" className="hover:text-blue-400 transition-colors">
-                  Bi-Directional Dynamic Horizons
+                  BDH: The Dragon Hatchling
                 </Link>
               </li>
               <li>
                 <Link href="/bdh-cq" className="hover:text-blue-400 transition-colors">
-                  Continuous Querying & Attractors
+                  BDH-CQ: Latent Reasoning
                 </Link>
               </li>
             </ul>
@@ -77,18 +79,24 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about" className="hover:text-blue-400 transition-colors">
-                  Judge Defense Sheet & FAQ
+                  Judge Defense Sheet &amp; FAQ
                 </Link>
               </li>
               <li>
-                <a
-                  href="http://127.0.0.1:8000/docs"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-blue-400 transition-colors flex items-center gap-1"
-                >
-                  FastAPI OpenAPI Specs <ExternalLink className="h-2.5 w-2.5" />
-                </a>
+                {apiBase ? (
+                  <a
+                    href={`${apiBase}/docs`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-blue-400 transition-colors flex items-center gap-1"
+                  >
+                    FastAPI OpenAPI Specs <ExternalLink className="h-2.5 w-2.5" />
+                  </a>
+                ) : (
+                  <Link href="/research#api" className="hover:text-blue-400 transition-colors flex items-center gap-1">
+                    API Specification &amp; Schema
+                  </Link>
+                )}
               </li>
             </ul>
           </div>
@@ -97,11 +105,11 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-400 font-mono">
-          <p>© 2026 DataForge Pathway Track. Educational & Research License.</p>
+          <p>© 2026 DataForge Pathway Track. Educational &amp; Research License.</p>
           <div className="flex items-center gap-4">
             <span>Deterministic Seed Standard (N=30)</span>
             <span>•</span>
-            <span className="text-emerald-400">Zero Fabricated Numbers Guarantee</span>
+            <span className="text-emerald-400">Verified Empirical Data Standard</span>
           </div>
         </div>
       </div>

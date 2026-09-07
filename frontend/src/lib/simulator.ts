@@ -140,7 +140,7 @@ export class ClientSimulator {
       state_trace: traces,
       limitations: [
         modelType === "educational_evolving_memory_toy"
-          ? "Educational Toy Model: Isolated educational surrogate only. Not official production BDH."
+          ? "Educational Toy Model: Isolated educational surrogate only. Inspired by evolving state concepts (Kosowski et al., 2025). Not official BDH architecture."
           : "Fixed recurrence exhibits rapid decay over long lag steps."
       ],
       attribution: "DataForge 2026 Pathway Track (In-Browser Live Simulation)"
@@ -512,7 +512,7 @@ export class ClientSimulator {
       },
       state_trace: traces,
       limitations: [
-        "Educational Toy Model: Interactive pedagogical surrogate running with d=32 fast-weights (Not official production BDH).",
+        "Educational Toy Model: Interactive pedagogical surrogate running with d=32 fast-weights (Not official BDH architecture).",
         "Subspace Saturation: Packing M > d/2 vectors causes superposition crosstalk noise.",
         "Inference Scaling Limit: Test-time relaxation cannot recover signal if conflicting updates completely overwrite original subspace coordinates."
       ],

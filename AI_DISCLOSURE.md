@@ -35,9 +35,9 @@ To ensure empirical validity, scientific integrity, and prevent hallucination:
 
 3. **Mathematical Fidelity to Primary Sources:**
    - Equations implemented in `evostate/models/` and described in `/bdh` / `/bdh-cq` were verified line-by-line against primary literature:
-     - BDH associative fast-weights: $M_t = \lambda M_{t-1} + v_t k_t^\top$ (Sun et al., 2025).
+     - Evolving internal state dynamics: Kosowski et al. (2025) (*The Dragon Hatchling*, arXiv:2509.26507); Ba et al. (2016).
      - Selective input gating: $\Delta_t = \sigma(W_\Delta x_t)$ (Gu & Dao, 2023).
-     - Test-time attractor settling: $v^{(k+1)} = (1-\eta)v^{(k)} + \eta M_T q_{\text{sharp}}^{(k)}$ (Snell et al., 2024 / Hopfield 1982).
+     - Test-time latent deliberation & scaling: Engdahl et al. (2026) (*BDH-CQ*, arXiv:2608.09888); Snell et al. (2024).
 
 ---
 

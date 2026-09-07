@@ -287,43 +287,43 @@ export default function ResearchPage() {
             <tbody className="divide-y divide-white/5 text-slate-300">
               <tr>
                 <td className="p-3 font-semibold text-white">
-                  Gu & Dao (2023)<br />
-                  <span className="text-[10px] font-mono text-slate-400">Mamba: Linear-Time Sequence Modeling</span>
+                  Kosowski et al. (2025)<br />
+                  <span className="text-[10px] font-mono text-slate-400">The Dragon Hatchling (BDH) (arXiv:2509.26507)</span>
+                </td>
+                <td className="p-3">Biologically inspired model connecting Transformers to evolving internal states and brain-inspired local plasticity.</td>
+                <td className="p-3 text-emerald-300">Foundational inspiration for evolving associative internal state dynamics.</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-semibold text-white">
+                  Engdahl et al. (2026)<br />
+                  <span className="text-[10px] font-mono text-slate-400">BDH-CQ: Recurrent Latent Reasoning (arXiv:2608.09888)</span>
+                </td>
+                <td className="p-3">In-context learning with recurrent latent reasoning and test-time deliberation.</td>
+                <td className="p-3 text-purple-300">Conceptual basis for test-time inference scaling over evolving states.</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-semibold text-white">
+                  Gu &amp; Dao (2023)<br />
+                  <span className="text-[10px] font-mono text-slate-400">Mamba: Linear-Time Sequence Modeling (arXiv:2312.00752)</span>
                 </td>
                 <td className="p-3">Data-dependent input gating $(\Delta, B, C)$ for selective state space compression.</td>
-                <td className="p-3 text-emerald-300">Forms the mathematical basis for dynamic state filtering in BDH.</td>
-              </tr>
-              <tr>
-                <td className="p-3 font-semibold text-white">
-                  De et al. / DeepMind (2024)<br />
-                  <span className="text-[10px] font-mono text-slate-400">Griffin: Recurrent Gated Linear Attention</span>
-                </td>
-                <td className="p-3">Hybrid local attention with fixed-size recurrent neural memory states.</td>
-                <td className="p-3 text-emerald-300">Directly validates sub-quadratic context scaling with bounded memory.</td>
-              </tr>
-              <tr>
-                <td className="p-3 font-semibold text-white">
-                  Sun et al. / Stanford (2024)<br />
-                  <span className="text-[10px] font-mono text-slate-400">Test-Time Training (TTT)</span>
-                </td>
-                <td className="p-3">Treating hidden state as a full neural network trained via self-supervised test-time loss.</td>
-                <td className="p-3 text-emerald-300">Directly validates gradient-based dynamic state adaptation.</td>
+                <td className="p-3 text-emerald-300">Forms the mathematical basis for dynamic state filtering and selective retention.</td>
               </tr>
               <tr>
                 <td className="p-3 font-semibold text-white">
                   Snell et al. / UC Berkeley (2024)<br />
-                  <span className="text-[10px] font-mono text-slate-400">Scaling LLM Test-Time Compute</span>
+                  <span className="text-[10px] font-mono text-slate-400">Scaling LLM Test-Time Compute (arXiv:2408.03314)</span>
                 </td>
                 <td className="p-3">Replacing pre-training scale with variable search, revision, and deliberation compute.</td>
-                <td className="p-3 text-purple-300">Foundational principle for BDH-CQ energy minimization scaling.</td>
+                <td className="p-3 text-purple-300">Foundational principle for test-time compute allocation and Pareto tradeoff analysis.</td>
               </tr>
               <tr>
                 <td className="p-3 font-semibold text-white">
-                  Peng et al. (2024)<br />
-                  <span className="text-[10px] font-mono text-slate-400">Eagle and Finch (RWKV-5 / RWKV-6)</span>
+                  Sun et al. / Stanford (2024)<br />
+                  <span className="text-[10px] font-mono text-slate-400">Test-Time Training (TTT) (arXiv:2407.04620)</span>
                 </td>
-                <td className="p-3">Multi-head matrix-valued states with expressive associative recall.</td>
-                <td className="p-3 text-emerald-300">Informs our matrix fast-weight associative memory design.</td>
+                <td className="p-3">Treating hidden state as a model trained via self-supervised test-time gradient updates.</td>
+                <td className="p-3 text-emerald-300">Directly validates dynamic state adaptation at inference time.</td>
               </tr>
             </tbody>
           </table>
