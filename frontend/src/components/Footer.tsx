@@ -9,21 +9,21 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-[#04060a] text-slate-400 py-12 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-          
+
           {/* Brand & Mission */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-3">
               <span className="font-semibold text-white tracking-tight">EvoState: Evolving Memory Lab</span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed mb-4 max-w-lg">
-              A scientific exploration environment dedicated to benchmarking the compression dynamics of 
-              <span className="text-slate-200 font-medium"> Long-Horizon Evolving States</span> and the de-noising power of 
+              A scientific exploration environment dedicated to benchmarking the compression dynamics of
+              <span className="text-slate-200 font-medium"> Long-Horizon Evolving States</span> and the de-noising power of
               <span className="text-slate-200 font-medium"> Inference-Time Scaling</span>.
             </p>
             <div className="flex items-start gap-2.5 rounded-lg border border-amber-500/20 bg-amber-500/5 p-3 text-[11px] text-amber-300 max-w-lg">
               <ShieldAlert className="h-4 w-4 shrink-0 text-amber-400 mt-0.5" />
               <p>
-                <strong>Educational Model Notice:</strong> Client and toy models in this lab are isolated 
+                <strong>Educational Model Notice:</strong> Client and toy models in this lab are isolated
                 pedagogical simulators. They are <em>never</em> presented as official BDH foundation model weights.
               </p>
             </div>
@@ -102,7 +102,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-400 font-mono">
-          <p>© 2026 EvoState. Educational &amp; Research License.</p>
+          <p>© 2026 EvoState. MIT License.</p>
           <div className="flex items-center gap-4">
             <span>Deterministic Seed Standard (N=30)</span>
             <span>•</span>
