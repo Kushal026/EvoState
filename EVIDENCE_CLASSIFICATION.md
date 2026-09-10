@@ -43,4 +43,4 @@ Every scientific claim, architectural property, benchmark number, and interactiv
 ## 🚫 3. Prohibited Scientific Practices
 1. **Never Fake Live Computation:** If the FastAPI backend or client simulator is executing, it is badged as `LIVE EXPERIMENT`. Heavy precomputed sweeps are badged as `PRECOMPUTED EXPERIMENT`.
 2. **Never Fabricate Numbers:** All summary statistics and plot lines match the exact means and standard errors computed from `sweeps_master.csv`.
-3. **Never Force Claim Verdicts:** The 60-second learning test dynamically grades the learner's actual experimental outcomes against ground truth, yielding `SUPPORTED`, `CHALLENGED`, or `INCONCLUSIVE`.
+3. **Never Force Claim Verdicts:** The falsification test dynamically evaluates the learner's actual experimental outcomes against ground truth, yielding `SUPPORTS CLAIM`, `PARTIALLY SUPPORTS CLAIM`, `DOES NOT SUPPORT CLAIM`, or `INCONCLUSIVE`.

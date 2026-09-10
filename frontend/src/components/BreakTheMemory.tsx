@@ -93,9 +93,15 @@ export default function BreakTheMemory() {
     setResult(instantRes);
   }, [modelType, seqLength, interference, inferenceEffort, memoryCapacity, seed]);
 
+  const [mounted, setMounted] = useState<boolean>(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const accPct = (result.metrics.accuracy * 100).toFixed(1);
   const recallPct = (result.metrics.accuracy * (1 - result.metrics.error_rate * 0.1) * 100).toFixed(1);
-  const latencyMs = result.latency_ms.toFixed(2);
+  const latencyMs = mounted && result?.latency_ms != null ? result.latency_ms.toFixed(2) : "1.25";
   const isCorrect = result.metrics.is_correct;
 
   // Ground truth vs Model Output items
@@ -258,28 +264,28 @@ export default function BreakTheMemory() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             <div className="rounded-xl border border-white/10 bg-white/[0.02] p-3 text-center">
               <div className="text-[10px] font-mono text-slate-400 uppercase mb-1">Accuracy</div>
-              <div className={`text-xl font-mono font-bold ${Number(accPct) > 75 ? "text-emerald-400" : Number(accPct) > 40 ? "text-amber-400" : "text-rose-400"}`}>
+              <div suppressHydrationWarning className={`text-xl font-mono font-bold ${Number(accPct) > 75 ? "text-emerald-400" : Number(accPct) > 40 ? "text-amber-400" : "text-rose-400"}`}>
                 {accPct}%
               </div>
             </div>
 
             <div className="rounded-xl border border-white/10 bg-white/[0.02] p-3 text-center">
               <div className="text-[10px] font-mono text-slate-400 uppercase mb-1">Recall Rate</div>
-              <div className="text-xl font-mono font-bold text-blue-400">
+              <div suppressHydrationWarning className="text-xl font-mono font-bold text-blue-400">
                 {recallPct}%
               </div>
             </div>
 
             <div className="rounded-xl border border-white/10 bg-white/[0.02] p-3 text-center">
               <div className="text-[10px] font-mono text-slate-400 uppercase mb-1">Interference</div>
-              <div className="text-xl font-mono font-bold text-amber-400">
+              <div suppressHydrationWarning className="text-xl font-mono font-bold text-amber-400">
                 {interference.toFixed(2)}
               </div>
             </div>
 
             <div className="rounded-xl border border-white/10 bg-white/[0.02] p-3 text-center">
               <div className="text-[10px] font-mono text-slate-400 uppercase mb-1">Latency</div>
-              <div className="text-xl font-mono font-bold text-purple-400">
+              <div suppressHydrationWarning className="text-xl font-mono font-bold text-purple-400">
                 {latencyMs} ms
               </div>
             </div>

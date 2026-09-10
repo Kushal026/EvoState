@@ -55,25 +55,33 @@ export default function ChallengeTheClaim() {
   // Claim parts:
   // 1. Fixed-size state carries information across sequences (Acc > 0.5 when moderate)
   // 2. Longer sequences & interference cause degradation (Acc drops with T > 512 or interference > 0.6)
-  // 3. Inference computation improves recovery (Inference effort > 4 helps restore SNR)
-  let claimStatus: "SUPPORTED" | "CHALLENGED" | "INCONCLUSIVE" = "SUPPORTED";
+  // 3. Additional inference computation improves recovery (Inference effort > 4 helps restore SNR under moderate interference)
+  // 4. Catastrophic destruction (interference > 0.9 or capacity > 20) exceeds recovery threshold
+  type ClaimVerdict = "SUPPORTS CLAIM" | "PARTIALLY SUPPORTS CLAIM" | "DOES NOT SUPPORT CLAIM" | "INCONCLUSIVE";
+  let claimStatus: ClaimVerdict = "SUPPORTS CLAIM";
   let statusReason = "";
 
-  if (seqLength >= 512 && interference >= 0.7 && inferenceEffort <= 2 && acc < 0.4) {
-    claimStatus = "SUPPORTED";
-    statusReason = "Expected catastrophic interference observed: bounded matrix subspace saturated without inference relaxation.";
-  } else if (inferenceEffort >= 8 && acc > 0.75 && interference <= 0.6) {
-    claimStatus = "SUPPORTED";
-    statusReason = "Inference-time scaling successfully denoises associative superposition and restores degraded retrieval coordinates.";
-  } else if (interference >= 0.95 && acc > 0.9) {
-    claimStatus = "CHALLENGED";
-    statusReason = "Unexpected high accuracy under 95% adversarial interference. Subspace orthogonalization exceeded theoretical bound.";
-  } else if (seqLength === 16 && acc > 0.9) {
-    claimStatus = "SUPPORTED";
-    statusReason = "Compact evolving state accurately preserves prefix information across short-to-medium horizons.";
+  if (interference >= 0.95 && acc > 0.9) {
+    claimStatus = "DOES NOT SUPPORT CLAIM";
+    statusReason = "Unexpected high accuracy under 95% adversarial interference: state retention under complete erasure would contradict the capacity bound.";
+  } else if (seqLength >= 512 && interference >= 0.7 && inferenceEffort <= 2 && acc < 0.4) {
+    claimStatus = "SUPPORTS CLAIM";
+    statusReason = "Confirms horizon degradation and interference: bounded state matrix saturated under high overwrite noise without inference relaxation.";
+  } else if (inferenceEffort >= 6 && isRecovered && interference >= 0.3 && interference <= 0.7) {
+    claimStatus = "SUPPORTS CLAIM";
+    statusReason = "Confirms test-time recovery: iterative gradient relaxation successfully de-noised superposition coordinates and restored exact retrieval.";
+  } else if (interference >= 0.8 && inferenceEffort >= 16 && !isRecovered) {
+    claimStatus = "PARTIALLY SUPPORTS CLAIM";
+    statusReason = "Partially supports claim: test-time compute improved SNR, but severe catastrophic erasure exceeded the finite algebraic recovery capacity.";
+  } else if (seqLength === 16 && interference === 0.0 && acc > 0.9) {
+    claimStatus = "SUPPORTS CLAIM";
+    statusReason = "Confirms base storage: compact evolving state matrix accurately retains associative bindings across clean short horizons.";
+  } else if (interference > 0.4 && inferenceEffort > 1 && !isRecovered) {
+    claimStatus = "PARTIALLY SUPPORTS CLAIM";
+    statusReason = "Partially supports claim: state degraded under interference, but allocated inference compute was insufficient to cross the decision boundary.";
   } else {
     claimStatus = "INCONCLUSIVE";
-    statusReason = "Parameter regime is on the transitional boundary. Increase sample seeds (N=30) or stress variables to evaluate.";
+    statusReason = "Transitional parameter regime: parameters are near threshold boundaries where stochastic variance is high.";
   }
 
   return (
@@ -180,22 +188,26 @@ export default function ChallengeTheClaim() {
 
       {/* Claim Status Verdict Banner */}
       <div className={`rounded-xl border p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 ${
-        claimStatus === "SUPPORTED"
+        claimStatus === "SUPPORTS CLAIM"
           ? "border-emerald-500/30 bg-emerald-950/20 text-emerald-300"
-          : claimStatus === "CHALLENGED"
+          : claimStatus === "PARTIALLY SUPPORTS CLAIM"
+          ? "border-blue-500/30 bg-blue-950/20 text-blue-300"
+          : claimStatus === "DOES NOT SUPPORT CLAIM"
           ? "border-rose-500/30 bg-rose-950/20 text-rose-300"
           : "border-amber-500/30 bg-amber-950/20 text-amber-300"
       }`}>
         <div className="space-y-1">
           <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-wider font-bold">
-            {claimStatus === "SUPPORTED" ? (
+            {claimStatus === "SUPPORTS CLAIM" ? (
               <CheckCircle2 className="h-4 w-4 text-emerald-400" />
-            ) : claimStatus === "CHALLENGED" ? (
+            ) : claimStatus === "PARTIALLY SUPPORTS CLAIM" ? (
+              <Sparkles className="h-4 w-4 text-blue-400" />
+            ) : claimStatus === "DOES NOT SUPPORT CLAIM" ? (
               <AlertTriangle className="h-4 w-4 text-rose-400" />
             ) : (
               <HelpCircle className="h-4 w-4 text-amber-400" />
             )}
-            <span>CLAIM STATUS: {claimStatus === "SUPPORTED" ? "SUPPORTED UNDER THIS EXPERIMENT" : claimStatus === "CHALLENGED" ? "CLAIM CHALLENGED" : "INCONCLUSIVE REGIME"}</span>
+            <span>VERDICT: {claimStatus}</span>
           </div>
           <p className="text-xs text-slate-300 leading-relaxed font-sans">
             {statusReason}

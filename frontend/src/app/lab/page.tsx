@@ -575,7 +575,7 @@ export default function LabPage() {
                 >
                   {result.model_output}
                 </div>
-                <div className="text-[11px] font-mono text-slate-400 flex items-center justify-between">
+                <div className="text-[11px] font-mono text-slate-400 flex items-center justify-between" suppressHydrationWarning>
                   <span>Accuracy: {(result.metrics.accuracy * 100).toFixed(0)}%</span>
                   <span>Latency: {result.latency_ms.toFixed(2)} ms</span>
                 </div>

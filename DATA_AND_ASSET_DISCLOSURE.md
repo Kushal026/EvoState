@@ -13,27 +13,26 @@ All datasets utilized in this project are 100% synthetically generated via expli
 
 | Benchmark Suite | Protocol Generator | Data Structure | Purpose | Size / Trials |
 | :--- | :--- | :--- | :--- | :--- |
-| **Delayed Recall** | `evostate.experiments.delayed_recall` | Key-Value token needles separated by $k \in [4, 128]$ padding tokens. | Test retention over silent horizons. | 750 trials (50 seeds $\times$ 5 configs $\times$ 3 models) |
-| **Long-Horizon Recall** | `evostate.experiments.long_horizon` | $N=4$ needles distributed across length $T \in [32, 512]$ with distractor clutter. | Test retention under increasing noise accumulation. | 750 trials (50 seeds $\times$ 5 configs $\times$ 3 models) |
-| **Interference Overwrite** | `evostate.experiments.interference` | Target key repeatedly overwritten $N \in [1, 8]$ times with distractor values. | Measure destructive interference and recency bias. | 750 trials (50 seeds $\times$ 5 configs $\times$ 3 models) |
-| **Memory Capacity** | `evostate.experiments.memory_capacity` | $N_{\text{pairs}} \in [2, 24]$ distinct pairs packed into dimension $d=32$. | Measure associative matrix rank saturation threshold. | 250 trials (50 seeds $\times$ 5 configs) |
-| **Inference Scaling** | `evostate.experiments.inference_recovery` | Distractor-cluttered memory state evaluated under budgets $C_{\text{infer}} \in [1, 16]$. | Measure test-time error recovery & SNR dynamics. | 250 trials (50 seeds $\times$ 5 configs) |
+| **Sequence Length Horizon** | `evostate.experiments.long_horizon` | $N=4$ needles distributed across horizon $T \in [16, 1024]$ with distractor clutter. | Test retention across expanding horizons ($T \in [16..1024]$). | 630 trials (30 seeds $\times$ 7 points $\times$ 3 models) |
+| **Memory Capacity Load** | `evostate.experiments.memory_capacity` | $N_{\text{pairs}} \in [1, 32]$ distinct associative pairs packed into dimension $d=32$. | Measure associative matrix rank saturation limit. | 720 trials (30 seeds $\times$ 8 points $\times$ 3 models) |
+| **Interference Overwrite** | `evostate.experiments.interference` | Target key repeatedly overwritten $N \in [1, 10]$ times with conflicting values. | Measure destructive overwrite interference and recency dominance. | 630 trials (30 seeds $\times$ 7 points $\times$ 3 models) |
+| **Inference Effort Scaling** | `evostate.experiments.inference_recovery` | Distractor-cluttered memory state evaluated under budgets $C_{\text{infer}} \in [1, 16]$. | Measure test-time error recovery & latency trade-offs. | 720 trials (30 seeds $\times$ 8 points $\times$ 3 models) |
 
-**Total Empirical Database:** 2,700 individual seeded trials logged in `data/precomputed/sweeps_master.csv`.
+**Total Empirical Database:** Exactly 2,700 individual seeded trials logged in `data/precomputed/sweeps_master.csv`.
 
 ---
 
 ## 🖼️ 2. Publication-Quality Plots & Assets
 
-All visual charts and plots in `data/precomputed/plots/` and `frontend/public/data/plots/` were generated directly from `data/precomputed/sweeps_master.csv` using `matplotlib` at 300 DPI:
+All visual charts and plots in `data/precomputed/plots/` and `frontend/public/plots/` were generated directly from `data/precomputed/sweeps_master.csv` using `matplotlib` at 300 DPI:
 
-1. `fig1_accuracy_vs_length.png`: Accuracy vs Sequence Length $T \in [32, 512]$ (Mean $\pm$ Std Error).
-2. `fig2_accuracy_vs_capacity.png`: Retrieval Accuracy vs Number of Packed Pairs $N_{\text{pairs}}$ (Theoretical $\alpha_c$ threshold).
-3. `fig3_error_vs_interference.png`: Error Rate vs Number of Destructive Overwrites.
-4. `fig4_accuracy_vs_inference.png`: Accuracy vs Test-Time Inference Budget $C_{\text{infer}}$.
-5. `fig5_latency_vs_inference.png`: Latency (ms) vs Inference Budget $C_{\text{infer}}$.
-6. `fig6_accuracy_latency_tradeoff.png`: Pareto Frontier of Accuracy vs Wall-Clock Latency.
-7. `fig7_composite_publication_panel.png`: 6-Panel Composite Figure for publication & defense review.
+1. `plot1_accuracy_vs_sequence_length.png`: Accuracy vs Sequence Length $T \in [16, 1024]$ (Mean $\pm$ 95% Confidence Interval).
+2. `plot2_accuracy_vs_memory_capacity.png`: Retrieval Accuracy vs Number of Stored Pairs $N_{\text{pairs}} \in [1, 32]$.
+3. `plot3_error_rate_vs_interference.png`: Error Rate vs Number of Destructive Key Overwrites $N_{\text{overwrites}} \in [1, 10]$.
+4. `plot4_accuracy_vs_inference_effort.png`: Accuracy vs Test-Time Inference Budget $C_{\text{infer}} \in [1, 16]$.
+5. `plot5_latency_vs_inference_effort.png`: Latency (ms) vs Inference Budget $C_{\text{infer}} \in [1, 16]$.
+6. `plot6_accuracy_latency_tradeoff.png`: Pareto Frontier of Accuracy vs Wall-Clock Latency.
+7. `plot_all_panels.png`: 6-Panel Composite Publication Figure.
 
 ---
 

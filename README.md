@@ -97,26 +97,29 @@ Interactive OpenAPI docs: `http://127.0.0.1:8000/docs`.
 
 ---
 
-## 🌐 Application Navigation & Interactive Modules
+## 🌐 Public Deployment & Interactive Modules
 
-The web application requires no login, no API keys, and functions completely standalone via the client simulator:
+- **Verified Public Production Deployment:** [https://evo-state.vercel.app](https://evo-state.vercel.app)
+- **Live Status:** 100% static client-side prerendered on Vercel Edge. Zero login, zero paywalls, zero external API keys, and zero localhost dependencies required.
 
+### Interactive Navigation & Page Directory
 - **`/` (Home):** 
   - **Live State Stream Visualizer:** Interactive token stream $\to$ 6x6 associative fast-weight matrix heatmap $\to$ recall readout with live SNR & memory footprint metrics.
   - **4-Stage Claim Pipeline:** Interactive walkthrough of `REMEMBER` $\to$ `STRETCH` $\to$ `ATTACK` $\to$ `RECOVER`.
   - **Break the Memory Testbench:** Real-time controls for Sequence Length ($16 \to 1024$), Interference ($0\% \to 100\%$), Inference Cycles ($1 \to 25$), Ground Truth vs Model Output comparison, and **"WHAT CHANGED?"** parametric delta telemetry.
-  - **Challenge the Claim:** Interactive falsification engine evaluating dynamic claim status (`SUPPORTED UNDER THIS EXPERIMENT`, `CLAIM CHALLENGED`, or `INCONCLUSIVE`).
+  - **Challenge the Claim:** Interactive falsification engine evaluating dynamic claim status (`SUPPORTS CLAIM`, `PARTIALLY SUPPORTS CLAIM`, `DOES NOT SUPPORT CLAIM`, or `INCONCLUSIVE`).
   - **Architectural Foundations & Research Matrix:** Core equations, 2,700-trial summary, and primary literature attribution.
 - **`/lab` (Interactive Laboratory):** 
   - `01 — 60-Second Experiment`: Guided rapid judge audit.
   - `02 — Guided Discovery`: 7-stage structured educational pathway with concept checks.
-  - `03 — Open Workbench`: Live multi-parameter studio with D3 coordinate heatmaps.
-- **`/concept` (Theoretical Foundations):** Outer-product associative binding, Johnson-Lindenstrauss capacity limits, and iterative attractor settling.
+  - `03 — Open Workbench`: Live multi-parameter studio with D3 coordinate heatmaps and state inspection.
+- **`/concept` (Theoretical Foundations):** Outer-product associative binding, Hopfield/Johnson-Lindenstrauss capacity limits, and iterative attractor settling.
 - **`/bdh` (BDH: The Dragon Hatchling):** Academic literature breakdown of Kosowski et al. (2025, arXiv:2509.26507) and explicit educational boundary notices.
 - **`/bdh-cq` (BDH-CQ: Latent Reasoning):** In-context learning with recurrent latent reasoning (Engdahl et al., 2026, arXiv:2608.09888), interactive D3 energy landscapes, and test-time Pareto cost curves.
 - **`/compare` (Architecture Comparison Matrix):** 5 sequence modeling paradigms evaluated across 8 dimensions with strict evidence tier badges.
 - **`/research` (Empirical Sweeps & Observatory):** 300 DPI plot viewer, 2,700-trial dataset downloads (`sweeps_master.csv`, `summary_statistics.csv`), and academic literature review.
 - **`/about` (Judge Defense Sheet & Technical FAQ):** 10 expandable defense cards addressing claim validity, learner controls, metrics, execution transparency, limitations, and local reproduction commands.
+- **`/why-it-matters` (Engineering & Scientific Motivation):** Detailed analysis of KV cache memory scaling bottlenecks in deployment and state-space alternatives.
 
 ---
 

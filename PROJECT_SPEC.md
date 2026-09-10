@@ -92,7 +92,7 @@ By completing the laboratory experiments, learners will be able to:
    - Learner activates inference-time scaling (iterative recurrent unrolling, candidate scoring, attractor refinement).
    - Learner discovers the "Recovery Delta" ($\Delta Acc$) and maps the Pareto frontier.
 4. **Phase 4: Frontier Benchmarking & Judge Defense**
-   - Learner compares live toy performance against precomputed frontier benchmarks (Mamba-2, TTT-Linear, Full Attention).
+   - Learner compares live toy performance against precomputed empirical sweeps and conceptual literature reference baselines (Full Attention KV cache baseline, fixed-size recurrent memory, and published literature architectures).
    - Learner audits the BDH-CQ connection and reviews the Judge Defense Sheet.
 
 ---

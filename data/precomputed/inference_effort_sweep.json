@@ -8,7 +8,7 @@
     "seed": 43,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.22,
+    "latency": 3.75,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -28,7 +28,7 @@
     "seed": 7962,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.109,
+    "latency": 3.381,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -48,7 +48,7 @@
     "seed": 15881,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.243,
+    "latency": 3.512,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -68,7 +68,7 @@
     "seed": 23800,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.966,
+    "latency": 5.562,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -88,7 +88,7 @@
     "seed": 31719,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.375,
+    "latency": 6.225,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -108,7 +108,7 @@
     "seed": 39638,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.696,
+    "latency": 11.201,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -128,7 +128,7 @@
     "seed": 47557,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.722,
+    "latency": 10.77,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -148,7 +148,7 @@
     "seed": 55476,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.85,
+    "latency": 12.01,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -168,7 +168,7 @@
     "seed": 63395,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.565,
+    "latency": 10.67,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -188,7 +188,7 @@
     "seed": 71314,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.927,
+    "latency": 10.116,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -208,7 +208,7 @@
     "seed": 79233,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.101,
+    "latency": 11.462,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -228,7 +228,7 @@
     "seed": 87152,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.715,
+    "latency": 10.095,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -248,7 +248,7 @@
     "seed": 95071,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.757,
+    "latency": 4.454,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -268,7 +268,7 @@
     "seed": 102990,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.744,
+    "latency": 3.265,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -288,7 +288,7 @@
     "seed": 110909,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.252,
+    "latency": 3.227,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -308,7 +308,7 @@
     "seed": 118828,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.479,
+    "latency": 3.186,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -328,7 +328,7 @@
     "seed": 126747,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.837,
+    "latency": 4.784,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -348,7 +348,7 @@
     "seed": 134666,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.632,
+    "latency": 3.497,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -368,7 +368,7 @@
     "seed": 142585,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.433,
+    "latency": 3.081,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -388,7 +388,7 @@
     "seed": 150504,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.988,
+    "latency": 3.075,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -408,7 +408,7 @@
     "seed": 158423,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.429,
+    "latency": 2.722,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -428,7 +428,7 @@
     "seed": 166342,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.791,
+    "latency": 3.12,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -448,7 +448,7 @@
     "seed": 174261,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.006,
+    "latency": 2.732,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -468,7 +468,7 @@
     "seed": 182180,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.809,
+    "latency": 2.637,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -488,7 +488,7 @@
     "seed": 190099,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.093,
+    "latency": 3.059,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -508,7 +508,7 @@
     "seed": 198018,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.477,
+    "latency": 2.919,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -528,7 +528,7 @@
     "seed": 205937,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.75,
+    "latency": 11.573,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -548,7 +548,7 @@
     "seed": 213856,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.734,
+    "latency": 11.452,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -568,7 +568,7 @@
     "seed": 221775,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.027,
+    "latency": 8.349,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -588,7 +588,7 @@
     "seed": 229694,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 7.466,
+    "latency": 3.524,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -608,7 +608,7 @@
     "seed": 44,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.87,
+    "latency": 3.596,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -628,7 +628,7 @@
     "seed": 7963,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.139,
+    "latency": 3.019,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -648,7 +648,7 @@
     "seed": 15882,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.093,
+    "latency": 8.031,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -668,7 +668,7 @@
     "seed": 23801,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.045,
+    "latency": 10.966,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -688,7 +688,7 @@
     "seed": 31720,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.873,
+    "latency": 9.084,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -708,7 +708,7 @@
     "seed": 39639,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.065,
+    "latency": 4.153,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -728,7 +728,7 @@
     "seed": 47558,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.996,
+    "latency": 3.574,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -748,7 +748,7 @@
     "seed": 55477,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.857,
+    "latency": 3.2,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -768,7 +768,7 @@
     "seed": 63396,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.617,
+    "latency": 2.928,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -788,7 +788,7 @@
     "seed": 71315,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.898,
+    "latency": 3.255,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -808,7 +808,7 @@
     "seed": 79234,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.79,
+    "latency": 3.057,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -828,7 +828,7 @@
     "seed": 87153,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.47,
+    "latency": 3.097,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -848,7 +848,7 @@
     "seed": 95072,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.722,
+    "latency": 3.454,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -868,7 +868,7 @@
     "seed": 102991,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.565,
+    "latency": 3.705,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -888,7 +888,7 @@
     "seed": 110910,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.429,
+    "latency": 5.574,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -908,7 +908,7 @@
     "seed": 118829,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.428,
+    "latency": 11.181,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -928,7 +928,7 @@
     "seed": 126748,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.659,
+    "latency": 12.297,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -948,7 +948,7 @@
     "seed": 134667,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.581,
+    "latency": 12.062,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -968,7 +968,7 @@
     "seed": 142586,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.069,
+    "latency": 9.599,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -988,7 +988,7 @@
     "seed": 150505,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.065,
+    "latency": 11.768,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1008,7 +1008,7 @@
     "seed": 158424,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.65,
+    "latency": 11.994,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1028,7 +1028,7 @@
     "seed": 166343,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.763,
+    "latency": 9.471,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1048,7 +1048,7 @@
     "seed": 174262,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.372,
+    "latency": 9.371,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1068,7 +1068,7 @@
     "seed": 182181,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.877,
+    "latency": 2.803,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1088,7 +1088,7 @@
     "seed": 190100,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 7.574,
+    "latency": 2.531,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1108,7 +1108,7 @@
     "seed": 198019,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.751,
+    "latency": 2.394,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1128,7 +1128,7 @@
     "seed": 205938,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.668,
+    "latency": 3.161,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1148,7 +1148,7 @@
     "seed": 213857,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.518,
+    "latency": 3.086,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1168,7 +1168,7 @@
     "seed": 221776,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.538,
+    "latency": 3.118,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1188,7 +1188,7 @@
     "seed": 229695,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.13,
+    "latency": 3.446,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1208,7 +1208,7 @@
     "seed": 45,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.594,
+    "latency": 3.62,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1228,7 +1228,7 @@
     "seed": 7964,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.673,
+    "latency": 3.814,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1248,7 +1248,7 @@
     "seed": 15883,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.201,
+    "latency": 2.92,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1268,7 +1268,7 @@
     "seed": 23802,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.333,
+    "latency": 2.791,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1288,7 +1288,7 @@
     "seed": 31721,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.7,
+    "latency": 4.108,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1308,7 +1308,7 @@
     "seed": 39640,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.582,
+    "latency": 3.204,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1328,7 +1328,7 @@
     "seed": 47559,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.463,
+    "latency": 9.732,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1348,7 +1348,7 @@
     "seed": 55478,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.367,
+    "latency": 9.789,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1368,7 +1368,7 @@
     "seed": 63397,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.366,
+    "latency": 10.569,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1388,7 +1388,7 @@
     "seed": 71316,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.957,
+    "latency": 9.89,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1408,7 +1408,7 @@
     "seed": 79235,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.834,
+    "latency": 10.19,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1428,7 +1428,7 @@
     "seed": 87154,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.373,
+    "latency": 12.667,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1448,7 +1448,7 @@
     "seed": 95073,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.066,
+    "latency": 11.411,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1468,7 +1468,7 @@
     "seed": 102992,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.275,
+    "latency": 12.486,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1488,7 +1488,7 @@
     "seed": 110911,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.999,
+    "latency": 8.62,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1508,7 +1508,7 @@
     "seed": 118830,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.187,
+    "latency": 2.356,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1528,7 +1528,7 @@
     "seed": 126749,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.777,
+    "latency": 3.787,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1548,7 +1548,7 @@
     "seed": 134668,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.33,
+    "latency": 2.981,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1568,7 +1568,7 @@
     "seed": 142587,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.211,
+    "latency": 2.733,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1588,7 +1588,7 @@
     "seed": 150506,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.594,
+    "latency": 3.143,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1608,7 +1608,7 @@
     "seed": 158425,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.938,
+    "latency": 3.45,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1628,7 +1628,7 @@
     "seed": 166344,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.189,
+    "latency": 2.626,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1648,7 +1648,7 @@
     "seed": 174263,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.666,
+    "latency": 2.955,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1668,7 +1668,7 @@
     "seed": 182182,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.753,
+    "latency": 3.187,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1688,7 +1688,7 @@
     "seed": 190101,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.579,
+    "latency": 3.22,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1708,7 +1708,7 @@
     "seed": 198020,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 5.709,
+    "latency": 4.432,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1728,7 +1728,7 @@
     "seed": 205939,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 7.456,
+    "latency": 3.44,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1748,7 +1748,7 @@
     "seed": 213858,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.911,
+    "latency": 3.741,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1768,7 +1768,7 @@
     "seed": 221777,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.286,
+    "latency": 3.052,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1788,7 +1788,7 @@
     "seed": 229696,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.855,
+    "latency": 3.603,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1808,7 +1808,7 @@
     "seed": 46,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.01,
+    "latency": 3.69,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1828,7 +1828,7 @@
     "seed": 7965,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.594,
+    "latency": 3.178,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1848,7 +1848,7 @@
     "seed": 15884,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.594,
+    "latency": 3.47,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1868,7 +1868,7 @@
     "seed": 23803,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.883,
+    "latency": 3.702,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1888,7 +1888,7 @@
     "seed": 31722,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.308,
+    "latency": 2.941,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1908,7 +1908,7 @@
     "seed": 39641,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.726,
+    "latency": 3.44,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1928,7 +1928,7 @@
     "seed": 47560,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.794,
+    "latency": 3.516,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1948,7 +1948,7 @@
     "seed": 55479,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.915,
+    "latency": 3.795,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1968,7 +1968,7 @@
     "seed": 63398,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.334,
+    "latency": 3.071,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -1988,7 +1988,7 @@
     "seed": 71317,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.804,
+    "latency": 3.62,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2008,7 +2008,7 @@
     "seed": 79236,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 6.241,
+    "latency": 3.332,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2028,7 +2028,7 @@
     "seed": 87155,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.572,
+    "latency": 2.847,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2048,7 +2048,7 @@
     "seed": 95074,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.569,
+    "latency": 3.528,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2068,7 +2068,7 @@
     "seed": 102993,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.088,
+    "latency": 3.413,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2088,7 +2088,7 @@
     "seed": 110912,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.439,
+    "latency": 4.122,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2108,7 +2108,7 @@
     "seed": 118831,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.67,
+    "latency": 11.339,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2128,7 +2128,7 @@
     "seed": 126750,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.433,
+    "latency": 11.635,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2148,7 +2148,7 @@
     "seed": 134669,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.108,
+    "latency": 9.805,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2168,7 +2168,7 @@
     "seed": 142588,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.883,
+    "latency": 12.339,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2188,7 +2188,7 @@
     "seed": 150507,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.239,
+    "latency": 11.776,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2208,7 +2208,7 @@
     "seed": 158426,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.356,
+    "latency": 11.953,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2228,7 +2228,7 @@
     "seed": 166345,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.095,
+    "latency": 11.946,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2248,7 +2248,7 @@
     "seed": 174264,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.905,
+    "latency": 8.448,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2268,7 +2268,7 @@
     "seed": 182183,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.84,
+    "latency": 3.242,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2288,7 +2288,7 @@
     "seed": 190102,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.257,
+    "latency": 3.834,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2308,7 +2308,7 @@
     "seed": 198021,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.719,
+    "latency": 3.787,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2328,7 +2328,7 @@
     "seed": 205940,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.552,
+    "latency": 3.282,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2348,7 +2348,7 @@
     "seed": 213859,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.497,
+    "latency": 5.005,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2368,7 +2368,7 @@
     "seed": 221778,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.281,
+    "latency": 10.191,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2388,7 +2388,7 @@
     "seed": 229697,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.158,
+    "latency": 9.236,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2408,7 +2408,7 @@
     "seed": 48,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.467,
+    "latency": 3.561,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2428,7 +2428,7 @@
     "seed": 7967,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.793,
+    "latency": 12.783,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2448,7 +2448,7 @@
     "seed": 15886,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.473,
+    "latency": 10.411,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2468,7 +2468,7 @@
     "seed": 23805,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.795,
+    "latency": 12.556,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2488,7 +2488,7 @@
     "seed": 31724,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.68,
+    "latency": 12.082,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2508,7 +2508,7 @@
     "seed": 39643,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.666,
+    "latency": 11.577,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2528,7 +2528,7 @@
     "seed": 47562,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.969,
+    "latency": 12.974,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2548,7 +2548,7 @@
     "seed": 55481,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.059,
+    "latency": 10.61,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2568,7 +2568,7 @@
     "seed": 63400,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.684,
+    "latency": 10.456,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2588,7 +2588,7 @@
     "seed": 71319,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.699,
+    "latency": 5.795,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2608,7 +2608,7 @@
     "seed": 79238,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.799,
+    "latency": 3.325,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2628,7 +2628,7 @@
     "seed": 87157,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.578,
+    "latency": 3.481,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2648,7 +2648,7 @@
     "seed": 95076,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.508,
+    "latency": 3.328,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2668,7 +2668,7 @@
     "seed": 102995,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.92,
+    "latency": 3.811,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2688,7 +2688,7 @@
     "seed": 110914,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.652,
+    "latency": 3.477,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2708,7 +2708,7 @@
     "seed": 118833,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.794,
+    "latency": 3.672,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2728,7 +2728,7 @@
     "seed": 126752,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.276,
+    "latency": 2.963,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2748,7 +2748,7 @@
     "seed": 134671,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.659,
+    "latency": 3.465,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2768,7 +2768,7 @@
     "seed": 142590,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.55,
+    "latency": 3.226,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2788,7 +2788,7 @@
     "seed": 150509,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.272,
+    "latency": 2.292,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2808,7 +2808,7 @@
     "seed": 158428,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.556,
+    "latency": 2.562,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2828,7 +2828,7 @@
     "seed": 166347,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.79,
+    "latency": 2.689,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2848,7 +2848,7 @@
     "seed": 174266,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.743,
+    "latency": 2.726,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2868,7 +2868,7 @@
     "seed": 182185,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.441,
+    "latency": 2.381,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2888,7 +2888,7 @@
     "seed": 190104,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.296,
+    "latency": 2.593,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2908,7 +2908,7 @@
     "seed": 198023,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.397,
+    "latency": 3.293,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2928,7 +2928,7 @@
     "seed": 205942,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.793,
+    "latency": 3.954,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2948,7 +2948,7 @@
     "seed": 213861,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.661,
+    "latency": 2.931,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2968,7 +2968,7 @@
     "seed": 221780,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.557,
+    "latency": 2.689,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -2988,7 +2988,7 @@
     "seed": 229699,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.421,
+    "latency": 3.578,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3008,7 +3008,7 @@
     "seed": 50,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.105,
+    "latency": 9.236,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3028,7 +3028,7 @@
     "seed": 7969,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.364,
+    "latency": 10.938,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3048,7 +3048,7 @@
     "seed": 15888,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.553,
+    "latency": 12.193,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3068,7 +3068,7 @@
     "seed": 23807,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.17,
+    "latency": 4.999,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3088,7 +3088,7 @@
     "seed": 31726,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.792,
+    "latency": 2.724,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3108,7 +3108,7 @@
     "seed": 39645,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.741,
+    "latency": 3.07,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3128,7 +3128,7 @@
     "seed": 47564,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.453,
+    "latency": 2.944,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3148,7 +3148,7 @@
     "seed": 55483,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.704,
+    "latency": 3.481,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3168,7 +3168,7 @@
     "seed": 63402,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.452,
+    "latency": 3.093,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3188,7 +3188,7 @@
     "seed": 71321,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.623,
+    "latency": 3.346,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3208,7 +3208,7 @@
     "seed": 79240,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.57,
+    "latency": 3.17,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3228,7 +3228,7 @@
     "seed": 87159,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.857,
+    "latency": 3.586,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3248,7 +3248,7 @@
     "seed": 95078,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.687,
+    "latency": 3.468,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3268,7 +3268,7 @@
     "seed": 102997,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.723,
+    "latency": 3.41,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3288,7 +3288,7 @@
     "seed": 110916,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.58,
+    "latency": 3.185,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3308,7 +3308,7 @@
     "seed": 118835,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.127,
+    "latency": 4.797,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3328,7 +3328,7 @@
     "seed": 126754,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.973,
+    "latency": 5.512,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3348,7 +3348,7 @@
     "seed": 134673,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.418,
+    "latency": 3.367,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3368,7 +3368,7 @@
     "seed": 142592,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.434,
+    "latency": 3.071,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3388,7 +3388,7 @@
     "seed": 150511,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.588,
+    "latency": 10.618,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3408,7 +3408,7 @@
     "seed": 158430,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 7.485,
+    "latency": 9.882,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3428,7 +3428,7 @@
     "seed": 166349,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.339,
+    "latency": 11.915,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3448,7 +3448,7 @@
     "seed": 174268,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.456,
+    "latency": 11.176,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3468,7 +3468,7 @@
     "seed": 182187,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.153,
+    "latency": 11.368,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3488,7 +3488,7 @@
     "seed": 190106,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.762,
+    "latency": 12.532,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3508,7 +3508,7 @@
     "seed": 198025,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.215,
+    "latency": 12.339,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3528,7 +3528,7 @@
     "seed": 205944,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.707,
+    "latency": 9.912,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3548,7 +3548,7 @@
     "seed": 213863,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.944,
+    "latency": 2.874,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3568,7 +3568,7 @@
     "seed": 221782,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.901,
+    "latency": 3.492,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3588,7 +3588,7 @@
     "seed": 229701,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.091,
+    "latency": 3.089,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3608,7 +3608,7 @@
     "seed": 54,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.858,
+    "latency": 2.758,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3648,7 +3648,7 @@
     "seed": 15892,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.682,
+    "latency": 2.655,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3668,7 +3668,7 @@
     "seed": 23811,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.712,
+    "latency": 2.575,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3688,7 +3688,7 @@
     "seed": 31730,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.055,
+    "latency": 2.524,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3708,7 +3708,7 @@
     "seed": 39649,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.838,
+    "latency": 2.352,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3728,7 +3728,7 @@
     "seed": 47568,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.989,
+    "latency": 2.457,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3748,7 +3748,7 @@
     "seed": 55487,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.332,
+    "latency": 2.249,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3768,7 +3768,7 @@
     "seed": 63406,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.11,
+    "latency": 2.503,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3788,7 +3788,7 @@
     "seed": 71325,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.528,
+    "latency": 2.811,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3808,7 +3808,7 @@
     "seed": 79244,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.549,
+    "latency": 3.272,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3828,7 +3828,7 @@
     "seed": 87163,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.573,
+    "latency": 3.227,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3848,7 +3848,7 @@
     "seed": 95082,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.505,
+    "latency": 3.075,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3868,7 +3868,7 @@
     "seed": 103001,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.457,
+    "latency": 3.167,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3888,7 +3888,7 @@
     "seed": 110920,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.416,
+    "latency": 3.08,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3908,7 +3908,7 @@
     "seed": 118839,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.425,
+    "latency": 2.999,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3928,7 +3928,7 @@
     "seed": 126758,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.565,
+    "latency": 3.322,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3948,7 +3948,7 @@
     "seed": 134677,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.885,
+    "latency": 3.655,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3968,7 +3968,7 @@
     "seed": 142596,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.957,
+    "latency": 7.362,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -3988,7 +3988,7 @@
     "seed": 150515,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.059,
+    "latency": 8.977,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4008,7 +4008,7 @@
     "seed": 158434,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.237,
+    "latency": 11.275,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4028,7 +4028,7 @@
     "seed": 166353,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 8.208,
+    "latency": 12.031,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4048,7 +4048,7 @@
     "seed": 174272,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.309,
+    "latency": 12.578,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4068,7 +4068,7 @@
     "seed": 182191,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.934,
+    "latency": 11.068,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4088,7 +4088,7 @@
     "seed": 190110,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.738,
+    "latency": 9.771,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4108,7 +4108,7 @@
     "seed": 198029,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.817,
+    "latency": 10.647,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4128,7 +4128,7 @@
     "seed": 205948,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.794,
+    "latency": 6.567,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4148,7 +4148,7 @@
     "seed": 213867,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.576,
+    "latency": 2.548,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4168,7 +4168,7 @@
     "seed": 221786,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.379,
+    "latency": 2.373,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4188,7 +4188,7 @@
     "seed": 229705,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.19,
+    "latency": 2.663,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4208,7 +4208,7 @@
     "seed": 58,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.809,
+    "latency": 3.6,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4228,7 +4228,7 @@
     "seed": 7977,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.65,
+    "latency": 3.286,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4248,7 +4248,7 @@
     "seed": 15896,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.904,
+    "latency": 3.752,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4268,7 +4268,7 @@
     "seed": 23815,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.465,
+    "latency": 10.947,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4288,7 +4288,7 @@
     "seed": 31734,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.599,
+    "latency": 11.318,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4308,7 +4308,7 @@
     "seed": 39653,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.465,
+    "latency": 10.489,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4328,7 +4328,7 @@
     "seed": 47572,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.555,
+    "latency": 11.166,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4348,7 +4348,7 @@
     "seed": 55491,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.453,
+    "latency": 10.368,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4368,7 +4368,7 @@
     "seed": 63410,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.43,
+    "latency": 10.524,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4388,7 +4388,7 @@
     "seed": 71329,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 6.545,
+    "latency": 11.798,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4408,7 +4408,7 @@
     "seed": 79248,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.408,
+    "latency": 11.216,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4428,7 +4428,7 @@
     "seed": 87167,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.546,
+    "latency": 4.848,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4448,7 +4448,7 @@
     "seed": 95086,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.367,
+    "latency": 3.798,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4468,7 +4468,7 @@
     "seed": 103005,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.188,
+    "latency": 2.807,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4488,7 +4488,7 @@
     "seed": 110924,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.723,
+    "latency": 3.518,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4508,7 +4508,7 @@
     "seed": 118843,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.996,
+    "latency": 2.821,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4528,7 +4528,7 @@
     "seed": 126762,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.825,
+    "latency": 3.229,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4548,7 +4548,7 @@
     "seed": 134681,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 7.053,
+    "latency": 3.169,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4568,7 +4568,7 @@
     "seed": 142600,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.1,
+    "latency": 2.915,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4588,7 +4588,7 @@
     "seed": 150519,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.09,
+    "latency": 2.735,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4608,7 +4608,7 @@
     "seed": 158438,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.818,
+    "latency": 4.976,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4628,7 +4628,7 @@
     "seed": 166357,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.613,
+    "latency": 2.801,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4648,7 +4648,7 @@
     "seed": 174276,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 12.317,
+    "latency": 2.559,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4668,7 +4668,7 @@
     "seed": 182195,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.068,
+    "latency": 3.156,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4688,7 +4688,7 @@
     "seed": 190114,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.882,
+    "latency": 3.25,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4708,7 +4708,7 @@
     "seed": 198033,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.55,
+    "latency": 3.573,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4728,7 +4728,7 @@
     "seed": 205952,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.028,
+    "latency": 3.218,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4748,7 +4748,7 @@
     "seed": 213871,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 1.809,
+    "latency": 2.96,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4768,7 +4768,7 @@
     "seed": 221790,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.09,
+    "latency": 3.447,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4788,7 +4788,7 @@
     "seed": 229709,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.142,
+    "latency": 6.557,
     "inference_steps": 1,
     "configuration": {
       "model_name": "full_history_reference_baseline",
@@ -4808,7 +4808,7 @@
     "seed": 43,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.85,
+    "latency": 4.618,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -4828,7 +4828,7 @@
     "seed": 7962,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.346,
+    "latency": 4.056,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -4848,7 +4848,7 @@
     "seed": 15881,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.542,
+    "latency": 4.349,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -4868,7 +4868,7 @@
     "seed": 23800,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.585,
+    "latency": 3.715,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -4888,7 +4888,7 @@
     "seed": 31719,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.25,
+    "latency": 3.308,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -4908,7 +4908,7 @@
     "seed": 39638,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.652,
+    "latency": 3.424,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -4928,7 +4928,7 @@
     "seed": 47557,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 11.098,
+    "latency": 3.074,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -4948,7 +4948,7 @@
     "seed": 55476,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 15.216,
+    "latency": 4.002,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -4968,7 +4968,7 @@
     "seed": 63395,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.403,
+    "latency": 3.976,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -4988,7 +4988,7 @@
     "seed": 71314,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.418,
+    "latency": 3.694,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5008,7 +5008,7 @@
     "seed": 79233,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.598,
+    "latency": 4.33,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5028,7 +5028,7 @@
     "seed": 87152,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.236,
+    "latency": 3.764,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5048,7 +5048,7 @@
     "seed": 95071,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.292,
+    "latency": 4.01,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5068,7 +5068,7 @@
     "seed": 102990,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.18,
+    "latency": 9.674,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5088,7 +5088,7 @@
     "seed": 110909,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.237,
+    "latency": 13.411,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5108,7 +5108,7 @@
     "seed": 118828,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.278,
+    "latency": 13.622,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5128,7 +5128,7 @@
     "seed": 126747,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.727,
+    "latency": 15.416,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5148,7 +5148,7 @@
     "seed": 134666,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.585,
+    "latency": 14.716,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5168,7 +5168,7 @@
     "seed": 142585,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.335,
+    "latency": 13.48,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5188,7 +5188,7 @@
     "seed": 150504,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 11.246,
+    "latency": 12.996,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5208,7 +5208,7 @@
     "seed": 158423,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.345,
+    "latency": 3.415,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5228,7 +5228,7 @@
     "seed": 166342,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.688,
+    "latency": 3.983,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5248,7 +5248,7 @@
     "seed": 174261,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.6,
+    "latency": 3.945,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5268,7 +5268,7 @@
     "seed": 182180,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.085,
+    "latency": 3.539,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5288,7 +5288,7 @@
     "seed": 190099,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 14.577,
+    "latency": 4.044,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5308,7 +5308,7 @@
     "seed": 198018,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.268,
+    "latency": 5.145,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5328,7 +5328,7 @@
     "seed": 205937,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.077,
+    "latency": 4.366,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5348,7 +5348,7 @@
     "seed": 213856,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.846,
+    "latency": 10.825,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5368,7 +5368,7 @@
     "seed": 221775,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.785,
+    "latency": 15.58,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5388,7 +5388,7 @@
     "seed": 229694,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.464,
+    "latency": 13.725,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5408,7 +5408,7 @@
     "seed": 44,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.674,
+    "latency": 5.051,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5428,7 +5428,7 @@
     "seed": 7963,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.002,
+    "latency": 3.998,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5448,7 +5448,7 @@
     "seed": 15882,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.641,
+    "latency": 4.595,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5468,7 +5468,7 @@
     "seed": 23801,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.359,
+    "latency": 4.093,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5488,7 +5488,7 @@
     "seed": 31720,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.156,
+    "latency": 4.062,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5508,7 +5508,7 @@
     "seed": 39639,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.523,
+    "latency": 4.522,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5528,7 +5528,7 @@
     "seed": 47558,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.262,
+    "latency": 4.46,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5548,7 +5548,7 @@
     "seed": 55477,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.632,
+    "latency": 3.905,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5568,7 +5568,7 @@
     "seed": 63396,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 11.869,
+    "latency": 3.504,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5588,7 +5588,7 @@
     "seed": 71315,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.833,
+    "latency": 4.165,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5608,7 +5608,7 @@
     "seed": 79234,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.619,
+    "latency": 3.914,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5628,7 +5628,7 @@
     "seed": 87153,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.483,
+    "latency": 3.64,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5648,7 +5648,7 @@
     "seed": 95072,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.726,
+    "latency": 3.221,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5668,7 +5668,7 @@
     "seed": 102991,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.679,
+    "latency": 3.397,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5688,7 +5688,7 @@
     "seed": 110910,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.442,
+    "latency": 4.163,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5708,7 +5708,7 @@
     "seed": 118829,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.942,
+    "latency": 4.065,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5728,7 +5728,7 @@
     "seed": 126748,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.901,
+    "latency": 4.544,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5748,7 +5748,7 @@
     "seed": 134667,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.549,
+    "latency": 4.811,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5768,7 +5768,7 @@
     "seed": 142586,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.843,
+    "latency": 4.696,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5788,7 +5788,7 @@
     "seed": 150505,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.275,
+    "latency": 19.616,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5808,7 +5808,7 @@
     "seed": 158424,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.8,
+    "latency": 16.502,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5828,7 +5828,7 @@
     "seed": 166343,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.801,
+    "latency": 12.052,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5848,7 +5848,7 @@
     "seed": 174262,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.416,
+    "latency": 14.189,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5868,7 +5868,7 @@
     "seed": 182181,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.239,
+    "latency": 13.764,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5888,7 +5888,7 @@
     "seed": 190100,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.208,
+    "latency": 7.359,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5908,7 +5908,7 @@
     "seed": 198019,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.329,
+    "latency": 3.332,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5928,7 +5928,7 @@
     "seed": 205938,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.373,
+    "latency": 4.037,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5948,7 +5948,7 @@
     "seed": 213857,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.109,
+    "latency": 4.122,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5968,7 +5968,7 @@
     "seed": 221776,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 9.961,
+    "latency": 3.978,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -5988,7 +5988,7 @@
     "seed": 229695,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.469,
+    "latency": 4.819,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6008,7 +6008,7 @@
     "seed": 45,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.796,
+    "latency": 4.89,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6028,7 +6028,7 @@
     "seed": 7964,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.653,
+    "latency": 4.933,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6048,7 +6048,7 @@
     "seed": 15883,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.033,
+    "latency": 10.999,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6068,7 +6068,7 @@
     "seed": 23802,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.762,
+    "latency": 11.523,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6088,7 +6088,7 @@
     "seed": 31721,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.36,
+    "latency": 5.914,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6108,7 +6108,7 @@
     "seed": 39640,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.119,
+    "latency": 4.646,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6128,7 +6128,7 @@
     "seed": 47559,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.198,
+    "latency": 4.628,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6148,7 +6148,7 @@
     "seed": 55478,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.937,
+    "latency": 3.332,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6168,7 +6168,7 @@
     "seed": 63397,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.176,
+    "latency": 3.655,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6188,7 +6188,7 @@
     "seed": 71316,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 9.345,
+    "latency": 3.345,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6208,7 +6208,7 @@
     "seed": 79235,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.654,
+    "latency": 4.146,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6228,7 +6228,7 @@
     "seed": 87154,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.686,
+    "latency": 3.837,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6248,7 +6248,7 @@
     "seed": 95073,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.384,
+    "latency": 3.328,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6268,7 +6268,7 @@
     "seed": 102992,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.647,
+    "latency": 4.118,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6288,7 +6288,7 @@
     "seed": 110911,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.319,
+    "latency": 4.056,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6308,7 +6308,7 @@
     "seed": 118830,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.606,
+    "latency": 3.468,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6328,7 +6328,7 @@
     "seed": 126749,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.569,
+    "latency": 3.902,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6348,7 +6348,7 @@
     "seed": 134668,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.945,
+    "latency": 3.156,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6368,7 +6368,7 @@
     "seed": 142587,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.969,
+    "latency": 4.174,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6388,7 +6388,7 @@
     "seed": 150506,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.301,
+    "latency": 4.031,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6408,7 +6408,7 @@
     "seed": 158425,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.662,
+    "latency": 3.679,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6428,7 +6428,7 @@
     "seed": 166344,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.841,
+    "latency": 2.682,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6448,7 +6448,7 @@
     "seed": 174263,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.08,
+    "latency": 4.226,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6468,7 +6468,7 @@
     "seed": 182182,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.913,
+    "latency": 4.546,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6488,7 +6488,7 @@
     "seed": 190101,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 7.908,
+    "latency": 4.15,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6508,7 +6508,7 @@
     "seed": 198020,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 15.197,
+    "latency": 4.405,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6528,7 +6528,7 @@
     "seed": 205939,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.848,
+    "latency": 3.946,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6548,7 +6548,7 @@
     "seed": 213858,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 15.139,
+    "latency": 4.513,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6568,7 +6568,7 @@
     "seed": 221777,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 11.868,
+    "latency": 7.678,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6588,7 +6588,7 @@
     "seed": 229696,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.226,
+    "latency": 13.38,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6608,7 +6608,7 @@
     "seed": 46,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.906,
+    "latency": 13.989,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6628,7 +6628,7 @@
     "seed": 7965,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.208,
+    "latency": 13.385,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6648,7 +6648,7 @@
     "seed": 15884,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.27,
+    "latency": 4.115,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6668,7 +6668,7 @@
     "seed": 23803,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.537,
+    "latency": 3.631,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6688,7 +6688,7 @@
     "seed": 31722,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.919,
+    "latency": 3.834,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6708,7 +6708,7 @@
     "seed": 39641,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.229,
+    "latency": 4.196,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6728,7 +6728,7 @@
     "seed": 47560,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.595,
+    "latency": 4.374,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6748,7 +6748,7 @@
     "seed": 55479,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.083,
+    "latency": 5.012,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6768,7 +6768,7 @@
     "seed": 63398,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.337,
+    "latency": 4.4,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6788,7 +6788,7 @@
     "seed": 71317,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.34,
+    "latency": 11.126,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6808,7 +6808,7 @@
     "seed": 79236,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.619,
+    "latency": 14.148,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6828,7 +6828,7 @@
     "seed": 87155,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 11.631,
+    "latency": 11.69,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6848,7 +6848,7 @@
     "seed": 95074,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.919,
+    "latency": 14.141,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6868,7 +6868,7 @@
     "seed": 102993,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.288,
+    "latency": 13.478,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6888,7 +6888,7 @@
     "seed": 110912,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 11.362,
+    "latency": 11.437,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6908,7 +6908,7 @@
     "seed": 118831,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 14.649,
+    "latency": 13.835,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6928,7 +6928,7 @@
     "seed": 126750,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 14.112,
+    "latency": 4.067,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6948,7 +6948,7 @@
     "seed": 134669,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 8.97,
+    "latency": 3.064,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6968,7 +6968,7 @@
     "seed": 142588,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.244,
+    "latency": 13.451,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -6988,7 +6988,7 @@
     "seed": 150507,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.302,
+    "latency": 13.966,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7008,7 +7008,7 @@
     "seed": 158426,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.348,
+    "latency": 14.778,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7028,7 +7028,7 @@
     "seed": 166345,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.205,
+    "latency": 14.119,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7048,7 +7048,7 @@
     "seed": 174264,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.994,
+    "latency": 12.894,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7068,7 +7068,7 @@
     "seed": 182183,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.007,
+    "latency": 12.825,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7088,7 +7088,7 @@
     "seed": 190102,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.402,
+    "latency": 11.342,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7108,7 +7108,7 @@
     "seed": 198021,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.37,
+    "latency": 3.748,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7128,7 +7128,7 @@
     "seed": 205940,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.649,
+    "latency": 3.136,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7148,7 +7148,7 @@
     "seed": 213859,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.359,
+    "latency": 3.113,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7168,7 +7168,7 @@
     "seed": 221778,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.591,
+    "latency": 2.871,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7188,7 +7188,7 @@
     "seed": 229697,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.37,
+    "latency": 2.588,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7208,7 +7208,7 @@
     "seed": 48,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.363,
+    "latency": 8.947,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7228,7 +7228,7 @@
     "seed": 7967,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.624,
+    "latency": 5.78,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7248,7 +7248,7 @@
     "seed": 15886,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.202,
+    "latency": 4.577,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7268,7 +7268,7 @@
     "seed": 23805,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.566,
+    "latency": 15.386,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7288,7 +7288,7 @@
     "seed": 31724,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.418,
+    "latency": 14.158,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7308,7 +7308,7 @@
     "seed": 39643,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.71,
+    "latency": 14.197,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7328,7 +7328,7 @@
     "seed": 47562,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 15.443,
+    "latency": 15.305,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7348,7 +7348,7 @@
     "seed": 55481,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.271,
+    "latency": 13.031,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7368,7 +7368,7 @@
     "seed": 63400,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.721,
+    "latency": 12.656,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7388,7 +7388,7 @@
     "seed": 71319,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.927,
+    "latency": 13.523,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7408,7 +7408,7 @@
     "seed": 79238,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 14.967,
+    "latency": 6.053,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7428,7 +7428,7 @@
     "seed": 87157,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 7.617,
+    "latency": 3.363,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7448,7 +7448,7 @@
     "seed": 95076,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.527,
+    "latency": 3.091,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7468,7 +7468,7 @@
     "seed": 102995,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.849,
+    "latency": 3.518,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7488,7 +7488,7 @@
     "seed": 110914,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.583,
+    "latency": 4.143,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7508,7 +7508,7 @@
     "seed": 118833,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.959,
+    "latency": 4.583,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7528,7 +7528,7 @@
     "seed": 126752,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.927,
+    "latency": 3.727,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7548,7 +7548,7 @@
     "seed": 134671,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.322,
+    "latency": 4.302,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7568,7 +7568,7 @@
     "seed": 142590,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.098,
+    "latency": 3.961,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7588,7 +7588,7 @@
     "seed": 150509,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.963,
+    "latency": 3.72,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7608,7 +7608,7 @@
     "seed": 158428,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.294,
+    "latency": 4.113,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7628,7 +7628,7 @@
     "seed": 166347,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.473,
+    "latency": 4.622,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7648,7 +7648,7 @@
     "seed": 174266,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.478,
+    "latency": 5.657,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7668,7 +7668,7 @@
     "seed": 182185,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.076,
+    "latency": 3.674,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7688,7 +7688,7 @@
     "seed": 190104,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.873,
+    "latency": 2.964,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7708,7 +7708,7 @@
     "seed": 198023,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.07,
+    "latency": 8.988,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7728,7 +7728,7 @@
     "seed": 205942,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.744,
+    "latency": 10.934,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7748,7 +7748,7 @@
     "seed": 213861,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.835,
+    "latency": 3.275,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7768,7 +7768,7 @@
     "seed": 221780,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.677,
+    "latency": 3.216,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7788,7 +7788,7 @@
     "seed": 229699,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 15.118,
+    "latency": 3.378,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7808,7 +7808,7 @@
     "seed": 50,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.457,
+    "latency": 11.564,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7828,7 +7828,7 @@
     "seed": 7969,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.085,
+    "latency": 13.333,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7848,7 +7848,7 @@
     "seed": 15888,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.611,
+    "latency": 14.39,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7868,7 +7868,7 @@
     "seed": 23807,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.208,
+    "latency": 13.389,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7888,7 +7888,7 @@
     "seed": 31726,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.072,
+    "latency": 5.103,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7908,7 +7908,7 @@
     "seed": 39645,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.916,
+    "latency": 3.128,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7928,7 +7928,7 @@
     "seed": 47564,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.015,
+    "latency": 2.734,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7948,7 +7948,7 @@
     "seed": 55483,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.478,
+    "latency": 3.761,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7968,7 +7968,7 @@
     "seed": 63402,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.078,
+    "latency": 3.698,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -7988,7 +7988,7 @@
     "seed": 71321,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.236,
+    "latency": 3.889,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8008,7 +8008,7 @@
     "seed": 79240,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.134,
+    "latency": 7.901,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8028,7 +8028,7 @@
     "seed": 87159,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.52,
+    "latency": 14.882,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8048,7 +8048,7 @@
     "seed": 95078,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.405,
+    "latency": 14.112,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8068,7 +8068,7 @@
     "seed": 102997,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.429,
+    "latency": 14.89,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8088,7 +8088,7 @@
     "seed": 110916,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.876,
+    "latency": 13.437,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8108,7 +8108,7 @@
     "seed": 118835,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 11.146,
+    "latency": 16.533,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8128,7 +8128,7 @@
     "seed": 126754,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.924,
+    "latency": 11.768,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8148,7 +8148,7 @@
     "seed": 134673,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.277,
+    "latency": 4.032,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8168,7 +8168,7 @@
     "seed": 142592,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.268,
+    "latency": 4.251,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8188,7 +8188,7 @@
     "seed": 150511,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.864,
+    "latency": 4.193,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8208,7 +8208,7 @@
     "seed": 158430,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.008,
+    "latency": 3.689,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8228,7 +8228,7 @@
     "seed": 166349,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.529,
+    "latency": 4.283,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8248,7 +8248,7 @@
     "seed": 174268,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.288,
+    "latency": 4.074,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8268,7 +8268,7 @@
     "seed": 182187,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.377,
+    "latency": 4.048,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8288,7 +8288,7 @@
     "seed": 190106,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.805,
+    "latency": 11.36,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8308,7 +8308,7 @@
     "seed": 198025,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.92,
+    "latency": 14.894,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8328,7 +8328,7 @@
     "seed": 205944,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.475,
+    "latency": 12.236,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8348,7 +8348,7 @@
     "seed": 213863,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 11.99,
+    "latency": 12.003,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8368,7 +8368,7 @@
     "seed": 221782,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.664,
+    "latency": 15.959,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8388,7 +8388,7 @@
     "seed": 229701,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 14.572,
+    "latency": 14.056,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8408,7 +8408,7 @@
     "seed": 54,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.648,
+    "latency": 4.556,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8428,7 +8428,7 @@
     "seed": 7973,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.314,
+    "latency": 4.073,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8448,7 +8448,7 @@
     "seed": 15892,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.634,
+    "latency": 4.478,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8468,7 +8468,7 @@
     "seed": 23811,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.416,
+    "latency": 4.187,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8488,7 +8488,7 @@
     "seed": 31730,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.78,
+    "latency": 14.991,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8508,7 +8508,7 @@
     "seed": 39649,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.071,
+    "latency": 13.017,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8528,7 +8528,7 @@
     "seed": 47568,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.238,
+    "latency": 13.591,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8548,7 +8548,7 @@
     "seed": 55487,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.969,
+    "latency": 4.619,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8568,7 +8568,7 @@
     "seed": 63406,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.72,
+    "latency": 4.365,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8588,7 +8588,7 @@
     "seed": 71325,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.108,
+    "latency": 3.944,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8608,7 +8608,7 @@
     "seed": 79244,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.458,
+    "latency": 4.27,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8628,7 +8628,7 @@
     "seed": 87163,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 14.078,
+    "latency": 4.0,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8648,7 +8648,7 @@
     "seed": 95082,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.365,
+    "latency": 3.741,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8668,7 +8668,7 @@
     "seed": 103001,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 13.016,
+    "latency": 3.726,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8688,7 +8688,7 @@
     "seed": 110920,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.765,
+    "latency": 3.784,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8708,7 +8708,7 @@
     "seed": 118839,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.575,
+    "latency": 6.13,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8728,7 +8728,7 @@
     "seed": 126758,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.605,
+    "latency": 13.459,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8748,7 +8748,7 @@
     "seed": 134677,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 8.018,
+    "latency": 15.791,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8768,7 +8768,7 @@
     "seed": 142596,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.957,
+    "latency": 15.366,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8788,7 +8788,7 @@
     "seed": 150515,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.308,
+    "latency": 11.265,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8808,7 +8808,7 @@
     "seed": 158434,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.688,
+    "latency": 13.261,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8828,7 +8828,7 @@
     "seed": 166353,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.93,
+    "latency": 13.356,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8848,7 +8848,7 @@
     "seed": 174272,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.738,
+    "latency": 6.175,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8868,7 +8868,7 @@
     "seed": 182191,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.36,
+    "latency": 3.755,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8888,7 +8888,7 @@
     "seed": 190110,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.997,
+    "latency": 3.801,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8908,7 +8908,7 @@
     "seed": 198029,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.226,
+    "latency": 4.845,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8928,7 +8928,7 @@
     "seed": 205948,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.069,
+    "latency": 3.016,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8948,7 +8948,7 @@
     "seed": 213867,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 11.933,
+    "latency": 3.268,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8968,7 +8968,7 @@
     "seed": 221786,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.383,
+    "latency": 3.64,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -8988,7 +8988,7 @@
     "seed": 229705,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 7.628,
+    "latency": 4.2,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9008,7 +9008,7 @@
     "seed": 58,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.826,
+    "latency": 14.1,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9028,7 +9028,7 @@
     "seed": 7977,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.391,
+    "latency": 13.84,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9048,7 +9048,7 @@
     "seed": 15896,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.759,
+    "latency": 17.802,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9068,7 +9068,7 @@
     "seed": 23815,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.183,
+    "latency": 10.056,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9088,7 +9088,7 @@
     "seed": 31734,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 9.876,
+    "latency": 4.446,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9108,7 +9108,7 @@
     "seed": 39653,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.826,
+    "latency": 4.002,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9128,7 +9128,7 @@
     "seed": 47572,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.615,
+    "latency": 4.347,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9148,7 +9148,7 @@
     "seed": 55491,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.778,
+    "latency": 4.073,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9168,7 +9168,7 @@
     "seed": 63410,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.534,
+    "latency": 4.038,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9188,7 +9188,7 @@
     "seed": 71329,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.602,
+    "latency": 4.442,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9208,7 +9208,7 @@
     "seed": 79248,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.137,
+    "latency": 4.841,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9228,7 +9228,7 @@
     "seed": 87167,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.034,
+    "latency": 4.677,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9248,7 +9248,7 @@
     "seed": 95086,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.826,
+    "latency": 4.656,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9268,7 +9268,7 @@
     "seed": 103005,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.892,
+    "latency": 3.905,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9288,7 +9288,7 @@
     "seed": 110924,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.739,
+    "latency": 4.557,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9308,7 +9308,7 @@
     "seed": 118843,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.059,
+    "latency": 3.806,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9328,7 +9328,7 @@
     "seed": 126762,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.53,
+    "latency": 4.977,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9348,7 +9348,7 @@
     "seed": 134681,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.484,
+    "latency": 14.35,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9368,7 +9368,7 @@
     "seed": 142600,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.231,
+    "latency": 12.833,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9388,7 +9388,7 @@
     "seed": 150519,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.32,
+    "latency": 12.308,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9408,7 +9408,7 @@
     "seed": 158438,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.195,
+    "latency": 15.262,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9428,7 +9428,7 @@
     "seed": 166357,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.713,
+    "latency": 14.991,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9448,7 +9448,7 @@
     "seed": 174276,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.42,
+    "latency": 13.93,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9468,7 +9468,7 @@
     "seed": 182195,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.396,
+    "latency": 7.377,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9488,7 +9488,7 @@
     "seed": 190114,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.843,
+    "latency": 3.857,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9508,7 +9508,7 @@
     "seed": 198033,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.746,
+    "latency": 4.32,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9528,7 +9528,7 @@
     "seed": 205952,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.313,
+    "latency": 4.098,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9548,7 +9548,7 @@
     "seed": 213871,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.96,
+    "latency": 3.552,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9568,7 +9568,7 @@
     "seed": 221790,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.955,
+    "latency": 4.072,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9588,7 +9588,7 @@
     "seed": 229709,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.638,
+    "latency": 4.414,
     "inference_steps": 1,
     "configuration": {
       "model_name": "fixed_size_recurrent_memory",
@@ -9608,7 +9608,7 @@
     "seed": 43,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.357,
+    "latency": 16.955,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9628,7 +9628,7 @@
     "seed": 7962,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.787,
+    "latency": 15.899,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9648,7 +9648,7 @@
     "seed": 15881,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.982,
+    "latency": 16.882,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9668,7 +9668,7 @@
     "seed": 23800,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.046,
+    "latency": 14.327,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9688,7 +9688,7 @@
     "seed": 31719,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 6.888,
+    "latency": 4.172,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9708,7 +9708,7 @@
     "seed": 39638,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.49,
+    "latency": 4.006,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9728,7 +9728,7 @@
     "seed": 47557,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.863,
+    "latency": 4.775,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9748,7 +9748,7 @@
     "seed": 55476,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.276,
+    "latency": 5.223,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9768,7 +9768,7 @@
     "seed": 63395,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.789,
+    "latency": 4.659,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9788,7 +9788,7 @@
     "seed": 71314,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.601,
+    "latency": 4.457,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9808,7 +9808,7 @@
     "seed": 79233,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.011,
+    "latency": 11.655,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9828,7 +9828,7 @@
     "seed": 87152,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.261,
+    "latency": 15.142,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9848,7 +9848,7 @@
     "seed": 95071,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.681,
+    "latency": 15.667,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9868,7 +9868,7 @@
     "seed": 102990,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.6,
+    "latency": 15.622,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9888,7 +9888,7 @@
     "seed": 110909,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.782,
+    "latency": 16.516,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9908,7 +9908,7 @@
     "seed": 118828,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.619,
+    "latency": 15.936,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9928,7 +9928,7 @@
     "seed": 126747,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.591,
+    "latency": 6.142,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9948,7 +9948,7 @@
     "seed": 134666,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 15.6,
+    "latency": 4.833,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9968,7 +9968,7 @@
     "seed": 142585,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.349,
+    "latency": 4.545,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -9988,7 +9988,7 @@
     "seed": 150504,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 9.384,
+    "latency": 3.952,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10008,7 +10008,7 @@
     "seed": 158423,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.621,
+    "latency": 3.644,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10028,7 +10028,7 @@
     "seed": 166342,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.848,
+    "latency": 3.797,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10048,7 +10048,7 @@
     "seed": 174261,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.532,
+    "latency": 3.451,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10068,7 +10068,7 @@
     "seed": 182180,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.278,
+    "latency": 3.287,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10088,7 +10088,7 @@
     "seed": 190099,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.803,
+    "latency": 3.818,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10108,7 +10108,7 @@
     "seed": 198018,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.597,
+    "latency": 3.87,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10148,7 +10148,7 @@
     "seed": 213856,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.007,
+    "latency": 3.934,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10168,7 +10168,7 @@
     "seed": 221775,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.133,
+    "latency": 4.171,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10188,7 +10188,7 @@
     "seed": 229694,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.881,
+    "latency": 3.803,
     "inference_steps": 1,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10208,7 +10208,7 @@
     "seed": 44,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 22.451,
+    "latency": 5.394,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10228,7 +10228,7 @@
     "seed": 7963,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 15.821,
+    "latency": 4.463,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10248,7 +10248,7 @@
     "seed": 15882,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.925,
+    "latency": 5.437,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10268,7 +10268,7 @@
     "seed": 23801,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.057,
+    "latency": 4.954,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10288,7 +10288,7 @@
     "seed": 31720,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.309,
+    "latency": 4.543,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10308,7 +10308,7 @@
     "seed": 39639,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.357,
+    "latency": 14.188,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10328,7 +10328,7 @@
     "seed": 47558,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 7.543,
+    "latency": 18.111,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10348,7 +10348,7 @@
     "seed": 55477,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.235,
+    "latency": 17.147,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10368,7 +10368,7 @@
     "seed": 63396,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 14.988,
+    "latency": 14.981,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10388,7 +10388,7 @@
     "seed": 71315,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 17.14,
+    "latency": 16.767,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10408,7 +10408,7 @@
     "seed": 79234,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 15.761,
+    "latency": 13.751,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10428,7 +10428,7 @@
     "seed": 87153,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 16.208,
+    "latency": 4.087,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10448,7 +10448,7 @@
     "seed": 95072,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.096,
+    "latency": 4.506,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10468,7 +10468,7 @@
     "seed": 102991,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.252,
+    "latency": 4.932,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10488,7 +10488,7 @@
     "seed": 110910,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.8,
+    "latency": 4.904,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10508,7 +10508,7 @@
     "seed": 118829,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 12.427,
+    "latency": 4.684,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10528,7 +10528,7 @@
     "seed": 126748,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 18.29,
+    "latency": 5.141,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10548,7 +10548,7 @@
     "seed": 134667,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 8.679,
+    "latency": 13.167,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10568,7 +10568,7 @@
     "seed": 142586,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.677,
+    "latency": 15.098,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10588,7 +10588,7 @@
     "seed": 150505,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.122,
+    "latency": 16.042,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10608,7 +10608,7 @@
     "seed": 158424,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.353,
+    "latency": 4.521,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10628,7 +10628,7 @@
     "seed": 166343,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.588,
+    "latency": 3.371,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10648,7 +10648,7 @@
     "seed": 174262,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.142,
+    "latency": 4.026,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10668,7 +10668,7 @@
     "seed": 182181,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.936,
+    "latency": 3.765,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10688,7 +10688,7 @@
     "seed": 190100,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.057,
+    "latency": 3.806,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10708,7 +10708,7 @@
     "seed": 198019,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.009,
+    "latency": 3.932,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10728,7 +10728,7 @@
     "seed": 205938,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.956,
+    "latency": 3.783,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10748,7 +10748,7 @@
     "seed": 213857,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 2.876,
+    "latency": 3.817,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10768,7 +10768,7 @@
     "seed": 221776,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.799,
+    "latency": 3.625,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10788,7 +10788,7 @@
     "seed": 229695,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.397,
+    "latency": 4.729,
     "inference_steps": 2,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10808,7 +10808,7 @@
     "seed": 45,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.536,
+    "latency": 5.379,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10828,7 +10828,7 @@
     "seed": 7964,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.407,
+    "latency": 5.5,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10848,7 +10848,7 @@
     "seed": 15883,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.775,
+    "latency": 4.786,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10868,7 +10868,7 @@
     "seed": 23802,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.565,
+    "latency": 4.475,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10888,7 +10888,7 @@
     "seed": 31721,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.133,
+    "latency": 5.031,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10908,7 +10908,7 @@
     "seed": 39640,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.886,
+    "latency": 16.747,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10928,7 +10928,7 @@
     "seed": 47559,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 17.638,
+    "latency": 16.412,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10948,7 +10948,7 @@
     "seed": 55478,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.165,
+    "latency": 15.882,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10968,7 +10968,7 @@
     "seed": 63397,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.632,
+    "latency": 11.556,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -10988,7 +10988,7 @@
     "seed": 71316,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.411,
+    "latency": 13.418,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11008,7 +11008,7 @@
     "seed": 79235,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 16.104,
+    "latency": 16.042,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11028,7 +11028,7 @@
     "seed": 87154,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 7.443,
+    "latency": 18.044,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11048,7 +11048,7 @@
     "seed": 95073,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.325,
+    "latency": 16.986,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11068,7 +11068,7 @@
     "seed": 102992,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.471,
+    "latency": 6.406,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11088,7 +11088,7 @@
     "seed": 110911,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.153,
+    "latency": 5.408,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11108,7 +11108,7 @@
     "seed": 118830,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.445,
+    "latency": 4.364,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11128,7 +11128,7 @@
     "seed": 126749,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.375,
+    "latency": 5.612,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11148,7 +11148,7 @@
     "seed": 134668,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.779,
+    "latency": 4.872,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11168,7 +11168,7 @@
     "seed": 142587,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.565,
+    "latency": 4.628,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11188,7 +11188,7 @@
     "seed": 150506,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.054,
+    "latency": 5.096,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11208,7 +11208,7 @@
     "seed": 158425,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.682,
+    "latency": 5.371,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11228,7 +11228,7 @@
     "seed": 166344,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.293,
+    "latency": 3.551,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11248,7 +11248,7 @@
     "seed": 174263,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.918,
+    "latency": 3.861,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11268,7 +11268,7 @@
     "seed": 182182,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.186,
+    "latency": 4.417,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11288,7 +11288,7 @@
     "seed": 190101,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.022,
+    "latency": 4.012,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11308,7 +11308,7 @@
     "seed": 198020,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.174,
+    "latency": 4.242,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11328,7 +11328,7 @@
     "seed": 205939,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.024,
+    "latency": 3.825,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11348,7 +11348,7 @@
     "seed": 213858,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.443,
+    "latency": 4.352,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11368,7 +11368,7 @@
     "seed": 221777,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 8.403,
+    "latency": 3.732,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11388,7 +11388,7 @@
     "seed": 229696,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 8.464,
+    "latency": 4.08,
     "inference_steps": 3,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11408,7 +11408,7 @@
     "seed": 46,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.791,
+    "latency": 10.549,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11428,7 +11428,7 @@
     "seed": 7965,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.831,
+    "latency": 4.325,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11448,7 +11448,7 @@
     "seed": 15884,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.483,
+    "latency": 4.213,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11468,7 +11468,7 @@
     "seed": 23803,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.609,
+    "latency": 13.169,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11488,7 +11488,7 @@
     "seed": 31722,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.901,
+    "latency": 17.51,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11508,7 +11508,7 @@
     "seed": 39641,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.24,
+    "latency": 5.87,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11528,7 +11528,7 @@
     "seed": 47560,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.321,
+    "latency": 5.573,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11548,7 +11548,7 @@
     "seed": 55479,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 13.881,
+    "latency": 5.928,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11568,7 +11568,7 @@
     "seed": 63398,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.334,
+    "latency": 4.972,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11588,7 +11588,7 @@
     "seed": 71317,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 19.073,
+    "latency": 5.751,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11608,7 +11608,7 @@
     "seed": 79236,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 17.601,
+    "latency": 5.838,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11628,7 +11628,7 @@
     "seed": 87155,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 15.895,
+    "latency": 15.188,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11648,7 +11648,7 @@
     "seed": 95074,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 17.448,
+    "latency": 18.631,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11668,7 +11668,7 @@
     "seed": 102993,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.369,
+    "latency": 18.204,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11688,7 +11688,7 @@
     "seed": 110912,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.789,
+    "latency": 15.891,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11708,7 +11708,7 @@
     "seed": 118831,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.17,
+    "latency": 18.175,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11728,7 +11728,7 @@
     "seed": 126750,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.344,
+    "latency": 6.756,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11748,7 +11748,7 @@
     "seed": 134669,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.866,
+    "latency": 5.097,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11768,7 +11768,7 @@
     "seed": 142588,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.454,
+    "latency": 5.851,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11788,7 +11788,7 @@
     "seed": 150507,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.906,
+    "latency": 7.341,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11808,7 +11808,7 @@
     "seed": 158426,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.619,
+    "latency": 4.747,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11828,7 +11828,7 @@
     "seed": 166345,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.284,
+    "latency": 4.49,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11848,7 +11848,7 @@
     "seed": 174264,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.994,
+    "latency": 4.112,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11868,7 +11868,7 @@
     "seed": 182183,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.991,
+    "latency": 4.246,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11888,7 +11888,7 @@
     "seed": 190102,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.52,
+    "latency": 4.6,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11908,7 +11908,7 @@
     "seed": 198021,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 7.909,
+    "latency": 4.531,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11928,7 +11928,7 @@
     "seed": 205940,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.55,
+    "latency": 4.13,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11948,7 +11948,7 @@
     "seed": 213859,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.254,
+    "latency": 4.125,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11968,7 +11968,7 @@
     "seed": 221778,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.973,
+    "latency": 3.974,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -11988,7 +11988,7 @@
     "seed": 229697,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 2.884,
+    "latency": 3.694,
     "inference_steps": 4,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12008,7 +12008,7 @@
     "seed": 48,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.863,
+    "latency": 6.066,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12028,7 +12028,7 @@
     "seed": 7967,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.912,
+    "latency": 5.972,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12048,7 +12048,7 @@
     "seed": 15886,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.553,
+    "latency": 11.245,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12068,7 +12068,7 @@
     "seed": 23805,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.189,
+    "latency": 20.734,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12088,7 +12088,7 @@
     "seed": 31724,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.598,
+    "latency": 19.537,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12108,7 +12108,7 @@
     "seed": 39643,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.59,
+    "latency": 20.024,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12128,7 +12128,7 @@
     "seed": 47562,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 15.657,
+    "latency": 6.49,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12148,7 +12148,7 @@
     "seed": 55481,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 18.332,
+    "latency": 5.265,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12168,7 +12168,7 @@
     "seed": 63400,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 18.695,
+    "latency": 5.918,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12188,7 +12188,7 @@
     "seed": 71319,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 19.247,
+    "latency": 5.719,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12208,7 +12208,7 @@
     "seed": 79238,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 10.992,
+    "latency": 5.947,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12228,7 +12228,7 @@
     "seed": 87157,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.492,
+    "latency": 5.819,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12248,7 +12248,7 @@
     "seed": 95076,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.375,
+    "latency": 5.53,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12268,7 +12268,7 @@
     "seed": 102995,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.464,
+    "latency": 6.239,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12288,7 +12288,7 @@
     "seed": 110914,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.038,
+    "latency": 5.809,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12308,7 +12308,7 @@
     "seed": 118833,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.743,
+    "latency": 15.367,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12328,7 +12328,7 @@
     "seed": 126752,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.112,
+    "latency": 17.276,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12348,7 +12348,7 @@
     "seed": 134671,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.588,
+    "latency": 19.502,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12368,7 +12368,7 @@
     "seed": 142590,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.248,
+    "latency": 7.057,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12388,7 +12388,7 @@
     "seed": 150509,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.187,
+    "latency": 4.258,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12408,7 +12408,7 @@
     "seed": 158428,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.364,
+    "latency": 4.406,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12428,7 +12428,7 @@
     "seed": 166347,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 16.685,
+    "latency": 4.812,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12448,7 +12448,7 @@
     "seed": 174266,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.762,
+    "latency": 4.651,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12468,7 +12468,7 @@
     "seed": 182185,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.154,
+    "latency": 4.352,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12488,7 +12488,7 @@
     "seed": 190104,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.973,
+    "latency": 4.239,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12508,7 +12508,7 @@
     "seed": 198023,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.099,
+    "latency": 4.436,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12528,7 +12528,7 @@
     "seed": 205942,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.391,
+    "latency": 4.776,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12548,7 +12548,7 @@
     "seed": 213861,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.653,
+    "latency": 4.543,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12568,7 +12568,7 @@
     "seed": 221780,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.79,
+    "latency": 4.4,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12588,7 +12588,7 @@
     "seed": 229699,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.03,
+    "latency": 4.995,
     "inference_steps": 6,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12608,7 +12608,7 @@
     "seed": 50,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 18.598,
+    "latency": 16.037,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12628,7 +12628,7 @@
     "seed": 7969,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 19.937,
+    "latency": 21.892,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12648,7 +12648,7 @@
     "seed": 15888,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 21.445,
+    "latency": 21.319,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12668,7 +12668,7 @@
     "seed": 23807,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.724,
+    "latency": 19.353,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12688,7 +12688,7 @@
     "seed": 31726,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.723,
+    "latency": 5.981,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12708,7 +12708,7 @@
     "seed": 39645,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.331,
+    "latency": 4.6,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12728,7 +12728,7 @@
     "seed": 47564,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.349,
+    "latency": 4.067,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12748,7 +12748,7 @@
     "seed": 55483,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.792,
+    "latency": 6.091,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12768,7 +12768,7 @@
     "seed": 63402,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.676,
+    "latency": 5.431,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12788,7 +12788,7 @@
     "seed": 71321,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.641,
+    "latency": 5.701,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12808,7 +12808,7 @@
     "seed": 79240,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.496,
+    "latency": 5.469,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12828,7 +12828,7 @@
     "seed": 87159,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.064,
+    "latency": 6.009,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12848,7 +12848,7 @@
     "seed": 95078,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.765,
+    "latency": 11.23,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12868,7 +12868,7 @@
     "seed": 102997,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 11.44,
+    "latency": 21.731,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12888,7 +12888,7 @@
     "seed": 110916,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.584,
+    "latency": 20.774,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12908,7 +12908,7 @@
     "seed": 118835,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.208,
+    "latency": 18.911,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12928,7 +12928,7 @@
     "seed": 126754,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.337,
+    "latency": 5.256,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12948,7 +12948,7 @@
     "seed": 134673,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.437,
+    "latency": 4.47,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12968,7 +12968,7 @@
     "seed": 142592,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.49,
+    "latency": 4.384,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -12988,7 +12988,7 @@
     "seed": 150511,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.017,
+    "latency": 4.515,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13008,7 +13008,7 @@
     "seed": 158430,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.407,
+    "latency": 4.148,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13028,7 +13028,7 @@
     "seed": 166349,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 18.504,
+    "latency": 4.596,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13048,7 +13048,7 @@
     "seed": 174268,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 19.47,
+    "latency": 4.439,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13068,7 +13068,7 @@
     "seed": 182187,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.887,
+    "latency": 4.482,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13088,7 +13088,7 @@
     "seed": 190106,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.967,
+    "latency": 4.852,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13108,7 +13108,7 @@
     "seed": 198025,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.783,
+    "latency": 4.794,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13128,7 +13128,7 @@
     "seed": 205944,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.318,
+    "latency": 4.404,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13148,7 +13148,7 @@
     "seed": 213863,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.349,
+    "latency": 4.505,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13168,7 +13168,7 @@
     "seed": 221782,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.129,
+    "latency": 5.145,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13188,7 +13188,7 @@
     "seed": 229701,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.778,
+    "latency": 4.557,
     "inference_steps": 8,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13208,7 +13208,7 @@
     "seed": 54,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.378,
+    "latency": 7.914,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13228,7 +13228,7 @@
     "seed": 7973,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.728,
+    "latency": 7.1,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13248,7 +13248,7 @@
     "seed": 15892,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.882,
+    "latency": 6.608,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13268,7 +13268,7 @@
     "seed": 23811,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.927,
+    "latency": 6.475,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13288,7 +13288,7 @@
     "seed": 31730,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.875,
+    "latency": 6.375,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13308,7 +13308,7 @@
     "seed": 39649,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 6.267,
+    "latency": 5.925,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13328,7 +13328,7 @@
     "seed": 47568,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.765,
+    "latency": 6.198,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13348,7 +13348,7 @@
     "seed": 55487,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.839,
+    "latency": 5.78,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13368,7 +13368,7 @@
     "seed": 63406,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.402,
+    "latency": 6.362,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13388,7 +13388,7 @@
     "seed": 71325,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.394,
+    "latency": 6.346,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13408,7 +13408,7 @@
     "seed": 79244,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.409,
+    "latency": 19.81,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13428,7 +13428,7 @@
     "seed": 87163,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.276,
+    "latency": 22.206,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13448,7 +13448,7 @@
     "seed": 95082,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.182,
+    "latency": 22.111,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13468,7 +13468,7 @@
     "seed": 103001,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 5.367,
+    "latency": 22.026,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13488,7 +13488,7 @@
     "seed": 110920,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 5.107,
+    "latency": 5.581,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13508,7 +13508,7 @@
     "seed": 118839,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.971,
+    "latency": 5.293,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13528,7 +13528,7 @@
     "seed": 126758,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.467,
+    "latency": 6.352,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13548,7 +13548,7 @@
     "seed": 134677,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.561,
+    "latency": 7.062,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13568,7 +13568,7 @@
     "seed": 142596,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.649,
+    "latency": 6.947,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13588,7 +13588,7 @@
     "seed": 150515,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.399,
+    "latency": 5.619,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13608,7 +13608,7 @@
     "seed": 158434,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.031,
+    "latency": 6.137,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13628,7 +13628,7 @@
     "seed": 166353,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 9.048,
+    "latency": 5.549,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13648,7 +13648,7 @@
     "seed": 174272,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 25.241,
+    "latency": 5.291,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13668,7 +13668,7 @@
     "seed": 182191,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 22.211,
+    "latency": 4.898,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13688,7 +13688,7 @@
     "seed": 190110,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 18.328,
+    "latency": 4.483,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13708,7 +13708,7 @@
     "seed": 198029,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.939,
+    "latency": 4.663,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13728,7 +13728,7 @@
     "seed": 205948,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.827,
+    "latency": 4.724,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13748,7 +13748,7 @@
     "seed": 213867,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.45,
+    "latency": 4.461,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13768,7 +13768,7 @@
     "seed": 221786,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 3.637,
+    "latency": 4.393,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13788,7 +13788,7 @@
     "seed": 229705,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.06,
+    "latency": 5.011,
     "inference_steps": 12,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13808,7 +13808,7 @@
     "seed": 58,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 5.673,
+    "latency": 5.796,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13828,7 +13828,7 @@
     "seed": 7977,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.684,
+    "latency": 5.814,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13848,7 +13848,7 @@
     "seed": 15896,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 6.068,
+    "latency": 7.578,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13868,7 +13868,7 @@
     "seed": 23815,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.513,
+    "latency": 6.925,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13888,7 +13888,7 @@
     "seed": 31734,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 24.294,
+    "latency": 7.111,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13908,7 +13908,7 @@
     "seed": 39653,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 23.271,
+    "latency": 6.451,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13928,7 +13928,7 @@
     "seed": 47572,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 24.42,
+    "latency": 7.02,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13948,7 +13948,7 @@
     "seed": 55491,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 21.453,
+    "latency": 6.406,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13968,7 +13968,7 @@
     "seed": 63410,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.275,
+    "latency": 17.287,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -13988,7 +13988,7 @@
     "seed": 71329,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.255,
+    "latency": 25.254,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14008,7 +14008,7 @@
     "seed": 79248,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.797,
+    "latency": 23.858,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14028,7 +14028,7 @@
     "seed": 87167,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.371,
+    "latency": 26.351,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14048,7 +14048,7 @@
     "seed": 95086,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.861,
+    "latency": 7.74,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14068,7 +14068,7 @@
     "seed": 103005,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.098,
+    "latency": 6.305,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14088,7 +14088,7 @@
     "seed": 110924,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 23.845,
+    "latency": 7.132,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14108,7 +14108,7 @@
     "seed": 118843,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 22.468,
+    "latency": 6.292,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14128,7 +14128,7 @@
     "seed": 126762,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.763,
+    "latency": 6.871,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14148,7 +14148,7 @@
     "seed": 134681,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.547,
+    "latency": 15.323,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14168,7 +14168,7 @@
     "seed": 142600,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.795,
+    "latency": 5.564,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14188,7 +14188,7 @@
     "seed": 150519,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 6.806,
+    "latency": 5.134,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14208,7 +14208,7 @@
     "seed": 158438,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 7.539,
+    "latency": 5.856,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14228,7 +14228,7 @@
     "seed": 166357,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 5.812,
+    "latency": 5.666,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14248,7 +14248,7 @@
     "seed": 174276,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.414,
+    "latency": 5.645,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14268,7 +14268,7 @@
     "seed": 182195,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.029,
+    "latency": 5.211,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14288,7 +14288,7 @@
     "seed": 190114,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.351,
+    "latency": 5.47,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14308,7 +14308,7 @@
     "seed": 198033,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.704,
+    "latency": 5.855,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14328,7 +14328,7 @@
     "seed": 205952,
     "accuracy": 1.0,
     "error_rate": 0.0,
-    "latency": 4.185,
+    "latency": 5.355,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14348,7 +14348,7 @@
     "seed": 213871,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 3.932,
+    "latency": 4.987,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14368,7 +14368,7 @@
     "seed": 221790,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.458,
+    "latency": 5.526,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",
@@ -14388,7 +14388,7 @@
     "seed": 229709,
     "accuracy": 0.0,
     "error_rate": 1.0,
-    "latency": 4.455,
+    "latency": 5.834,
     "inference_steps": 16,
     "configuration": {
       "model_name": "educational_evolving_memory_toy",

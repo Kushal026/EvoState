@@ -29,7 +29,7 @@ The dedicated 60-Second Experiment Mode (`SixtySecondExperiment.tsx`, accessible
 ## 🎯 2. Claim Tested & Verification Rubric
 
 ### The Tested Claim:
-> **"A fixed-size evolving state can carry useful information across sequences, but interference can cause information loss."**
+> **"A fixed-size evolving state can carry useful information across sequences without storing every previous token, but increasing sequence length and conflicting updates can cause interference and information loss; additional inference-time computation can sometimes improve recovery."**
 
 ### Dynamic Assessment Question:
 > *"Did your experiment support or challenge the claim?"*

@@ -5,7 +5,18 @@
 
 import { ClientSimulator, SimulationResult } from "./simulator";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://127.0.0.1:8000";
+const getApiBase = (): string | null => {
+  if (process.env.NEXT_PUBLIC_API_BASE) {
+    return process.env.NEXT_PUBLIC_API_BASE;
+  }
+  // In production browser environments (e.g. HTTPS on Vercel), do not attempt unencrypted localhost connection
+  if (typeof window !== "undefined") {
+    if (window.location.protocol === "https:" || !window.location.hostname.includes("localhost")) {
+      return null;
+    }
+  }
+  return "http://127.0.0.1:8000";
+};
 
 export async function checkBackendHealth(): Promise<{
   connected: boolean;
@@ -13,8 +24,12 @@ export async function checkBackendHealth(): Promise<{
   models?: string[];
   experiments?: string[];
 }> {
+  const apiBase = getApiBase();
+  if (!apiBase) {
+    return { connected: false };
+  }
   try {
-    const res = await fetch(`${API_BASE}/health`, {
+    const res = await fetch(`${apiBase}/health`, {
       method: "GET",
       headers: { "Content-Type": "application/json" },
       signal: AbortSignal.timeout(600)
@@ -43,18 +58,21 @@ export async function runRecallApi(params: {
   seed?: number;
   force_precomputed?: boolean;
 }): Promise<SimulationResult> {
-  try {
-    const res = await fetch(`${API_BASE}/experiment/recall`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(params),
-      signal: AbortSignal.timeout(6000)
-    });
-    if (res.ok) {
-      return await res.json();
+  const apiBase = getApiBase();
+  if (apiBase) {
+    try {
+      const res = await fetch(`${apiBase}/experiment/recall`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(params),
+        signal: AbortSignal.timeout(6000)
+      });
+      if (res.ok) {
+        return await res.json();
+      }
+    } catch (e) {
+      console.warn("Backend API unavailable, executing live client-side simulation.");
     }
-  } catch (e) {
-    console.warn("Backend API unavailable, executing live client-side simulation.");
   }
   return ClientSimulator.runDelayedRecall(
     params.model_type,
@@ -71,18 +89,21 @@ export async function runInterferenceApi(params: {
   seed?: number;
   force_precomputed?: boolean;
 }): Promise<SimulationResult> {
-  try {
-    const res = await fetch(`${API_BASE}/experiment/interference`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(params),
-      signal: AbortSignal.timeout(6000)
-    });
-    if (res.ok) {
-      return await res.json();
+  const apiBase = getApiBase();
+  if (apiBase) {
+    try {
+      const res = await fetch(`${apiBase}/experiment/interference`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(params),
+        signal: AbortSignal.timeout(6000)
+      });
+      if (res.ok) {
+        return await res.json();
+      }
+    } catch (e) {
+      console.warn("Backend API unavailable, executing live client-side simulation.");
     }
-  } catch (e) {
-    console.warn("Backend API unavailable, executing live client-side simulation.");
   }
   return ClientSimulator.runInterference(
     params.model_type,
@@ -99,18 +120,21 @@ export async function runScalingApi(params: {
   seed?: number;
   force_precomputed?: boolean;
 }): Promise<SimulationResult> {
-  try {
-    const res = await fetch(`${API_BASE}/experiment/scaling`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(params),
-      signal: AbortSignal.timeout(6000)
-    });
-    if (res.ok) {
-      return await res.json();
+  const apiBase = getApiBase();
+  if (apiBase) {
+    try {
+      const res = await fetch(`${apiBase}/experiment/scaling`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(params),
+        signal: AbortSignal.timeout(6000)
+      });
+      if (res.ok) {
+        return await res.json();
+      }
+    } catch (e) {
+      console.warn("Backend API unavailable, executing live client-side simulation.");
     }
-  } catch (e) {
-    console.warn("Backend API unavailable, executing live client-side simulation.");
   }
   return ClientSimulator.runInferenceScaling(
     params.model_type,
@@ -129,26 +153,29 @@ export async function runUnifiedLabApi(params: {
   seed?: number;
   force_precomputed?: boolean;
 }): Promise<SimulationResult> {
-  try {
-    const res = await fetch(`${API_BASE}/experiment/run`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        experiment_type: "inference_recovery",
-        model_type: params.model_type,
-        sequence_length: params.sequence_length,
-        interference_probability: params.interference_strength,
-        inference_budget: params.inference_effort,
-        seed: params.seed || 42,
-        force_precomputed: params.force_precomputed
-      }),
-      signal: AbortSignal.timeout(800)
-    });
-    if (res.ok) {
-      return await res.json();
+  const apiBase = getApiBase();
+  if (apiBase) {
+    try {
+      const res = await fetch(`${apiBase}/experiment/run`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          experiment_type: "inference_recovery",
+          model_type: params.model_type,
+          sequence_length: params.sequence_length,
+          interference_probability: params.interference_strength,
+          inference_budget: params.inference_effort,
+          seed: params.seed || 42,
+          force_precomputed: params.force_precomputed
+        }),
+        signal: AbortSignal.timeout(800)
+      });
+      if (res.ok) {
+        return await res.json();
+      }
+    } catch (e) {
+      // Fallback to instantaneous client simulation
     }
-  } catch (e) {
-    // Fallback to instantaneous client simulation
   }
   return ClientSimulator.runUnifiedLabExperiment(
     params.model_type,
@@ -162,17 +189,20 @@ export async function runUnifiedLabApi(params: {
 }
 
 export async function fetchPrecomputedCatalog(): Promise<any> {
-  try {
-    const res = await fetch(`${API_BASE}/experiments/precomputed`, {
-      method: "GET",
-      headers: { "Content-Type": "application/json" },
-      signal: AbortSignal.timeout(3000)
-    });
-    if (res.ok) {
-      return await res.json();
+  const apiBase = getApiBase();
+  if (apiBase) {
+    try {
+      const res = await fetch(`${apiBase}/experiments/precomputed`, {
+        method: "GET",
+        headers: { "Content-Type": "application/json" },
+        signal: AbortSignal.timeout(3000)
+      });
+      if (res.ok) {
+        return await res.json();
+      }
+    } catch (e) {
+      // Fallback to static data
     }
-  } catch (e) {
-    // Fallback to static data
   }
   try {
     const staticRes = await fetch("/data/summary_stats.json");
